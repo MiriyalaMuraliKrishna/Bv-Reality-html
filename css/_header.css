@@ -1,0 +1,5 @@
+.main-header{top: 0:;left: 0;position: fixed;z-index: 800;transition-duration: .75s;transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);transition-property: transform;transition-delay: 0s;}
+.logo{width: 214px;}
+ul.main_menu{margin: 0;}
+ul.main_menu li{padding: 50px;}
+ul.main_menu li a{color: white;font-size: 24px;line-height: 28px;}

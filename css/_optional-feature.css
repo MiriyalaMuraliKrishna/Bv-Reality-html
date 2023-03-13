@@ -1,0 +1,9 @@
+
+.optional-feature-section{background-color: #eef6ff;}
+.optional-feature-main{padding: 100px 0;}
+.optional-feature-head{max-width: 650px;}
+.optional-feature-row{justify-content: space-between; gap: 60px;}
+.optional-feature-list{flex: 0 0 calc(25% - 60px); justify-content: space-between; gap: 15px;}
+.optional-feature-icon{flex: 0 0 52px;}
+.optional-feature-text{flex: 0 0 calc(100% - 67px);}
+.optional-feature-head{margin-bottom: 71px;}

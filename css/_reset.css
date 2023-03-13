@@ -1,0 +1,150 @@
+*, *:focus {outline: none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
+audio, canvas, video {display: inline-block; max-width: 100%;}
+html {overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
+a {color: var(--blue-color); text-decoration: none; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; }
+a:focus {outline: none;}
+a:hover, a:active {outline: 0;}
+a:hover{color: var(--gray-color);}
+h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 2px; color: var(--text-color); letter-spacing: 0; text-transform: none;  font-family: 'Quicksand', sans-serif; font-weight: bold;}
+h1 {font-size: 40px; line-height: 50px; letter-spacing: 0.5px; margin-bottom: 22px; text-transform: uppercase;}
+h2 {font-size: 40px; line-height: 50px; letter-spacing: 0.5px; margin-bottom: 17px;}
+h3 {font-size: 30px; line-height: 40px; letter-spacing: 0.5px; margin-bottom: 19px;}
+h4 {font-size: 24px; line-height: 25px; margin-bottom: 19px;}
+h5 {font-size: 20px; line-height: 25px;}
+h6 {font-size: 18px; line-height: 21px;}
+address { margin-bottom: 9px;}
+abbr[title] {border-bottom: 1px dotted #2b2b2b; cursor: help;}
+b, strong {font-weight: bold;}
+cite, dfn, em, i {font-style: italic;}
+mark, ins {background: #fff9c0; text-decoration: none;}
+p {margin-bottom: 26px;}
+p:last-child{margin-bottom: 0;}
+code, kbd, tt, var, samp, pre {font-size: 15px; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
+pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none;}
+blockquote{background-color: var(--text-color); background-image: url("../images/pattern-square@2x.png"); background-repeat: no-repeat; background-size: cover; color: var(--white-80); font-weight: normal; font-size: 20px; line-height: 33px; letter-spacing: 0.71px; font-style: normal; position: relative; border-radius: 0; margin: 86px 0 89px; padding: 70px 101px; }
+
+
+blockquote cite, blockquote small {color: rgba(31, 56, 74, 0.6); font-size: 1rem;}
+blockquote em, blockquote i, blockquote cite {font-style: normal;}
+small {font-size: 13px; line-height: 22px; letter-spacing: 0.46px; display: block;}
+big {font-size: 125%;}
+sup, sub {font-size: 10px; letter-spacing: -0.18px; height: 0; line-height: 0; position: relative; vertical-align: baseline;}
+sup {bottom: 1ex;}
+sub {top: 0;}
+dl {margin-bottom: 24px;}
+dd {margin-bottom: 24px;}
+ul {list-style: none; margin: 32px 0 37px 58px;}
+ul > li {counter-increment: li; position: relative; margin-bottom: 9px;}
+ul > li:before {content: ""; position: absolute; top: 10px; left: -27px; width: 5px; height: 5px; border-radius: 300px; background-color: var(--light-blue);}
+li > ul {margin: 25px 0 26px 25px;}
+ol {counter-reset: section; list-style: none; margin: 32px 0 37px 58px;}
+ol > li {counter-increment: li; position: relative; margin-bottom: 9px;}
+ol > li:before{counter-increment: section; content: counter(section, decimal) "."; top: 0; left: -32px; color: var(--light-blue); position: absolute; font-size: 21px; line-height: normal; font-weight: 600;font-family: 'Urbanist', sans-serif; }
+li > ol {margin: 25px 0 26px 25px;}
+img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
+figure {margin: 0;}
+fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
+legend {white-space: normal;}
+button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 100%; margin: 0; max-width: 100%; vertical-align: baseline; -webkit-appearance: none;}
+button, input {line-height: normal;}
+input, textarea {background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));}
+
+/* Removing the inner shadow, rounded corners on iOS inputs */
+button, input[type="button"], input[type="reset"], input[type="submit"] {-webkit-appearance: button; cursor: pointer;}
+button[disabled], input[disabled] {cursor: default;}
+input[type="checkbox"], input[type="radio"] {padding: 0;}
+input[type="search"] {-webkit-appearance: textfield;}
+input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
+textarea {overflow: auto; vertical-align: top;}
+
+table, th, td {border: none; color: var(--blue-color);}
+table {border-collapse: separate; border-spacing: 0; border-width: 0; margin: 44px 0 56px; max-width: 100%; width: 100%; font-size: 16px; font-weight: 600; line-height: normal; letter-spacing: 0.5px; }
+table tbody img {margin: 0 auto;}
+th {border-width: 0; padding: 14px 20px 17px; background-color: transparent; color: var(--blue-color); text-transform: capitalize;}
+td {border-width: 0; padding: 15px 20px 13px; text-align: center; border-bottom: none; vertical-align: middle;}
+table tr:nth-child(even) td{background-color: var(--light-gray);}
+td span{font-size: 21px;}
+td span.fa-close{color: #bfcee8;}
+
+
+caption, th, td {text-align: center;}
+del {color: var(--text-color);}
+hr{display: block; background-color: #dfdfdf; border: 0; width:100%; height: 1px; margin: 38px 0 27px; opacity: 1;}
+hr.blue{background-color: var(--light-blue); opacity: 1;}
+
+/* Support a widely-adopted but non-standard selector for text selection styles * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898. */ 
+::selection {background-color: #231f20; color: #ffffff;}
+::-moz-selection {background-color: #231f20; color: #ffffff;}
+
+/* Input fields */
+input[type="search"], input, select, textarea, body .frm_style_formidable-style.with_frm_style .frm_form_fields input, body .with_frm_style textarea{outline: 0; width: 100%; font-size: 16px; line-height: 24px; letter-spacing: 0.57px; background: var(--white); box-shadow: none; color: var(--text-color); padding: 11px 20px 13px; vertical-align: middle; font-family: 'Urbanist', sans-serif; font-weight: 500; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: solid 1px #a6a6a6; border-radius: 0;}
+textarea, body .with_frm_style textarea{width: 100%; resize: none; height: 215px;}
+input:focus, textarea:focus, body .frm_style_formidable-style.with_frm_style .frm_form_fields input:focus{outline: 0; box-shadow: none; border-color: var(--text-color);}
+body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):focus, body .frm_style_formidable-style.with_frm_style .form-field textarea:focus{border-color: #a6a6a6; box-shadow: none; border-color: var(--text-color);}
+input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 16px; line-height: 25px; letter-spacing: 0.5px; padding: 13px 46px 14px 22px; margin: 0; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue-color); font-weight: bold; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--white); font-family: 'Urbanist', sans-serif; }
+button[type="submit"]:focus,  button[type="submit"]:hover, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button:hover{background-color: var(--black); color: var(--white);}
+input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active,  button[type="submit"]:active{outline: none;}
+button[type="submit"]::after{right: 18px; content: "\f061"; font-size: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; transition: all 0.3s ease-in-out; position: absolute;}
+button[type="submit"]:hover::after{right: 14px;}
+.search-field {width: 100%;}
+.search-submit {display: none;}
+
+/* Buttons */
+.button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 16px 18px 17px 23px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue-color); position: relative; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: #FFFFFF;}
+.button:hover, .button:focus {background-color: var(--text-color); color: var(--white);}
+
+
+/* Placeholder text color -- selectors need to be separate to work. */ 
+::-webkit-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif;}
+:-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1; }
+::-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+:-ms-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+
+/* Responsive images. Fluid images for posts, comments, and widgets */
+embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
+p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
+/* Alignment */
+.alignleft {float: left;}
+.alignright {float: right;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}
+img.alignnone{margin: 37px 0 68px;}
+blockquote.alignleft, img.alignleft {margin: 37px 37px 68px 0;}
+blockquote.alignright, img.alignleft {margin: 37px 37px 68px 0;}
+.hide {display: none;}
+
+/* Genericons */
+.bypostauthor > article .fn:before, .comment-edit-link:before, .comment-reply-link:before, .comment-reply-login:before, .comment-reply-title small a:before, .contributor-posts-link:before, .menu-toggle:before, .search-toggle:before, .slider-direction-nav a:before, .widget_twentyfourteen_ephemera .widget-title:before {-webkit-font-smoothing: antialiased; display: inline-block; font: normal 16px/1 Genericons; text-decoration: inherit; vertical-align: text-bottom;}
+.comment-form label {display: block;}
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form input[type="url"] {width: 100%;}
+.clearfix {clear: both;}
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+/*-- flex css starts here --*/
+.flex{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-wrap: wrap; width: 100%; }
+.flex-vcenter{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.flex-content-center{-ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
+.flex-center{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
+.flex-nowrap{flex-wrap: nowrap; }
+.table{ display: table; width: 100%; height: 100%;}
+.table-cell{display: table-cell; vertical-align: middle;}
+.grid{display: grid; display: -moz-grid; display: -ms-grid; width: 100%;}
+
+body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 768px){
+}
+@media only screen and (min-width: 1024px){
+	.container{max-width:1356px; margin: 0 auto;}
+} 
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    
+}
