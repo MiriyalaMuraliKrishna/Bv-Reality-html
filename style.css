@@ -19,5 +19,10 @@ Text Domain: Middlefield
 @import url("css/_header.css");
 @import url("css/_default-banner-section.css");
 @import url("css/_optional-feature.css");
+<<<<<<< HEAD
 @import url("css/_flex-image-section.css");
 @import url("css/_confirmation-section.css");
+=======
+@import url("css/_footer.css");
+@import url("css/_color.css");
+>>>>>>> ed21a2f6bd212dc23754a6b8bed355cfb12ba6f5
