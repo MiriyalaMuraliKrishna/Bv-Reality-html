@@ -17,3 +17,5 @@ Text Domain: Middlefield
 @import url("css/_header.css");
 @import url("css/_default-banner-section.css");
 @import url("css/_optional-feature.css");
+@import url("css/_footer.css");
+@import url("css/_color.css");
