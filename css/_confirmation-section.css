@@ -1,0 +1,8 @@
+.confirmation-page-bg{position: absolute; z-index: -1;}
+.confirmation-page-main{padding: 296px 0 354px 0;}
+.confirmation-text{gap: 64px;}
+.confirmation-page-icon{width: 349px;}
+
+
+.confirmation-desc{color: white;width: calc(100% - 411px)}
+.confirmation-desc h1{text-transform:capitalize;}
