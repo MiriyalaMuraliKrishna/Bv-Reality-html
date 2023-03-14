@@ -1,0 +1,5 @@
+.flex-image-main{gap: 60px;}
+.flex-image-sm{width: 413px;}
+.flex-image-bg{width: calc(100% - 507px)}
+.flex-content{left: 30px;top: 30px;position: absolute;}	
+.flex-content h2{color: #fff;}
