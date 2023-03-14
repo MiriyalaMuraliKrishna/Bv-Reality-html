@@ -1,8 +1,13 @@
 .confirmation-page-bg{position: absolute; z-index: -1;}
-.confirmation-page-main{padding: 296px 0 354px 0;}
+.confirmation-page-main{padding: 350px 0 236px 0;}
 .confirmation-text{gap: 64px;}
-.confirmation-page-icon{width: 349px;}
+.confirmation-page-icon{width: 349px; margin-right: 62px;}
 
+.confirmation-page-icon::before{content:""; position: absolute; width: 349px; height: 349px; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); }
+.tick-icon{font-size: 112px; color: #00be66;}
 
 .confirmation-desc{color: white;width: calc(100% - 411px)}
-.confirmation-desc h1{text-transform:capitalize;}
+.confirmation-desc h1{font-size: 74px; line-height: 1.12; text-transform:capitalize;}
+.confirmation-desc p{margin-bottom: 24px;}
+
+
