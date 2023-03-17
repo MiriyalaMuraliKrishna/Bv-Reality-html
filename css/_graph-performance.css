@@ -1,0 +1,26 @@
+
+.graph-bg{position: absolute; width: 100%;}
+.graph-thumb img{max-height: 933px; width: 100%;}
+.graph-performance-wrap{position: relative; z-index: 1; padding: 60px 0 119px;}
+.graph-content{margin-bottom: 80px;}
+.graph-sub-title{font-size: 19px; font-weight: 600; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
+.graph-text h2{font-size: 56px; color: var(--white); font-weight: normal; line-height: 1.14; margin-bottom: 22px;}
+.graph-text h2 .big-text{font-size: 56px; color: var(--white); font-weight: bold;}
+.graph-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); max-width: 510px; margin-left: auto;}
+
+.graph-count{font-size: 53px; font-weight: bold; color: var(--white); font-family: 'Quicksand', sans-serif; margin-bottom: 10px;}
+.graph-number-count{margin-bottom: 16px;}
+  
+.graph-number-count span{font-size: 21px; font-weight: 600; color: rgba(255, 255, 255, 0.4); font-family: 'Quicksand', sans-serif;}
+.graph-number-value p{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6);}
+
+
+@media screen and (min-width:1024px) {
+    .graph-location{max-width: 677px; width: 100%; }
+    .graph-text{width: calc(100% - 677px); text-align: end;}
+    .graph-number{gap: 60px;}
+    .graph-number-list{flex: 0 0 30.333%;}
+    .graph-number-icon{width: 62px; margin-right: 27px; text-align: center; }
+    .graph-number-value{width: calc(100% - 89px);}
+    
+}
