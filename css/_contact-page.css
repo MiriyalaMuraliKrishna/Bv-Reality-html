@@ -1,0 +1,20 @@
+
+.contact-page-bg{position: absolute; z-index: -1;}
+.contact-page-wrap{padding: 200px 0 100px; }
+.contact-heading{max-width: 600px; padding-left: 67px; border-left: solid 3px #00be66; margin-bottom: 63px;}
+.contact-heading h1{font-size: 74px; font-weight: bold; line-height: 1.12; color: var(--white); }
+.contact-heading p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); }
+
+.contact-page-content h2{font-size: 34px; font-weight: bold; line-height: 1.18; color: var(--white); }
+.contact-page-content p{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
+.contact-icon-text{font-size: 16px; font-weight: 300; line-height: 1.88; color: var(--white); width:calc(100% - 33px);}
+.contact-icon-text address span{font-weight: bold; }
+.contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
+.phone-list{margin: 0; }
+.frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
+
+@media screen and (min-width:1024px) {
+    .contact-page-form{max-width: 650px; width: 100%; margin-right: 176px; }
+    .contact-page-content{width: calc( 100% - 955px); }
+    
+}
