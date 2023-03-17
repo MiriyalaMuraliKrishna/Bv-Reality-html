@@ -1,0 +1,81 @@
+
+/* Banner section */
+.project-banner{overflow: hidden;}
+.project-banner-bg{position: absolute; z-index: -1; height: 841px; overflow: hidden;}
+.project-banner-main{padding: 265px 0 0; max-width: 1247px; margin: 0 auto;}
+.project-test{max-width: 538px; width: 100%; margin-right: 118px;}
+.project-image{width: calc(100% - 656px); position: relative;}
+.project-image::before{content: ""; position: absolute; width: 100%; height: 186px; background: var(--white); bottom: 78px; left: 100%; right: 0; }
+
+.project-test h1{font-size: 74px; font-weight: bold; color: var(--white); line-height: 1.12;}
+.project-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
+.project-num-count{gap: 44px; margin-top: 40px;}
+.num-count-list{max-width: 144px;}
+.num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
+.num-count-list img{margin-bottom: 30px;}
+.num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4);}
+
+/* project sub heading */
+
+.project-sub-heading-wrap{padding: 20px 0 88px;}
+.project-title{max-width: 533px; width: 100%; margin-right: 178px; }
+.project-facts{width: calc( 100% - 711px); margin-top: 69px;}
+.project-facts ul{margin: 0;}
+.project-facts ul li{margin-bottom: 9px;}
+.facts-title{display: block; width: 43%; font-size: 16px; font-weight: 600; line-height: 1.88; color: #00052d; }
+.facts-heading { font-size: 19px; font-weight: 600; color: #a2a4b7; margin-bottom: 25px; display: block; }
+
+.big-image{padding: 104px 0 91px; }
+.big-image-caption{position: absolute; bottom: 0; background: #00052d; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; }
+.big-image-caption h6{font-size: 19px; font-weight: 600; color: #fff; margin-bottom: 0;}
+.big-image-caption span{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
+
+/* optional features section */
+.project-profile .optional-feature-main{padding: 91px 0 97px;}
+
+/* Project second */
+.project-second-wrap{padding-bottom: 85px;}
+
+/* full width slider */
+.full-width-wrap{padding-bottom: 97px; }
+.full-width-list{width: 1123px; margin: 0 30px;}  
+.full-width-slider ul.slick-dots{list-style: none; margin: 35px 0 0; width: auto; display: flex; justify-content: center; position: relative; }
+.full-width-slider ul.slick-dots li { margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
+.full-width-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
+.full-width-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
+.full-width-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
+
+.full-width-slider .slick-arrow{position: absolute; bottom: -12px; left: 50%; transform: translateX(-50%); font-size: 29px;}
+.full-width-slider .slick-arrow.slick-prev{left: 45.3%;}
+.full-width-slider .slick-arrow.slick-next{left: 54.6%;}
+
+/* two grid section */
+.two-grid-main{max-width: 1580px; margin: 0 auto; gap:60px; min-height:676px; align-items: center; padding: 98px 0;}
+.two-grid-list{max-width: 760px; height: 100%; transform: translateY(+29px); transition: all .3s ease;}
+.two-grid-list:first-child{transform: translateY(-29px);}
+.two-grid-list:hover{transform: translateY(0); }
+.two-grid-caption{position: absolute; bottom: 0; background: #00052d; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; }
+.two-grid-caption h6{font-size: 19px; font-weight: 600; color: #fff; margin-bottom: 0;}
+.two-grid-caption span{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
+
+
+/* More Communities */
+.more-communities-wrap{padding: 50px 0 0; border-top: 1px solid rgba(0, 0, 0, 0.1); margin-bottom: -75px; z-index: 2; position: relative;}
+.more-communities-heading{width: 50%; margin-bottom: 60px;}
+.more-communities-heading h4{font-size: 26px; line-height: 2.04; color: #00052d; margin-bottom: 0;}
+.more-communities-list{width: 413px; margin-right: 60px; position: relative;}
+.more-communities-content{position: absolute; top: 0; height: 100%; padding: 45px 60px 49px 58px; flex-direction: column;}
+.more-communities-category{gap: 15px; margin-bottom: 18px;}
+.more-communities-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
+.more-communities-content h3{font-size: 38px; font-weight: bold; line-height: 1.11; color: var(--white); }
+.more-communities-content .button{margin-top: auto; max-width: fit-content; }
+
+.more-communities-slider ul.slick-dots{list-style: none; margin: 0; width: auto; display: flex; justify-content: end; position: absolute; top: -91px; right: 50px;}
+.more-communities-slider ul.slick-dots li { margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
+.more-communities-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
+.more-communities-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
+.more-communities-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
+
+.more-communities-slider .slick-arrow{position: absolute; top: -101px; font-size: 29px; }
+.more-communities-slider .slick-arrow.slick-next{right: 0;}
+.more-communities-slider .slick-arrow.slick-prev{right: 17.4%;}

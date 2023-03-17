@@ -37,7 +37,7 @@ sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 32px 0 37px 58px;}
-ul > li {counter-increment: li; position: relative; margin-bottom: 9px;}
+ul > li {counter-increment: li; position: relative; margin-bottom: 5px;}
 ul > li:before {content: ""; position: absolute; top: 10px; left: -27px; width: 5px; height: 5px; border-radius: 300px; background-color: var(--light-blue);}
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 32px 0 37px 58px;}
@@ -48,15 +48,15 @@ img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-wid
 figure {margin: 0;}
 fieldset {border: 1px solid rgba(0, 0, 0, 0.1); margin: 0 0 24px; padding: 11px 12px 0;}
 legend {white-space: normal;}
-button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 100%; margin: 0; max-width: 100%; vertical-align: baseline; -webkit-appearance: none;}
+button, input, select, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 100%; margin: 0; max-width: 100%; vertical-align: baseline; appearance: none;}
 button, input {line-height: normal;}
 input, textarea {background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));}
 
 /* Removing the inner shadow, rounded corners on iOS inputs */
-button, input[type="button"], input[type="reset"], input[type="submit"] {-webkit-appearance: button; cursor: pointer;}
+button, input[type="button"], input[type="reset"], input[type="submit"] {appearance: button; cursor: pointer;}
 button[disabled], input[disabled] {cursor: default;}
 input[type="checkbox"], input[type="radio"] {padding: 0;}
-input[type="search"] {-webkit-appearance: textfield;}
+input[type="search"] {appearance: textfield;}
 input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
 button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
 textarea {overflow: auto; vertical-align: top;}
@@ -137,7 +137,9 @@ blockquote.alignright, img.alignleft {margin: 37px 37px 68px 0;}
 
 .pos-relative{position: relative;}
 
-body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px;}
+body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; overflow-x: hidden; overflow-y: scroll;}
+.fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 768px){
@@ -145,6 +147,7 @@ body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px;}
 @media only screen and (min-width: 1024px){
 	.container{max-width:1356px; margin: 0 auto;}
 	.container.md{max-width: 1124px;}
+	.container-md{max-width:1123px; margin: 0 auto;}
 } 
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
 }
