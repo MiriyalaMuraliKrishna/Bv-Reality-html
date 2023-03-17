@@ -13,10 +13,17 @@ Text Domain: Middlefield
 
 @import url("css/_reset.css");
 @import url("css/_header.css");
+@import url("css/_footer.css");
 @import url("css/_default-banner-section.css");
 @import url("css/_optional-feature.css");
 @import url("css/_flex-image-section.css");
 @import url("css/_confirmation-section.css");
+@import url("css/_page-not-found-section.css");
+@import url("css/_captivating-banner-section.css");
+@import url("css/_home-banner-section.css");
+@import url("css/_home-slider-section.css");
+@import url("css/_repeater-section.css");
+@import url("css/_repeater-image-section.css");
 @import url("css/_footer.css");
 @import url("css/_color.css");
 @import url("css/_project-profile.css");

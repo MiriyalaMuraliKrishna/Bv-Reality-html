@@ -1,0 +1,6 @@
+.page-not-found-bg{position: absolute; z-index: -1;}
+.page-not-found-main{padding: 302px 0 332px 0; }
+.page-not-found-text{gap:16px}
+.page-not-found-icon{width: 349px;}
+.page-not-found-desc{color: white; width: calc(100% - 365px); text-align: right;}
+.page-not-found-desc h1{text-transform:capitalize;}

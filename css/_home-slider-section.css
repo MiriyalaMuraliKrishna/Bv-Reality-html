@@ -1,0 +1,4 @@
+.home-slider-main{gap: 60px;}
+.home-slider-thumb{max-width: 486px; max-height: 664px;}
+.home-slider-list{width: calc(33.333% - 40px);}
+.home-slider-content{color:white; position: absolute;left: 82px; bottom: 81px;}

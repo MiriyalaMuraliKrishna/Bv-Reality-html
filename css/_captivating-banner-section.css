@@ -1,0 +1,16 @@
+.captivating-banner-bg{position: absolute; z-index: -1;}
+.captivating-banner-main{padding: 100px 0 58px 0;}
+.captivating-banner-text{text-transform: capitalize; color: white;}
+.captivating-banner-text p{margin-bottom: 25px; font-size: 19px; color: #ffffff; opacity:40%;}
+.captivating-banner-text h2{margin-bottom: 29px; line-height: 53px; font-size: 44px;}
+.captivating-row{gap: 50px;}
+.captivating-text{color:white;}
+.captivating-text p{color: #ffffff; opacity:40%;}
+.captivating-text-right{color: #ffffff; font-size: 16px; line-height: 30px;}
+.captivating-list{width:160px; height:172px; margin-bottom: 106px;}
+.captivating-icons-list{gap: 30px;}
+.captivating-icon1{margin-bottom: 19px; width: 52px; height: 52px;}
+.captivating-icon2{margin-bottom: 26px; width: 52px; height: 37px;}
+.captivating-icon3{margin-bottom: 19px; width: 42px; height: 52px;}
+.number{font-size: 40px;}
+
