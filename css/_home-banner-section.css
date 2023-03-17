@@ -1,0 +1,5 @@
+.home-banner-image{position: absolute; z-index: -1;}
+.home-banner-main{padding: 294px 0 153px 0;}
+.home-banner-text{text-transform: capitalize; color: white;}
+.home-banner-text p{opacity: 40%; font-size: 19px; color: #ffffff;}
+.home-banner-text h1{font-size: 74px; line-height: 83px; text-transform: none;}
