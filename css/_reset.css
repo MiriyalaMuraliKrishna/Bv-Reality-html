@@ -100,10 +100,10 @@ button[type="submit"]:hover::after{right: 14px;}
 .button .right-arrow{font-size: 12px; margin-left: 12px; }
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
-::-webkit-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif;}
-:-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1; }
-::-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
-:-ms-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+::-webkit-input-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif;}
+:-moz-placeholder {color: var(-whiter-50); font-family: 'Urbanist', sans-serif; opacity: 1; }
+::-moz-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+:-ms-input-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}
