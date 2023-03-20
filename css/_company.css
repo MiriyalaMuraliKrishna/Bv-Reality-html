@@ -29,17 +29,58 @@
 .logo-slider-thumb img{max-width: 187px; max-height: 59px; }
 
 /* company grid section */
-
+.company-grid-wrap{padding: 24px 0 130px; }
 .company-grid-main{max-width: 1124px; margin: 0 auto; }
 .company-grid-list{border-bottom: solid 1px rgba(0, 0, 0, 0.1); }
+.company-grid-list:last-child{border: none; }
 .company-grid-content{flex: 0 0 50%; padding: 0 147px 134px 0;}
 .company-grid-content h3{font-size: 42px; font-weight: bold; line-height: 1.26; color: #00052d;}
 .company-grid-image{flex: 0 0 50%; justify-content: end; padding: 0 0 134px 147px; border-left: solid 1px rgba(0, 0, 0, 0.1);}
 .company-grid-thumb{max-width: 413px; }
 .company-grid-thumb img{max-width: 413px; }
 
+.company-grid-list.reverse{flex-direction: row-reverse;}
+.reverse .company-grid-content{padding: 131px 0 0 147px ; border-left: solid 1px rgba(0, 0, 0, 0.1);}
+.reverse .company-grid-image{padding: 131px 147px 0 0; border: none; justify-content: start;}
+
+/* Leadership section */
+.leadership-wrap{padding: 90px 0 40px; }
+.leadership-main{max-width: 890px; margin: 0 auto; }
+.leadership-heading{width: 417px; margin-right: 30px; }
+.leadership-image{gap: 30px; margin-bottom: 20px;}
+.leadership-thumb img{max-width: 62px; }
+.leadership-heading h2{font-size: 42px; font-weight: bold; line-height: 1.26; color: #00052d; }
+.leadership-content{width: calc(100% - 447px); }
+
+/* More Communities */
+.featured-project-wrap{padding: 50px 0 0; margin-bottom: -75px; z-index: 2; position: relative;}
+.featured-project-main{gap: 60px; }
+.featured-project-list{width: 486px; position: relative;}
+.featured-project-content{position: absolute; bottom: 0; padding: 45px 73px 81px 80px; flex-direction: column;}
+.featured-project-category{gap: 15px; margin-bottom: 23px;}
+.featured-project-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
+.featured-project-content h3{font-size: 38px; font-weight: bold; line-height: 1.37; color: var(--white); }
+.featured-project-content .button{margin-top: auto; max-width: fit-content; }
+.featured-project-content .button:hover{background-color: #00be66; border-color: #00be66;}
+
+
 
 @media screen and (min-width:1024px) {
     .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
     .company-location{width: calc(100% - 690px); position: relative;}
+}
+
+@media screen and (max-width:1299px) and (min-width:1024px){
+    .company-banner-bg{height: 100%; }
+    .company-banner-thumb img{height: 100%;}
+
+    .company-grid-content{padding: 0 45px 90px 0; }
+    .company-grid-image{padding: 0 0 90px 45px;}
+    .reverse .company-grid-content{padding: 90px 0 0 45px;}
+    .reverse .company-grid-image{padding: 90px 45px 0 0;}
+
+    .featured-project-main{gap: 27px;}
+    .featured-project-list{width: 310px;}
+    .featured-project-content{padding: 30px;}
+    .featured-project-content h3{font-size: 32px;}
 }

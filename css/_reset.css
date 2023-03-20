@@ -150,8 +150,10 @@ body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; ov
 	.container{max-width:1356px; margin: 0 auto;}
 	.container.md{max-width: 1124px;}
 	.conatainer.x-md{max-width: 1116px;}
+	.container.lg{max-width: 1578px; margin: 0 auto;}
 } 
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .container{max-width: 100%; padding: 0 20px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 }
