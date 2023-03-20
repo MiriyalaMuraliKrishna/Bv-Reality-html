@@ -81,14 +81,14 @@ hr.blue{background-color: var(--light-blue); opacity: 1;}
 ::-moz-selection {background-color: #231f20; color: #ffffff;}
 
 /* Input fields */
-input[type="search"], input, select, textarea, body .frm_style_formidable-style.with_frm_style .frm_form_fields input, body .with_frm_style textarea{outline: 0; width: 100%; font-size: 16px; line-height: 24px; letter-spacing: 0.57px; background: var(--white); box-shadow: none; color: var(--text-color); padding: 11px 20px 13px; vertical-align: middle; font-family: 'Urbanist', sans-serif; font-weight: 500; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out; border: solid 1px #a6a6a6; border-radius: 0;}
+input[type="search"], input, select, textarea, body .frm_style_formidable-style.with_frm_style .frm_form_fields input, body .with_frm_style textarea{outline: 0; width: 100%; font-size: 16px; line-height: 24px; letter-spacing: 0.57px; background: var(--white); box-shadow: none; color: var(--white); padding: 11px 20px 13px; vertical-align: middle; font-family: 'Urbanist', sans-serif; font-weight: 500; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;  border-radius: 6px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.13); border: none;}
 textarea, body .with_frm_style textarea{width: 100%; resize: none; height: 215px;}
 input:focus, textarea:focus, body .frm_style_formidable-style.with_frm_style .frm_form_fields input:focus{outline: 0; box-shadow: none; border-color: var(--text-color);}
 body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):focus, body .frm_style_formidable-style.with_frm_style .form-field textarea:focus{border-color: #a6a6a6; box-shadow: none; border-color: var(--text-color);}
-input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 16px; line-height: 25px; letter-spacing: 0.5px; padding: 13px 46px 14px 22px; margin: 0; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--blue-color); font-weight: bold; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--white); font-family: 'Urbanist', sans-serif; }
+input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 16px; line-height: 25px; letter-spacing: 0.5px; padding: 10px 46px 10px 19px; margin: 0; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: var(--blue-color); font-weight: bold; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--white); font-family: 'Urbanist', sans-serif; }
 button[type="submit"]:focus,  button[type="submit"]:hover, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button:hover{background-color: var(--black); color: var(--white);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active,  button[type="submit"]:active{outline: none;}
-button[type="submit"]::after{right: 18px; content: "\f061"; font-size: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; transition: all 0.3s ease-in-out; position: absolute;}
+button[type="submit"]::after{right: 18px; content: "\f0da"; font-size: 16px; font-family: "Font Awesome 6 Pro"; font-weight: bold; transition: all 0.3s ease-in-out; position: absolute; }
 button[type="submit"]:hover::after{right: 14px;}
 .search-field {width: 100%;}
 .search-submit {display: none;}
@@ -100,10 +100,10 @@ button[type="submit"]:hover::after{right: 14px;}
 .button .right-arrow{font-size: 12px; margin-left: 12px; }
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
-::-webkit-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif;}
-:-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1; }
-::-moz-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
-:-ms-input-placeholder {color: var(--text-color-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+::-webkit-input-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif;}
+:-moz-placeholder {color: var(-whiter-50); font-family: 'Urbanist', sans-serif; opacity: 1; }
+::-moz-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
+:-ms-input-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif; opacity: 1;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video {margin-bottom: 7px; max-width: 100%; border-radius: 0;}

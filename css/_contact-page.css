@@ -1,0 +1,31 @@
+
+.contact-page-bg{position: absolute; z-index: -1;}
+.contact-page-wrap{padding: 253px 0 100px; }
+.contact-heading{max-width: 600px; padding-left: 67px; border-left: solid 3px #00be66; margin-bottom: 63px;}
+.contact-heading h1{font-size: 74px; font-weight: bold; line-height: 1.12; color: var(--white); text-transform: capitalize;}
+.contact-heading p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); }
+
+.contact-page-content h2{font-size: 34px; font-weight: bold; line-height: 1.18; color: var(--white); }
+.contact-page-content p{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
+.contact-icon-text{font-size: 16px; font-weight: 300; line-height: 1.88; color: var(--white); width:calc(100% - 33px);}
+.contact-icon-text address span{font-weight: bold; }
+.contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
+.phone-list{margin: 0; }
+.frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
+
+body .frm_first.frm_half{margin-left: 0; }
+body .frm_last.frm_half{margin-right: 0; }
+body .frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px; float: left; clear: none; }
+body .frm_form_field { margin-bottom: 20px;}
+body .frm_form_field.vertical_radio{position: relative; margin-top: 25px;}
+body .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid #00be66; background: 0 0; border-radius: 4px; position: absolute; margin: 2px 0 0 0; backdrop-filter: none; }
+body .frm_form_field.vertical_radio label{padding-left: 25px; cursor: pointer; display: block; font-size: 14px; line-height: 1.5; color: var(--white); text-indent: 0; }
+.with_frm_style .frm_checkbox input[type=checkbox]:before {content: ""; display: block; clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); border-radius: 0; }
+body .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .frm_form_field.vertical_radio input[type=radio]::before { width: 12px; height: 10px; margin: 2px 0 0 2px; box-shadow: inset 8px 8px var(--white); }
+body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-color: #00be66; border-color: #00be66;; }
+
+@media screen and (min-width:1024px) {
+    .contact-page-form{max-width: 650px; width: 100%; margin-right: 176px; }
+    .contact-page-content{width: calc( 100% - 955px); }
+    
+}

@@ -1,0 +1,41 @@
+/* Banner section */
+.company-banner{overflow: hidden;}
+.company-banner-bg{position: absolute; z-index: -1;}
+.company-banner-wrap{padding: 289px 0 0;}
+
+.company-test .sub-text{font-size: 19px; font-weight: 600; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
+.company-test h1 { font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white); text-transform: capitalize;}
+.company-test h1 > .big-text{font-weight: bold; }
+.company-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
+.company-num-count{gap: 44px; margin-top: 72px;}
+.num-count-list{max-width: 144px;}
+.num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
+.num-count-list img{margin-bottom: 30px;}
+.num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4);}
+
+.company-banner-content{padding: 79px 0 109px; }
+.company-content-list{flex: 0 0 50%; padding-right: 150px;}
+.company-content-list:nth-child(2){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2); }
+.company-content-list h6{font-family: 'Poppins', sans-serif; font-size: 19px; font-weight: 600; color: var(--white); margin-bottom: 14px; }
+.company-content-list p{font-size: 14px; font-weight: 300; color: rgba(255, 255, 255, 0.4); line-height: 1.43; }
+
+
+/* logo slider section */
+.company-logo-wrap{padding: 94px 0; }
+.logo-slider-heading{margin-bottom: 43px; }
+.logo-slider-heading h6{font-size: 19px; font-weight: 600; color: #00052d; font-family: 'Poppins', sans-serif; margin-bottom: 0; }
+.logo-slider-main{gap: 30px; }
+.logo-slider-item{width: 200px; justify-content: center; align-items: center; }
+.logo-slider-thumb img{max-width: 187px; max-height: 59px; }
+
+/* company grid section */
+
+.company-grid-main{max-width: 1124px; margin: 0 auto; }
+.company-grid-content{flex: 0 0 50%;}
+.company-grid-image{flex: 0 0 50%; }
+
+
+@media screen and (min-width:1024px) {
+    .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
+    .company-location{width: calc(100% - 690px); position: relative;}
+}
