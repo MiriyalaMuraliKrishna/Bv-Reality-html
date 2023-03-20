@@ -149,7 +149,7 @@ body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; ov
 @media only screen and (min-width: 1024px){
 	.container{max-width:1356px; margin: 0 auto;}
 	.container.md{max-width: 1124px;}
-	.container-md{max-width:1123px; margin: 0 auto;}
+	.conatainer.x-md{max-width: 1116px;}
 } 
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
 }

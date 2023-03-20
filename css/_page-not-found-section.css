@@ -1,6 +1,9 @@
 .page-not-found-bg{position: absolute; z-index: -1;}
-.page-not-found-main{padding: 302px 0 332px 0; }
+.page-not-found-main{padding: 302px 0 332px 0;  margin-bottom: 178px;}
 .page-not-found-text{gap:16px}
-.page-not-found-icon{width: 349px;}
+.page-not-found-icon{width: 349px; margin-left: 16px;}
 .page-not-found-desc{color: white; width: calc(100% - 365px); text-align: right;}
-.page-not-found-desc h1{text-transform:capitalize;}
+.page-not-found-desc h1{text-transform:capitalize; font-size: 74px; line-height: 1.12; margin-bottom: 20px;}
+.page-not-found-desc p{margin-bottom: 30px; font-size: 19px;}
+.page-not-found-icon::after{content:""; position: absolute; width: 349px; height: 349px; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); }
+.warning-icon{font-size: 112px; color: #00be66;}
