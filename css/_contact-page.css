@@ -1,8 +1,8 @@
 
 .contact-page-bg{position: absolute; z-index: -1;}
-.contact-page-wrap{padding: 200px 0 100px; }
+.contact-page-wrap{padding: 253px 0 100px; }
 .contact-heading{max-width: 600px; padding-left: 67px; border-left: solid 3px #00be66; margin-bottom: 63px;}
-.contact-heading h1{font-size: 74px; font-weight: bold; line-height: 1.12; color: var(--white); }
+.contact-heading h1{font-size: 74px; font-weight: bold; line-height: 1.12; color: var(--white); text-transform: capitalize;}
 .contact-heading p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); }
 
 .contact-page-content h2{font-size: 34px; font-weight: bold; line-height: 1.18; color: var(--white); }
