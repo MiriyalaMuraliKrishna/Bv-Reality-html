@@ -95,6 +95,8 @@ button[type="submit"]:hover::after{right: 14px;}
 
 /* Buttons */
 .button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 11px 21px 11px 23px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: #FFFFFF; }
+.btn-black{border: 3px solid #00052d; color: #00052d; }
+.btn-black:hover{background-color: #00052d; color: #fff;}
 .button:hover, .button:focus {background-color: var(--text-color); color: var(--white);}
 
 .button .right-arrow{font-size: 12px; margin-left: 12px; }
