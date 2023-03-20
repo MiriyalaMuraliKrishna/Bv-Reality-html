@@ -31,8 +31,12 @@
 /* company grid section */
 
 .company-grid-main{max-width: 1124px; margin: 0 auto; }
-.company-grid-content{flex: 0 0 50%;}
-.company-grid-image{flex: 0 0 50%; }
+.company-grid-list{border-bottom: solid 1px rgba(0, 0, 0, 0.1); }
+.company-grid-content{flex: 0 0 50%; padding: 0 147px 134px 0;}
+.company-grid-content h3{font-size: 42px; font-weight: bold; line-height: 1.26; color: #00052d;}
+.company-grid-image{flex: 0 0 50%; justify-content: end; padding: 0 0 134px 147px; border-left: solid 1px rgba(0, 0, 0, 0.1);}
+.company-grid-thumb{max-width: 413px; }
+.company-grid-thumb img{max-width: 413px; }
 
 
 @media screen and (min-width:1024px) {
