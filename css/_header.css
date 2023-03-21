@@ -1,4 +1,4 @@
-.main-header{width: 100%;top: 25px;left: 0;position: fixed;z-index: 800;transition-duration: .75s;transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);transition-property: transform;transition-delay: 0s;}
+.main-header{width: 100%;top: 25px;left: 0;position: absolute; z-index: 800;transition-duration: .75s;transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);transition-property: transform;transition-delay: 0s;}
 .header{justify-content: space-between;}
 .logo{width: 214px;}
 ul.main_menu{margin: 0; gap: 48px;}
@@ -7,3 +7,6 @@ ul.main_menu li::before{display: none; }
 ul.main_menu li:hover{border-bottom: 5px solid var(--white);}
 ul.main_menu li a{color: white;font-size: 23px;line-height: 28px; text-transform: capitalize;}
 .navigation{display: flex; align-items: end;}
+ul.main_menu > li:hover > ul{display: block;}
+ul.main_menu > li > ul{ width: 248px; padding: 30px; display: none; position: absolute; margin: 0; background-color: var(--white);}
+ul.main_menu > li > ul > li > a{color: var(--light-color); font-size: 16px; text-transform: capitalize;}
