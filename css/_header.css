@@ -8,4 +8,4 @@ ul.main_menu li a{color: white;font-size: 23px;line-height: 28px; text-transform
 .navigation{display: flex; align-items: end;}
 ul.main_menu > li:hover > ul{display: block;}
 ul.main_menu > li > ul{ width: 248px; padding: 30px; display: none; position: absolute; margin: 0; background-color: var(--white);}
-ul.main_menu > li > ul > li > a{color: var(--light-color); font-size: 16px; text-transform: capitalize;}
+ul.main_menu > li > ul > li > a{color: var(--heading-color); font-size: 16px; text-transform: capitalize;}
