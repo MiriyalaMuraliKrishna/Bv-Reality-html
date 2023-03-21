@@ -1,6 +1,6 @@
 /* Banner section */
 .company-banner{overflow: hidden;}
-.company-banner-bg{position: absolute; z-index: -1;}
+.company-banner-bg{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0;}
 .company-banner-wrap{padding: 289px 0 0;}
 
 .company-test .sub-text{font-size: 19px; font-weight: 600; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
@@ -19,13 +19,17 @@
 .company-content-list h6{font-family: 'Poppins', sans-serif; font-size: 19px; font-weight: 600; color: var(--white); margin-bottom: 14px; }
 .company-content-list p{font-size: 14px; font-weight: 300; color: rgba(255, 255, 255, 0.4); line-height: 1.43; }
 
+.dot-location{width: 11px; height: 11px; background-color: #00be66; border-radius: 50%; }
+.dot-location::before{content: ""; position: absolute; width: 120px; height: 120px; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); top: -54px; left: -54px; }
+
+
 
 /* logo slider section */
 .company-logo-wrap{padding: 94px 0; }
 .logo-slider-heading{margin-bottom: 43px; }
 .logo-slider-heading h6{font-size: 19px; font-weight: 600; color: #00052d; font-family: 'Poppins', sans-serif; margin-bottom: 0; }
-.logo-slider-main{gap: 30px; }
-.logo-slider-item{width: 200px; justify-content: center; align-items: center; }
+.logo-slider-main{gap: 31px; }
+.logo-slider-item{flex: 0 0 200px;}
 .logo-slider-thumb img{max-width: 187px; max-height: 59px; }
 
 /* company grid section */
@@ -48,7 +52,7 @@
 .leadership-main{max-width: 890px; margin: 0 auto; }
 .leadership-heading{width: 417px; margin-right: 30px; }
 .leadership-image{gap: 30px; margin-bottom: 20px;}
-.leadership-thumb img{max-width: 62px; }
+.leadership-thumb{width: 62px;}
 .leadership-heading h2{font-size: 42px; font-weight: bold; line-height: 1.26; color: #00052d; }
 .leadership-content{width: calc(100% - 447px); }
 
@@ -68,11 +72,15 @@
 @media screen and (min-width:1024px) {
     .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
     .company-location{width: calc(100% - 690px); position: relative;}
+
+    .dot-location.one{position: absolute; top: -13px; left: 34px; }
+    .dot-location.two{position: absolute; left: 440px; top: 75px; }
+    .dot-location.three{position: absolute; bottom: 173px; left: 220px; }
 }
 
 @media screen and (max-width:1299px) and (min-width:1024px){
-    .company-banner-bg{height: 100%; }
-    .company-banner-thumb img{height: 100%;}
+    .company-test{max-width: 510px; margin-right: 20px; }
+    .company-location{width: calc(100% - 530px);}
 
     .company-grid-content{padding: 0 45px 90px 0; }
     .company-grid-image{padding: 0 0 90px 45px;}

@@ -1,0 +1,10 @@
+
+/* Banner section */
+.default-banner-section{overflow: hidden;}
+.default-banner-image{position: absolute; z-index: -1; }
+.default-banner-main{padding: 271px 0 124px;}
+.default-banner-text{padding-left: 116px; border-left: solid 3px var(--green-color); }
+.default-banner-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); margin-bottom: 36px;}
+
+/* Default content section  */
+.default-content-wrap{padding: 90px 0; }
