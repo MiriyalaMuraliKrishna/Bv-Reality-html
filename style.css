@@ -28,11 +28,8 @@ Text Domain: Bv realty
 @import url("css/_color.css");
 @import url("css/_project-profile.css");
 @import url("css/_graph-performance.css");
-<<<<<<< HEAD
 @import url("css/_leadership-banner-section.css");
-@import url("css/_leadership-section.css");
-=======
->>>>>>> 66633c54adeb36d34f7fbd8b856531d93cd8d40e
+@import url("css/_leadership-page-section.css");
 @import url("css/_contact-page.css");
 @import url("css/_communities-page.css");
 @import url("css/_custom-cta-section.css");
