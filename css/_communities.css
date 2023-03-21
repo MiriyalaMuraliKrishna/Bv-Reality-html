@@ -36,3 +36,11 @@
     .communities-location{width: 677px; margin-right: 55px;}
     .communities-desc{width: calc(100% - 732px)}
 }
+
+
+@media screen and (max-width:1299px) and (min-width:1024px) {
+    .communities-grid-main{gap: 60px 45px; }
+    .communities-grid-content{padding: 30px;}
+    .communities-grid-content h3{font-size: 33px;}
+
+}

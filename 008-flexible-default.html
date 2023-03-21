@@ -39,7 +39,7 @@
     </div>
 </div>
 </header>
-<div class="site-main-cover">
+<div class="flexible-default site-main-cover">
 <section class="default-banner-section pos-relative">
 <div class="default-banner-image">
     <picture class="default-banner-thumb object-fit">
@@ -78,8 +78,15 @@
 				<li>Far far away, behind the word mountains Vokalia and Consonantia</li>
 			</ul>
 
-			<div class="default-flex-image">
-				<img src="images/short-video-image@2x.jpg" alt="short-image">
+			<div class="default-flex-image pos-relative">
+				<figure class="object-fit">
+					<img src="images/short-video-image@2x.jpg" alt="short-video-image">
+				</figure>
+				<div class="play-btn-main flex flex-center">
+                    <div class="play-btn pos-relative">
+                        <a class="play-btn-bg flex flex-center" href="#"><img src="images/play-icon.svg" alt="play-icon"></a>
+                    </div> 
+                </div>
 			</div>
 		</div>
 	</div>
@@ -95,7 +102,7 @@
     <div class="optional-feature-row flex">
         <div class="optional-feature-list flex">
 	        <figure class="optional-feature-icon">
-	        	<img src="images/feature-icon1.svg">
+	        	<img src="images/location-icon.svg" alt="location-icon">
 	        </figure>
 		    <div class="optional-feature-text">
 		        <h4><span>Feature Name</span></h4>
@@ -104,7 +111,7 @@
         </div>
         <div class="optional-feature-list flex">
         	<figure class="optional-feature-icon">
-	        	<img src="images/feature-icon2.svg">
+	        	<img src="images/feature-icon2.svg" alt="feature-icon2">
 	        </figure>
 	        <div class="optional-feature-text">
 		        <h4><span>Feature Name</span></h4>
@@ -113,7 +120,7 @@
         </div>
         <div class="optional-feature-list flex">
         	<figure class="optional-feature-icon">
-	        	<img src="images/feature-icon3.svg">
+	        	<img src="images/feature-icon3.svg" alt="feature-icon3">
 	        </figure>
 	        <div class="optional-feature-text">
 		        <h4><span>Feature Name</span></h4>
@@ -122,7 +129,7 @@
         </div>
         <div class="optional-feature-list flex">
         	<figure class="optional-feature-icon">
-	        	<img src="images/feature-icon4.svg">
+	        	<img src="images/member-icon.svg" alt="member-icon">
 	        </figure>
 	        <div class="optional-feature-text">
 		        <h4><span>Feature Name</span></h4>
@@ -131,79 +138,169 @@
         </div>
     </div>
 </div>
-    
 </section>
 
-<section class="graphical-banner-section">
-	<div class="graphical-banner-image">
-		<picture class="graphical-banner-thumb object-fit">
-            <source srcset="images/flexible-default-bg-image@2x.jpg" media="(min-width: 768px)"/>
-            <img src="images/line-art-banner.svg" alt="line-art-banner"/>
-       </picture>
-    </div>
-    <div class="container">
-    <div class="graphical-banner-main">
-    	<div class="graphical-oval-images">
-
-        <div class="graphical-banner-text">
-            <p>Optional Subtitle</p>
-            <h2>Graphical Performance Description Text</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</section>
-
-
-<section class="default-content-section">
-<div class="container">
-<div class="default-content-main">
-	<h3>Short headline as H3</h3>
-	<p>This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. 
-
-The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files.</p>
-</div>
-</div>
-</section>
-
-<section class="flex-image-section">
+<section class="graph-performance pos-relative">
+	<div class="graph-bg">
+		<picture class="object-fit graph-thumb">
+			<source srcset="images/confirmation-bg-image@2x.jpg" media="(min-width: 768px)">
+			<img src="images/confirmation-bg-image@2x.jpg" alt="confirmation-bg-image">
+		</picture>
+	</div>
 	<div class="container">
-		<div class="flex-image-main flex">
-		    <div class="flex-image-sm pos-relative">
-		        <figure class="flex-image-thumb object-fit">
-                    <img src="images/sample-community@2x.jpg"/>
-                </figure>
-                <div class="flex-content">
-            	    <h2>Sample<br>Community<br>Name</h2>
-            	    <a href="#">More</a>
-                </div>
-            </div>
-            <div class="flex-image-bg pos-relative">
-       	        <picture class="flex-image-thumb object-fit">
-       	            <source srcset="images/engaging@2x.jpg" media="(min-width: 768px)"/>
-       	            <img src="images/line-art-banner.svg" alt="line-art-banner"/>
-       	        </picture>
-                <div class="flex-content">
-                	<h2>Engaging<br>Community Name</h2>
-                    <a href="#">More</a>
-                </div>
-         	</div> 
-        </div>
-    </div>
+		<div class="graph-performance-wrap">
+			<div class="graph-content flex">
+				<div class="graph-location"></div>
+				<div class="graph-text">
+					<span class="graph-sub-title">Optional Subtitle</span>
+					<h2><span class="big-text">Graphical</span> Performance Description Text</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+				</div>
+			</div>
+			<div class="graph-number flex">
+				<div class="graph-number-list flex">
+					<div class="graph-number-icon">
+						<figure class="object-fit">
+							<img src="images/location-icon.svg">
+						</figure>
+					</div>
+					<div class="graph-number-value">
+						<div class="graph-number-count">
+							<div class="graph-count">+200</div>
+							<span>Completed Projects</span>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div class="graph-number-list flex">
+					<div class="graph-number-icon">
+						<figure class="object-fit">
+							<img src="images/member-icon.svg">
+						</figure>
+					</div>
+					<div class="graph-number-value">
+						<div class="graph-number-count">
+							<div class="graph-count">24</div>
+							<span>Team Members</span>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div class="graph-number-list flex">
+					<div class="graph-number-icon">
+						<figure class="object-fit">
+							<img src="images/location-icon.svg">
+						</figure>
+					</div>
+					<div class="graph-number-value">
+						<div class="graph-number-count">
+							<div class="graph-count">12</div>
+							<span>Offices  in Canada</span>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
+
 
 <section class="default-content-section">
-<div class="container">
-<div class="default-content-main">
-	<h3>Short headline as H3</h3>
-	<p>This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. 
-
-The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files.</p>
-</div>
-</div>
+	<div class="container md">
+		<div class="default-content-wrap">
+			<h3>Short headline as H3</h3>
+			<p>This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. </p>
+			<p>The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files.</p>
+			<div class="communities-grid-sec">
+				<div class="fluid-container pos-relative">
+					<div class="container">
+						<div class="communities-grid-wrap">
+							<div class="communities-grid-main flex">
+								<div class="communities-grid-list">
+									<div class="communities-grid-thumb">
+										<figure class="object-fit">
+											<img src="images/communities-image-one@2x.jpg" alt="communities-image-one">
+										</figure>
+									</div>
+									<div class="communities-grid-content flex">
+										<div class="communities-grid-category flex">
+											<a href="#">Category</a>
+										</div>
+										<h3>Another Commnity Name</h3>
+										<a href="#" class="button">More<span class="fa-solid fa-caret-right right-arrow"></span></a>
+									</div>
+								</div>
+								<div class="communities-grid-list">
+									<div class="communities-grid-thumb">
+										<figure class="object-fit">
+											<img src="images/communities-image-two@2x.jpg" alt="communities-image-two">
+										</figure>
+									</div>
+									<div class="communities-grid-content flex">
+										<div class="communities-grid-category flex">
+											<a href="#">Category</a>
+										</div>
+										<h3>Another Commnity Name</h3>
+										<a href="#" class="button">More<span class="fa-solid fa-caret-right right-arrow"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3>Short headline as H3</h3>
+			<p>This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. </p>
+			<p>The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files.</p>
+		</div>
+	</div>
 </section>
+
+<section class="custom-cta-section pos-relative">
+	<div class="background-bg footer-overlay">
+		<picture class="object-fit background-thumb">
+			<source srcset="images/customizable-bg-image@2x.jpg" media="(min-width: 768px)">
+			<img src="images/customizable-bg-image@2x.jpg" alt="footer-bg-mobile">
+		</picture>
+	</div>
+	<div class="container">
+		<div class="custom-cta-main flex pos-relative">
+			<div class="custom-cta-content">
+				<span class="sub-title">Sample Pre-Heading</span>
+				<h2><span>Customizable</span> Call To Action Heading</h2>
+				<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
+			</div>
+			<div class="custom-cta-img">
+				<figure class="object-fit footer-thumb">
+					<img src="images/customizable-thumb@2x.jpg" alt="customizable-thumb">
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+	
+<footer class="footer-main pos-relative">
+	<div class="container">
+		<div class="copyrights-main flex">
+			<div class="copyrights-text">
+				<div class="copyrights-year flex flex-vcenter">
+					<div class="copyrights-logo">
+						<figure class="object-fit">
+							<img src="images/logo.svg" alt="logo">
+						</figure>
+					</div>
+					<p>© Copyright 2023 BV Realty Partners LP.<span>All rights reserved.</span></p>
+				</div>
+			</div>
+			<div class="copyrights-nav">
+				<ul class="copyrights-links flex">
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
 
 
 
