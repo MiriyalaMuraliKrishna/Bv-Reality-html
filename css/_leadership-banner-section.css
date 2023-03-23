@@ -1,5 +1,31 @@
 
 .leadership-banner-image{position: absolute; z-index: -1;}
-.leadership-banner-main{padding: 271px 0 124px 0; }
-.leadership-banner-text h1{text-transform: capitalize; color: white; font-size: 74px; font-weight: bold; margin-bottom: 20px;}
-.leadership-banner-text p{opacity: 60%; font-size: 19px; color: #ffffff; margin-bottom: 37px;}
+.leadership-banner-text{font-size: 19px; line-height: 30px; color: var(--white-90); font-weight: 300;}
+.leadership-banner-text h1{text-transform: capitalize; color: var(--white); font-size: 74px; font-weight: bold; margin-bottom: 20px;}
+.leadership-banner-text p{margin-bottom: 37px;}
+.leadership-banner-teams{gap: 24px;}
+.leadership-team-thumb{width: 65px; height: 65px; border: 3px solid var(--white); border-radius: 300px;}
+.leadership-team-hr{width: 100%; height: 1px; background-color: var(--white); opacity: 0.2; }
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .leadership-banner-wrap{padding: 267px 0 124px;}
+    .leadership-banner-main{gap: 28px; align-items: flex-end; flex-direction: row-reverse;}
+    .leadership-banner-text{flex: 0 0 770px;}
+    .leadership-banner-teams{flex: 0 0 calc(100% - 798px); justify-content: flex-end;}
+    .leadership-team-hr{width: 600px; height: 1px; left: -300px; top: 50%; transform: translateY(-50%); position: absolute;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .leadership-banner-wrap{padding: 150px 0 98px;}
+    .leadership-banner-text h1{font-size: 45px; line-height: 54px;}
+    .leadership-banner-teams{gap: 19px; margin-bottom: 23px; align-items: center;}
+    .leadership-team-thumb{width: 58px; height: 58px;}
+    .leadership-team-hr{flex: 0 0 calc(100% - 231px);}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .leadership-banner-wrap{padding: 150px 0 98px;}
+    .leadership-banner-text h1{font-size: 45px; line-height: 54px;}
+    .leadership-banner-teams{gap: 19px; margin-bottom: 23px; align-items: center;}
+    .leadership-team-thumb{width: 58px; height: 58px;}
+    .leadership-team-hr{flex: 0 0 calc(100% - 231px);}
+}
