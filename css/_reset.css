@@ -4,7 +4,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
 body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow-x: hidden; overflow-y: scroll; position: relative; scroll-behavior: smooth;}
-a {color: var(--blue-color); text-decoration: none; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; }
+a {color: var(--blue-color); text-decoration: none; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--gray-color);}
@@ -26,8 +26,6 @@ code, kbd, tt, var, samp, pre {font-size: 15px; -webkit-hyphens: none; -moz-hyph
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none;}
 blockquote{background-color: var(--text-color); background-image: url("../images/pattern-square@2x.png"); background-repeat: no-repeat; background-size: cover; color: var(--white-80); font-weight: normal; font-size: 20px; line-height: 33px; letter-spacing: 0.71px; font-style: normal; position: relative; border-radius: 0; margin: 86px 0 89px; padding: 70px 101px; }
-
-
 
 blockquote cite, blockquote small {color: rgba(31, 56, 74, 0.6); font-size: 1rem;}
 blockquote em, blockquote i, blockquote cite {font-style: normal;}
@@ -59,7 +57,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {appeara
 button[disabled], input[disabled] {cursor: default;}
 input[type="checkbox"], input[type="radio"] {padding: 0;}
 input[type="search"] {appearance: textfield;}
-input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+input[type="search"]::-webkit-search-decoration {appearance: none;}
 button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
 textarea {overflow: auto; vertical-align: top;}
 
@@ -169,7 +167,8 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .container{max-width: 100%; padding: 0 20px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+	.container{max-width: 100%; padding: 0 20px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     

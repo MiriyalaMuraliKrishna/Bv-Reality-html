@@ -19,6 +19,13 @@ $(document).on('ready', function () { desktopScn(); });
 
 let mobileIpad = function(){
     if($(window).width() <= 1023){
+        $('.toogle-btn').on('click', function(e){
+            e.preventDefault();
+            $('html').toggleClass('no_scroll');
+            $(this).toggleClass('on');
+            $('.navigation').toggleClass('open');
+        });
+
         $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
           event.preventDefault();
           $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');

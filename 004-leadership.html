@@ -23,18 +23,29 @@
 			<div class="logo">
 				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
 			</div>
+			<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
 			<nav class="navigation">
 				<ul class="main_menu flex">
-					<li><a href="#">company</a></li>
-					<li><a href="#">ourcommunities</a>
+					<li class="current-menu-item"><a href="#">company</a></li>
+					<li class="menu-item-has-children"><a href="#">ourcommunities</a>
 						<ul class="sub-menu">
 							<li><a href="#">sample sub-page</a></li>
-							<li><a href="#">another sample page</a></li>
+							<li class="menu-item-has-children"><a href="#">another sample page</a>
+								<ul class="sub-menu">
+									<li><a href="#">sample sub-page</a></li>
+									<li><a href="#">another sample page</a></li>
+									<li><a href="#">third page sample</a></li>
+								</ul>
+							</li>
 							<li><a href="#">third page sample</a></li>
 						</ul>
 					</li>
 					<li><a href="#">contact</a></li>
 				</ul>
+				<div class="call-to-action">
+					<p>Need an Extra <strong>Call to Action?</strong></p>
+					<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+				</div>
 			</nav>
 		</div>
 	</div>
@@ -44,7 +55,7 @@
 	<div class="leadership-banner-image">
 		<picture class="leadership-banner-thumb object-fit">
 			<source srcset="images/leadership-bg-image@2x.jpg" media="(min-width: 768px)"/>
-			<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+			<img src="images/team-banner-mobile@2x.jpg" alt="team-banner-mobile"/>
 		</picture>
 	</div>
 	<div class="container">
@@ -60,78 +71,78 @@
 <section class="leadership-page-section">
 	<div class="container x-md">
 		<div class="leadership-page-main">
-			<div class="leadership-page-row flex">
+			<div class="leadership-page-row flex flex-vcenter">
 				<div class="leadership-page-image">
-					<figure class="leadership-page-thumb object-fit">
+					<figure class="leadership-page-thumb object-fit" data-animation="fade-in-up">
 						<img src="images/firstname-image-one@2x.jpg" alt="firstname-image1">
 					</figure>
 				</div>
 				<div class="leadership-page-text">
 					<h2>Firstname Lastname</h2>
 					<span class="role-position">Role / Position</span>
-					<div class="leadership-page-sub-row flex">
-						<div class="leadership-page-content-left">
-							<p>Far far away, behind the word <br>mountains, far from the countries<br> Vokalia and Consonantia,</p>
+					<div class="leadership-page-content flex">
+						<div class="leadership-content-text">
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
 						</div>
-						<div class="leadership-page-content-right">
-						    <p>Separated they live in Bookmarksgrove right at<br> the coast of the Semantics, a large ocean. Far<br> far away, behind the word mountains, far from <br>the countries Vokalia and Consonantia, there live the blind texts."</p>
+						<div class="leadership-content-desc">
+						    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					    </div>
 				    </div>
 			    </div>
 			</div>
-			<div class="leadership-page-row flex">
+			<div class="leadership-page-row flex flex-vcenter">
 				<div class="leadership-page-image">
-					<figure class="leadership-page-thumb object-fit">
+					<figure class="leadership-page-thumb object-fit" data-animation="fade-in-up">
 						<img src="images/firstname-image-two@2x.jpg" alt="firstname-image1">
 					</figure>
 				</div>
 				<div class="leadership-page-text">
 					<h2>Firstname Lastname</h2>
 					<span class="role-position">Role / Position</span>
-					<div class="leadership-page-sub-row flex">
-						<div class="leadership-page-content-left">
-							<p>Far far away, behind the word <br>mountains, far from the countries<br> Vokalia and Consonantia,</p>
+					<div class="leadership-page-content flex">
+						<div class="leadership-content-text">
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
 						</div>
-						<div class="leadership-page-content-right">
-						    <p>Separated they live in Bookmarksgrove right at<br> the coast of the Semantics, a large ocean. Far<br> far away, behind the word mountains, far from <br>the countries Vokalia and Consonantia, there live the blind texts."</p>
+						<div class="leadership-content-desc">
+						    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					    </div>
 				    </div>
 			    </div>
 			</div>
-			<div class="leadership-page-row flex">
+			<div class="leadership-page-row flex flex-vcenter">
 				<div class="leadership-page-image">
-					<figure class="leadership-page-thumb object-fit">
+					<figure class="leadership-page-thumb object-fit" data-animation="fade-in-up">
 						<img src="images/firstname-image-three@2x.jpg" alt="firstname-image1">
 					</figure>
 				</div>
 				<div class="leadership-page-text">
 					<h2>Firstname Lastname</h2>
 					<span class="role-position">Role / Position</span>
-					<div class="leadership--page-sub-row flex">
-						<div class="leadership-page-content-left">
-							<p>Far far away, behind the word <br>mountains, far from the countries<br> Vokalia and Consonantia,</p>
+					<div class="leadership-page-content flex">
+						<div class="leadership-content-text">
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
 						</div>
-						<div class="leadership-page-content-right">
-						    <p>Separated they live in Bookmarksgrove right at<br> the coast of the Semantics, a large ocean. Far<br> far away, behind the word mountains, far from <br>the countries Vokalia and Consonantia, there live the blind texts."</p>
+						<div class="leadership-content-desc">
+						    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					    </div>
 				    </div>
 			    </div>
 			</div>
-			<div class="leadership-page-row flex">
+			<div class="leadership-page-row flex flex-vcenter">
 				<div class="leadership-page-image">
-					<figure class="leadership-page-thumb object-fit">
+					<figure class="leadership-page-thumb object-fit" data-animation="fade-in-up">
 						<img src="images/firstname-image-four@2x.jpg" alt="firstname-image4">
 					</figure>
 				</div>
 				<div class="leadership-page-text">
 					<h2>Firstname Lastname</h2>
 					<span class="role-position">Role / Position</span>
-					<div class="leadership-page-sub-row flex">
-						<div class="leadership-page-content-left">
-							<p>Far far away, behind the word <br>mountains, far from the countries<br> Vokalia and Consonantia,</p>
+					<div class="leadership-page-content flex">
+						<div class="leadership-content-text">
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
 						</div>
-						<div class="leadership-page-content-right">
-						    <p>Separated they live in Bookmarksgrove right at<br> the coast of the Semantics, a large ocean. Far<br> far away, behind the word mountains, far from <br>the countries Vokalia and Consonantia, there live the blind texts."</p>
+						<div class="leadership-content-desc">
+						    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					    </div>
 				    </div>
 			    </div>
