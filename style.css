@@ -24,7 +24,6 @@ Text Domain: Bv Realty
 @import url("css/_home-slider-section.css");
 @import url("css/_repeater-section.css");
 @import url("css/_repeater-image-section.css");
-@import url("css/_footer.css");
 @import url("css/_color.css");
 @import url("css/_project-profile.css");
 @import url("css/_graph-performance.css");
@@ -36,3 +35,5 @@ Text Domain: Bv Realty
 @import url("css/_company.css");
 @import url("css/_flexible-default.css");
 @import url("css/_custom-animation.css");
+@import url("css/magnific-popup.css");
+@import url("css/_custom-video-popup.css");
