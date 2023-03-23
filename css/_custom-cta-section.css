@@ -7,7 +7,7 @@
 .custom-cta-content h2{font-size: 44px; line-height: 1.2; color: var(--white); font-weight: normal; margin-bottom: 30px;}
 .custom-cta-content h2 > span{font-size: 44px; line-height: 1.2; color: var(--white); font-weight: bold; display: block;}
 
-.custom-cta-section{background-color: #00052d; z-index: 1; position: relative;}
+/* .custom-cta-section{background-color: #00052d; z-index: 1; position: relative;} */
 .background-thumb{opacity: 0.05;}
 
 @media screen and (min-width:1024px) {

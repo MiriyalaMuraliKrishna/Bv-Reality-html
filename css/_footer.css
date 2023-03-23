@@ -1,13 +1,17 @@
 
-.footer-main{background-color: #00052d; z-index: 1; position: relative;}
+.footer-custom-section{background-color: #00052d; z-index: 1; position: relative;}
 
-.copyrights-main{padding: 31px 0 41px; border-top: solid 2px rgba(255, 255, 255, 0.1);}
-.copyrights-text{height: 100%; width: 50%;}
-.copyrights-nav{height: 100%; width: 50%; margin-top: 12px;}
-.copyrights-year{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
-.copyrights-logo{width: 92px; margin-right: 20px;}
+.copyrights-main{padding: 31px 0; border-top: solid 2px rgba(255, 255, 255, 0.1);}
+.copyrights-text{flex: 1; }
+.copyrights-nav{flex: 1; }
+.copyrights-year{flex: 1; font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
+.copyrights-logo{width: 126px; margin: 0 auto; }
 .copyrights-links{margin: 0; text-align: right; display: flex; justify-content: end; }
 .copyrights-links li{margin:0 0 0 15px;}
 .copyrights-links li::before{display: none;}
 .copyrights-links li > a{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
 .copyrights-links li > a:hover{color: var(--white); }
+
+  
+  
+  
