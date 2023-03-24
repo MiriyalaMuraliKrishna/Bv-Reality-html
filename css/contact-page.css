@@ -27,5 +27,4 @@ body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-co
 @media screen and (min-width:1024px) {
     .contact-page-form{max-width: 650px; width: 100%; margin-right: 176px; }
     .contact-page-content{width: calc( 100% - 955px); }
-    
 }

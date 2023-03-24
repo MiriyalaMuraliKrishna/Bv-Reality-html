@@ -216,58 +216,21 @@
 }
 
 .floating {
-  -webkit-animation: floating 3s infinite;
-          animation: floating 3s infinite;
-}
-@-webkit-keyframes floating {
-  0% {
-    transform: translateY(-6%);
-  }
-  50% {
-    transform: translateY(6%);
-  }
-  100% {
-    transform: translateY(-6%);
-  }
+  -webkit-animation: floating 3s linear;
+          animation: floating 3s linear;
 }
 @keyframes floating {
   0% {
-    transform: translateY(-6%);
+    transform: translateY(-12%);
   }
   50% {
-    transform: translateY(6%);
+    transform: translateY(-6%);
   }
   100% {
-    transform: translateY(-6%);
+    transform: translateY(0%);
   }
 }
 
-.floating-lg {
-  -webkit-animation: floatingLg 3s infinite;
-          animation: floatingLg 3s infinite;
-}
-@-webkit-keyframes floatingLg {
-  0% {
-    transform: translateY(-12%);
-  }
-  50% {
-    transform: translateY(6%);
-  }
-  100% {
-    transform: translateY(-12%);
-  }
-}
-@keyframes floatingLg {
-  0% {
-    transform: translateY(-12%);
-  }
-  50% {
-    transform: translateY(6%);
-  }
-  100% {
-    transform: translateY(-12%);
-  }
-}
 
 
 
@@ -297,19 +260,5 @@
     -webkit-transform:translateY(0);
     -ms-transform:translateY(0);
     transform:translateY(0);
-  }
-}
-
-.animation--from-0-to-100 {
-  animation: animation--from-0-to-100 0.3s linear;
- -webkit-transition:width 1.35s;
- transition:width 1.35s
-}
-@keyframes animation--from-0-to-100{
-  0%{
-    width: 0;
-  }
-  100%{
-    width: 100%;
   }
 }

@@ -1,0 +1,9 @@
+
+.default-content-wrap{padding: 90px 0 0;}
+.default-flex-image{margin: 86px 0 0;}
+.default-flex-image-bg{width: 1000vw; height: 100px; bottom: 0; left: -100vw; background-color: #eef6ff; position: absolute; z-index: -1;}
+
+
+
+.flexible-default-page .default-content-section:nth-child(2n + 1) .default-content-wrap{padding: 90px 0; }
+.flexible-default-page .communities-grid-wrap{padding: 58px 0 90px; }

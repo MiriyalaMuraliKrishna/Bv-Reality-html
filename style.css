@@ -11,10 +11,11 @@ Text Domain: Bv Realty
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@import url("css/_color.css");
 @import url("css/_reset.css");
 @import url("css/_header.css");
 @import url("css/_footer.css");
-@import url("css/_default-banner-section.css");
+@import url("css/_defafult-banner-section.css");
 @import url("css/_optional-feature.css");
 @import url("css/_flex-image-section.css");
 @import url("css/_confirmation-section.css");
@@ -24,16 +25,16 @@ Text Domain: Bv Realty
 @import url("css/_home-slider-section.css");
 @import url("css/_repeater-section.css");
 @import url("css/_repeater-image-section.css");
-@import url("css/_color.css");
 @import url("css/_project-profile.css");
 @import url("css/_graph-performance.css");
 @import url("css/_leadership-banner-section.css");
 @import url("css/_leadership-page-section.css");
-@import url("css/_contact-page.css");
 @import url("css/_communities.css");
 @import url("css/_custom-cta-section.css");
 @import url("css/_company.css");
-@import url("css/_flexible-default.css");
 @import url("css/_custom-animation.css");
 @import url("css/magnific-popup.css");
 @import url("css/_custom-video-popup.css");
+
+@import url("css/flexible-default-page.css");
+@import url("css/contact-page.css");
