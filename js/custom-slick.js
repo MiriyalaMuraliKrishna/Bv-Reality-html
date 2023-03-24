@@ -59,4 +59,15 @@ $(document).ready(function(){
         ]
     });
 
+    // if($(window).width() <= 768){
+    //     $('.logo-slider').slick({
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         arrows: false,
+    //         dots: true,
+    //         infinity: true,
+    //         focusOnSelect: true,
+    //     });
+    // }
+
 });

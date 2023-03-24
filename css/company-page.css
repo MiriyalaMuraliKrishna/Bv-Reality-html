@@ -6,27 +6,22 @@
 .company-test h1{font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white);}
 .company-test h1 > .big-text{font-weight: bold; display: block;}
 .company-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
-.company-num-count{gap: 44px; margin-top: 72px;}
-.num-count-list{max-width: 144px;}
+.company-num-count{gap: 60px; margin-top: 72px;}
 .num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
 .num-count-list img{margin-bottom: 30px;}
-.num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4);}
+.num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4); line-height: 24px; display: block;}
 
 .company-banner-content{padding: 79px 0 109px; }
-.company-content-list{flex: 0 0 50%; padding-right: 150px;}
-.company-content-list:nth-child(2){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2); }
 .company-content-list h6{font-family: 'Poppins', sans-serif; font-size: 19px; font-weight: 600; color: var(--white); margin-bottom: 14px; }
 .company-content-list p{font-size: 14px; font-weight: 300; color: rgba(255, 255, 255, 0.4); line-height: 1.43; }
 
 .dot-location{width: 11px; height: 11px; background-color: #00be66; border-radius: 50%; }
 .dot-location::before{content: ""; position: absolute; width: 120px; height: 120px; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); top: -54px; left: -54px; }
 
-
-
 /* logo slider section */
 .company-logo-wrap{padding: 94px 0; }
 .logo-slider-heading{margin-bottom: 43px; }
-.logo-slider-heading h6{font-size: 19px; font-weight: 600; color: var(--heading-color); font-family: 'Poppins', sans-serif; margin-bottom: 0; }
+.logo-slider-heading h6{font-size: 19px; font-weight: 600; color: var(--heading-color); font-family: 'Poppins', sans-serif; margin-bottom: 0;}
 .logo-slider-main{gap: 31px; }
 .logo-slider-item{flex: 0 0 200px;}
 .logo-slider-thumb img{max-width: 187px; max-height: 59px; }
@@ -69,12 +64,17 @@
 
 
 @media screen and (min-width:1024px) {
+    .num-count-list{flex: 0 0 20%;}
+    .company-content-list{flex: 0 0 50%; padding-right: 150px;}
+    .company-content-list:nth-child(2){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2);}
     .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
     .company-location{width: calc(100% - 690px); position: relative;}
 
     .dot-location.one{position: absolute; top: -13px; left: 34px; }
     .dot-location.two{position: absolute; left: 440px; top: 75px; }
     .dot-location.three{position: absolute; bottom: 173px; left: 220px; }
+        
+
 }
 
 @media screen and (max-width:1299px) and (min-width:1024px){
@@ -93,7 +93,7 @@
 }
 
 @media screen and (max-width:767px) and (min-width:200px){
-    .company-banner-wrap{padding: 91px 0;}
+    .company-banner-wrap{padding: 91px 0 25px;}
     .company-banner-main{flex-direction: column-reverse;}
     .company-location{min-height: 122px; margin-bottom: 60px;}
     .dot-location{width: 7px; height: 7px;}
@@ -103,5 +103,23 @@
 
     .company-test h1{font-size: 46px; font-weight: bold; line-height: 1.17;}
     .company-test h1 > .big-text{display: initial;}
+
+    .company-num-count{gap: 36px; margin-top: 60px;}
+    .num-count-list{flex: 0 0 100%; display: flex;}
+    .num-count-list img{margin-bottom: 0;}
+    .num-count-icon{width: 48px; margin-right: 25px;}
+    .num-count-text{width: calc(100% - 73px);}
+    .num-value{font-size: 36px;}
+    .num-count-list span{font-size: 17px;}
+
+    .company-banner-content{padding: 54px 0;}
+    .company-content-list{width: 100%; padding-bottom: 40px;}
+    .company-content-list:nth-child(2){width: 100%; padding: 40px 0 0 0; border-top: 1px solid rgba(255, 255, 255, 0.2);}
+
+    .company-grid-list{border-bottom: none; gap: 30px;}
+    .company-grid-content{flex: 0 0 100%; padding: 0;}
+    .company-grid-image{flex: 0 0 100%; justify-content: center; padding: 0; border-left:none;}
+    .reverse .company-grid-content{padding: 0; border-left: none;}
+    .reverse .company-grid-image{padding: 0; justify-content: center;}
 
 }
