@@ -9,6 +9,13 @@ $(document).ready(function(){
             $('.main-header').removeClass('fixed_header');
         }
     });
+    $('ul.communities-tab > li > a').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+        let attr = $(this).attr('data-value');
+        $(".communities-grid-main[data-target=" + attr + "]").fadeIn().removeClass('open');
+    });
 });
 let desktopScn = function(){
     if($(window).width() >= 1024){
