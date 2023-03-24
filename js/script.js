@@ -13,8 +13,9 @@ $(document).ready(function(){
         e.preventDefault();
         $(this).parent().siblings().find('a').removeClass('active');
         $(this).addClass('active');
+        $(".communities-grid-row").hide().removeClass('open');
         let attr = $(this).attr('data-value');
-        $(".communities-grid-main[data-target=" + attr + "]").fadeIn().removeClass('open');
+        $(".communities-grid-row[data-target=" + attr + "]").fadeIn(500).removeClass('open');
     });
 });
 let desktopScn = function(){
