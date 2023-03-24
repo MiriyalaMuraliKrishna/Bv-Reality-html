@@ -3,8 +3,8 @@
 .company-banner-wrap{padding: 289px 0 0;}
 
 .company-test .sub-text{font-size: 19px; font-weight: 600; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
-.company-test h1 { font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white); text-transform: capitalize;}
-.company-test h1 > .big-text{font-weight: bold; }
+.company-test h1{font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white);}
+.company-test h1 > .big-text{font-weight: bold; display: block;}
 .company-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
 .company-num-count{gap: 44px; margin-top: 72px;}
 .num-count-list{max-width: 144px;}
@@ -86,8 +86,19 @@
     .reverse .company-grid-content{padding: 90px 0 0 45px;}
     .reverse .company-grid-image{padding: 90px 45px 0 0;}
 
-    .featured-project-main{gap: 27px;}
+    .featured-project-main{gap: 17px;}
     .featured-project-list{width: 310px;}
     .featured-project-content{padding: 30px;}
     .featured-project-content h3{font-size: 32px;}
+}
+
+@media screen and (max-width:767px) and (min-width:200px){
+    .company-banner-wrap{padding: 91px 0;}
+    .company-banner-main{flex-direction: column-reverse;}
+    .company-location{min-height: 122px;}
+    .dot-location{width: 7px; height: 7px;}
+    .dot-location.one{position: absolute; top: 0; left: 184px;}
+    .dot-location.two{position: absolute; top: 45px; left: 280px;}
+    .dot-location.three{position: absolute; bottom: 0; left: 42px;}
+
 }
