@@ -23,45 +23,54 @@
 			<div class="logo">
 				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
 			</div>
+			<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
 			<nav class="navigation">
 				<ul class="main_menu flex">
-					<li><a href="#">company</a></li>
-					<li><a href="#">ourcommunities</a>
+					<li class="current-menu-item"><a href="#">company</a></li>
+					<li class="menu-item-has-children"><a href="#">ourcommunities</a>
 						<ul class="sub-menu">
 							<li><a href="#">sample sub-page</a></li>
-							<li><a href="#">another sample page</a></li>
+							<li class="menu-item-has-children"><a href="#">another sample page</a>
+								<ul class="sub-menu">
+									<li><a href="#">sample sub-page</a></li>
+									<li><a href="#">another sample page</a></li>
+									<li><a href="#">third page sample</a></li>
+								</ul>
+							</li>
 							<li><a href="#">third page sample</a></li>
 						</ul>
 					</li>
 					<li><a href="#">contact</a></li>
 				</ul>
+				<div class="call-to-action">
+					<p>Need an Extra <strong>Call to Action?</strong></p>
+					<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+				</div>
 			</nav>
-			</div>
+		</div>
 	</div>
-	</header>
+</header>
 <div class="site-main-cover">
-	
 <section class="page-not-found-section pos-relative">
-    <div class="page-not-found-bg">
-	    <picture class="page-not-found-thumb object-fit">
+    <div class="page-not-found-bg background-bg">
+	    <picture class="page-not-bg-banner object-fit">
 	        <source srcset="images/confirmation-bg-image@2x.jpg"  media="(min-width: 768px)"/>
-	        <img src="images/line-art-banner.svg" alt="line-art-banner">
+	        <img src="images/confirmation-bg-image@2x.jpg" alt="confirmation-bg-image">
         </picture>
     </div>
     <div class="container">
-    <div class="page-not-found-main">
-	    <div class="page-not-found-test flex">
-	        <div class="page-not-found-desc">
-		        <h1>Oops! Looks like your lost.</h1>
-		        <p>Far far away, behind the word mountains, far from the<br> countries Vokalia and Consonantia.</p>
-                <a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
-            </div>
-	        <div class="page-not-found-icon pos-relative flex flex-center">
-				<figure class="page-not-found-thumb object-fit">
-					<img src="images/warning-icon.svg" alt="icon">
-				</figure>
-			</div>
-        </div>
+    <div class="page-not-found-main flex">
+		<div class="page-not-found-icon pos-relative flex flex-center">
+			<figure class="page-not-found-thumb object-img-fit">
+				<img src="images/warning-icon.svg" alt="icon">
+			</figure>
+			<div class="page-not-found-glow"></div>
+		</div>
+		<div class="page-not-found-desc">
+			<h1>Oops! Looks like your lost.</h1>
+			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+			<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
+		</div>
     </div>
 </div>
 <section class="footer-custom-section pos-relative">
@@ -84,6 +93,7 @@
 			</div>
 		</div>
 	</footer>
+</section>
 </section>
 </div><!-- site-main-cover ends here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

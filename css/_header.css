@@ -1,9 +1,9 @@
-.main-header{width: 100%;top: 25px;left: 0;position: absolute; z-index: 800;transition-duration: .75s;transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);transition-property: transform;transition-delay: 0s;}
+.main-header{width: 100%;top: 0;left: 0;position: absolute; z-index: 800;transition-duration: .75s;transition-timing-function: cubic-bezier(0.075,0.82,0.165,1);transition-property: transform;transition-delay: 0s;}
 .logo a{width: 100%; display: inline-block;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .header{gap: 238px; padding: 83px 0; align-items: flex-end;}
+    .header{gap: 238px; padding: 113px 0 120px; align-items: flex-end;}
     .logo{flex: 0 0 272px;}
     nav.navigation{flex: 0 0 calc(100% - 510px);}
     .toogle-btn{display: none;}
