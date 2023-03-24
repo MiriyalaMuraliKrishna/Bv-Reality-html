@@ -9,6 +9,14 @@ $(document).ready(function(){
             $('.main-header').removeClass('fixed_header');
         }
     });
+    $('ul.communities-tab > li > a').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().siblings().find('a').removeClass('active');
+        $(this).addClass('active');
+        $(".communities-grid-row").hide().removeClass('open');
+        let attr = $(this).attr('data-value');
+        $(".communities-grid-row[data-target=" + attr + "]").fadeIn(500).removeClass('open');
+    });
 });
 let desktopScn = function(){
     if($(window).width() >= 1024){
