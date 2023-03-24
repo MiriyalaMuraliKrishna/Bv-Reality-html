@@ -77,7 +77,8 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-img.four{position: absolute; top: 88px; left: 128px; }
     
     .communities-heading{width: calc( 100% + 40px); margin:0 0 22px -20px;}
-    .communities-tab li{width: 50%; font-size: 17px; line-height: 1.76; padding-bottom: 21px;}
+    ul.communities-tab > li{width: 50%; font-size: 17px; line-height: 1.76; padding-bottom: 17px;}
+    ul.communities-tab > li > a {padding-bottom: 10px;}
     .communities-grid-main{gap: 28px;}
     .communities-grid-list{flex: 0 0 48%; min-height: 359px; max-height: 359px;}
     .communities-grid-thumb{height: 100%;}
@@ -98,7 +99,8 @@ ul.communities-tab > li > a.active::after{width: 100%;}
 
     .communities-grid-wrap{padding: 22px 0 80px;}
     .communities-heading{width: calc( 100% + 40px); margin:0 0 22px -20px;}
-    .communities-tab li{width: 50%; font-size: 17px; line-height: 1.76; padding-bottom: 21px;}
+    ul.communities-tab > li{width: 50%; font-size: 17px; line-height: 1.76; padding-bottom: 17px;}
+    ul.communities-tab > li > a {padding-bottom: 10px;}
 
     .communities-grid-main{gap: 20px;}
     .communities-grid-list{flex: 0 0 100%; min-height: 359px; max-height: 359px;}

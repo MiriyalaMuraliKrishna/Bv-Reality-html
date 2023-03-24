@@ -163,5 +163,6 @@
     .featured-project-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
     .featured-project-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
     .featured-project-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
+    .featured-project-slider ul.slick-dots li::before{display: none;}
 
 }
