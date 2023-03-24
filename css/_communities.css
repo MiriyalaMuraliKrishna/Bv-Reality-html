@@ -41,8 +41,7 @@
 .communities-grid-content .button{margin-top: auto; max-width: fit-content; }
 .communities-grid-content .button:hover{background-color: var(--green-color); border-color: var(--green-color);}
 
-.communities-grid-list:nth-child(2){flex: 0 0 65%; max-height: 429px; overflow: hidden; }
-.communities-grid-list:nth-child(6){flex: 0 0 65%; max-height: 429px; overflow: hidden; }
+
 
 
 @media screen and (min-width: 1024px) {
@@ -53,6 +52,9 @@
     .communities-img.two{position: absolute; left: 450px; top: -79px;}
     .communities-img.three{position: absolute; bottom: 60px; left: 283px;}
     .communities-img.four{position: absolute; bottom: -62px; left: 70px;}
+
+    .communities-grid-list:nth-child(2){flex: 0 0 65%; max-height: 429px; overflow: hidden; }
+    .communities-grid-list:nth-child(6){flex: 0 0 65%; max-height: 429px; overflow: hidden; }
 }
 
 
@@ -65,6 +67,16 @@
 
 }
 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .communities-heading{width: calc( 100% + 40px); margin:0 0 22px -20px;}
+    .communities-tab li{width: 50%; font-size: 17px; line-height: 1.76; padding-bottom: 21px;}
+    .communities-grid-main{gap: 28px;}
+    .communities-grid-list{flex: 0 0 48%; min-height: 359px; max-height: 359px;}
+    .communities-grid-thumb{height: 100%;}
+    .communities-grid-content{padding: 30px;}
+    .communities-grid-content h3{font-size: 34px;}
+
+}
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .communities-page-wrap{padding: 92px 0 80px;}
     .communities-image{width: 100%; min-height: 200px; margin-bottom: 46px;}
@@ -81,8 +93,8 @@
     .communities-tab li{width: 50%; font-size: 17px; line-height: 1.76; padding-bottom: 21px;}
 
     .communities-grid-main{gap: 20px;}
-    .communities-grid-list{flex: 0 0 100%;}
-    .communities-grid-list:nth-child(2), .communities-grid-list:nth-child(6){flex: 0 0 100%; min-height: 359px;}
+    .communities-grid-list{flex: 0 0 100%; min-height: 359px; max-height: 359px;}
+    /* .communities-grid-list:nth-child(2), .communities-grid-list:nth-child(6){flex: 0 0 100%; min-height: 359px;} */
     .communities-grid-thumb{height: 100%;}
     .communities-grid-content{padding: 40px 39px 45px 41px;}
     .communities-grid-content h3{font-size: 30px; line-height: 1.33;}
