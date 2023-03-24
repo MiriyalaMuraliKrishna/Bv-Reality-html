@@ -60,3 +60,18 @@ $(document).ready(function(){
     });
 
 });
+
+let mobileScn = function(){
+    if($(window).width() <= 767){
+        $('.featured-project-slider').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false,
+            dots: true,
+            infinity: true,
+            focusOnSelect: true,
+        });
+    }
+}
+$(document).on('ready', function () { mobileScn(); });
