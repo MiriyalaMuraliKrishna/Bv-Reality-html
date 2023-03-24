@@ -27,7 +27,7 @@
 .communities-tab{margin: 0;}
 .communities-tab li{width: 430px; text-align: center; margin: 0;}
 .communities-tab li::before{display: none; }
-.communities-tab li > a{color: #a3a5b9; font-size: 19px; font-weight: 600; line-height: 1.58; padding-bottom: 42px; }
+.communities-tab li > a{color: #a3a5b9; font-size: 19px; font-weight: 600; line-height: 1.58; padding-bottom: 42px; display: inline-block;}
 .communities-tab li > a:hover{color: var(--heading-color); }
 .communities-tab li.active > a{color: var(--heading-color); }
 .communities-tab li.active{border-bottom: 5px solid var(--green-color);}
