@@ -1,6 +1,5 @@
 var $ = jQuery.noConflict();
-$(document).ready(function(){
-  
+$(document).ready(function(){  
     $('.full-width-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -58,7 +57,6 @@ $(document).ready(function(){
             }
         ]
     });
-
 });
 
 let mobileScn = function(){
@@ -75,3 +73,4 @@ let mobileScn = function(){
     }
 }
 $(document).on('ready', function () { mobileScn(); });
+

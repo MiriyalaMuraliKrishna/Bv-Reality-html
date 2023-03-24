@@ -9,11 +9,10 @@
 
 .project-test h1{font-size: 74px; font-weight: bold; color: var(--white); line-height: 1.12;}
 .project-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
-.project-num-count{gap: 44px; margin-top: 40px;}
-.num-count-list{max-width: 144px;}
+.project-num-count{gap: 60px; margin-top: 40px;}
 .num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
 .num-count-list img{margin-bottom: 30px;}
-.num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4);}
+.num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4); line-height: 24px; display: block;}
 
 /* project sub heading */
 
@@ -80,3 +79,8 @@
 .more-communities-slider .slick-arrow{position: absolute; top: -101px; font-size: 29px; }
 .more-communities-slider .slick-arrow.slick-next{right: 0;}
 .more-communities-slider .slick-arrow.slick-prev{right: 17.4%;}
+
+
+@media screen and (min-width:1024px) {
+    .num-count-list{flex: 0 0 20%;}
+}
