@@ -3,32 +3,34 @@
 .confirmation-page .footer-custom-section{background-color: transparent;}
 .error404 .footer-custom-section{background-color: transparent;}
 .copyrights-main{padding: 31px 0; border-top: solid 2px rgba(255, 255, 255, 0.1);}
-.copyrights-text{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
+.copyrights-text{font-size: 11px; line-height: 15px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
 
-.copyrights-links{margin: 0; text-align: right; display: flex; justify-content: end; }
-.copyrights-links li{margin:0 0 0 15px;}
-.copyrights-links li::before{display: none;}
-.copyrights-links li > a{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
-.copyrights-links li > a:hover{color: var(--white); }
+ul.copyrights-links{margin: 0;}
+ul.copyrights-links li{margin: 0;}
+ul.copyrights-links li::before{display: none;}
+ul.copyrights-links li > a{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
+ul.copyrights-links li > a:hover{color: var(--white); }
 
 /*-- media css starts here --*/
 @media screen and (min-width:1024px) {
-    .copyrights-logo{width: 126px; margin: 0 auto; order: 2;}
-    .copyrights-text{flex: 1; order: 1;}
-    .copyrights-nav{flex: 1; order: 3; }
+    .copyrights-main{gap: 30px;}
+    .copyrights-logo{flex: 0 0 126px; order: 2;}
+    .copyrights-text{flex: 0 0 calc(50% - 93px); order: 1;}
+    .copyrights-nav{flex: 0 0 calc(50% - 93px); order: 3; }
+    ul.copyrights-links{gap: 15px; justify-content: flex-end;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .copyrights-text{padding-right: 80px;}
+    .copyrights-text{padding-right: 115px;}
 }
 @media screen and (max-width:1023px) and (min-width:768px){
-    .copyrights-main{padding: 39px 0;}
+    .copyrights-main{padding: 39px 0; display: block; text-align: center;}
     .copyrights-logo{max-width: 120px; margin: 0 auto 20px;}
-    .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; text-align: center;}
-    .copyrights-links{text-align: center; line-height: 1;}
+    .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px;}
+    ul.copyrights-links{justify-content: center;}
 }
 @media screen and (max-width:767px) and (min-width:200px){
-    .copyrights-main{padding: 39px 0;}
+    .copyrights-main{padding: 39px 0; display: block; text-align: center;}
     .copyrights-logo{max-width: 92px; margin: 0 auto 38px;}
-    .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; justify-content: center;}
-    .copyrights-links{justify-content: center; line-height: 1;}
+    .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px;}
+    ul.copyrights-links{justify-content: center;}
 }
