@@ -1,5 +1,6 @@
 
 .footer-custom-section{background-color: var(--heading-color); z-index: 1; position: relative;}
+.confirmation-page .footer-custom-section{background-color: transparent;}
 .error404 .footer-custom-section{background-color: transparent;}
 .copyrights-main{padding: 31px 0; border-top: solid 2px rgba(255, 255, 255, 0.1);}
 .copyrights-text{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
@@ -10,12 +11,13 @@
 .copyrights-links li > a{font-size: 11px; font-weight: 500; letter-spacing: 0.42px; color: rgba(255, 255, 255, 0.33); text-transform: uppercase;}
 .copyrights-links li > a:hover{color: var(--white); }
 
-
+/*-- media css starts here --*/
 @media screen and (min-width:1024px) {
     .copyrights-logo{width: 126px; margin: 0 auto; order: 2;}
     .copyrights-text{flex: 1; order: 1;}
     .copyrights-nav{flex: 1; order: 3; }
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     /* .copyrights-text p{padding-right: 70px; line-height: 2;} */
@@ -28,6 +30,13 @@
     .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; justify-content: center;}
     .copyrights-links{justify-content: center; line-height: 1;}
 
+=======
+@media screen and (max-width:1023px) and (min-width:768px){
+    .copyrights-main{padding: 39px 0;}
+    .copyrights-logo{max-width: 120px; margin: 0 auto 20px;}
+    .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; text-align: center;}
+    .copyrights-links{text-align: center; line-height: 1;}
+>>>>>>> ac28211e6d13b48645fa178efac4709630b0fd93
 }
 @media screen and (max-width:767px) and (min-width:200px) {
     .copyrights-main{padding: 39px 0;}
