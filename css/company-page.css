@@ -34,7 +34,6 @@
 .company-grid-content{flex: 0 0 50%; padding: 0 147px 134px 0;}
 .company-grid-content h3{font-size: 42px; font-weight: bold; line-height: 1.26; color: var(--heading-color);}
 .company-grid-image{padding: 0 0 134px 147px; border-left: solid 1px rgba(0, 0, 0, 0.1);}
-.company-grid-thumb{max-width: 413px; }
 .company-grid-thumb img{max-width: 413px; }
 
 .company-grid-list.reverse{flex-direction: row-reverse;}
@@ -153,10 +152,16 @@
     .leadership-content .button{margin-top: -12px;}
 
     .featured-project-main{gap: 21px;}
-    .featured-project-list{width: 309px;}
+    .featured-project-list{width: 309px; margin-right: 20px;}
     .featured-project-category{margin-bottom: 17px;}
     .featured-project-category a{font-weight: 400;}
     .featured-project-content h3{font-size: 26px; line-height: 1.46;}
     .featured-project-content{padding: 45px 38px 60px 40px;}
+    .featured-project-slider .slick-list{overflow: inherit;}
+    .featured-project-slider ul.slick-dots{list-style: none; margin: 0; width: auto; display: flex; justify-content: end; position: absolute; top: -91px; right: 50px;}
+    .featured-project-slider ul.slick-dots li { margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
+    .featured-project-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
+    .featured-project-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
+    .featured-project-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
 
 }
