@@ -1,6 +1,5 @@
 var $ = jQuery.noConflict();
-$(document).ready(function(){
-  
+$(document).ready(function(){  
     $('.full-width-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -58,7 +57,24 @@ $(document).ready(function(){
             }
         ]
     });
-
-
-
 });
+
+<<<<<<< HEAD
+
+=======
+let mobileScn = function(){
+    if($(window).width() <= 767){
+        $('.featured-project-slider').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false,
+            dots: true,
+            infinity: true,
+            focusOnSelect: true,
+        });
+    }
+}
+$(document).on('ready', function () { mobileScn(); });
+>>>>>>> 181284b35ce96e10cd001a8ceda4de4074655d6f
+

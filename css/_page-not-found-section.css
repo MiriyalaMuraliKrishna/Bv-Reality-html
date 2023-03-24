@@ -1,7 +1,7 @@
 
 .page-not-found-desc{color: var(--white-90); text-align: right;}
 .page-not-found-desc p{margin-bottom: 30px; font-size: 19px;}
-.page-not-found-glow{top: 0; left: 0; position: absolute; width: 349px; height: 349px; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); z-index: -1;}
+.page-not-found-glow{top: 0; left: 0; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); z-index: -1;}
 
 
 /*-- media css starts here --*/
@@ -11,6 +11,7 @@
     .page-not-found-desc h1{font-size: 74px; line-height: 1.12; margin-bottom: 20px;}
     .page-not-found-icon{flex: 0 0 349px;}
     .page-not-found-thumb{width: 100px;}
+    .page-not-found-glow{width: 349px; height: 349px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .page-not-found-main{padding: 267px 0 118px;}
@@ -20,7 +21,8 @@
     .page-not-found-desc{text-align: center;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .page-not-found-main{padding: 87px 0 100px; display: block;}
+    .page-not-found-main{padding: 155px 0 100px; display: block;}
+    .page-not-found-glow{width: 254px; height: 254px; right: 0; margin: 0 auto; top: 50%; transform: translateY(-50%);}
     .page-not-found-icon{display: block; margin-bottom: 76px;}
     .page-not-found-thumb{max-width: 73px; margin: 0 auto;}
     .page-not-found-desc{text-align: center;}
