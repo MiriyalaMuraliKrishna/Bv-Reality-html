@@ -43,12 +43,10 @@
 
 /* Leadership section */
 .leadership-wrap{padding: 90px 0 40px; }
-.leadership-main{max-width: 890px; margin: 0 auto; }
-.leadership-heading{width: 417px; margin-right: 30px; }
 .leadership-image{gap: 30px; margin-bottom: 20px;}
 .leadership-thumb{width: 62px;}
 .leadership-heading h2{font-size: 42px; font-weight: bold; line-height: 1.26; color: var(--heading-color); }
-.leadership-content{width: calc(100% - 447px); }
+
 
 /* More Communities */
 .featured-project-wrap{padding: 50px 0 0; margin-bottom: -75px; z-index: 2; position: relative;}
@@ -73,6 +71,10 @@
     .dot-location.one{position: absolute; top: -13px; left: 34px; }
     .dot-location.two{position: absolute; left: 440px; top: 75px; }
     .dot-location.three{position: absolute; bottom: 173px; left: 220px; }
+
+    .leadership-main{max-width: 890px; margin: 0 auto; }
+    .leadership-heading{width: 417px; margin-right: 30px;}
+    .leadership-content{width: calc(100% - 447px);}
         
 
 }
@@ -116,10 +118,29 @@
     .company-content-list{width: 100%; padding-bottom: 40px;}
     .company-content-list:nth-child(2){width: 100%; padding: 40px 0 0 0; border-top: 1px solid rgba(255, 255, 255, 0.2);}
 
-    .company-grid-list{border-bottom: none; gap: 30px;}
+    .company-grid-wrap{padding: 24px 0 80px;}
+    .company-grid-main{gap: 80px;}
+    .company-grid-list{border-bottom: none; gap: 50px;}
     .company-grid-content{flex: 0 0 100%; padding: 0;}
     .company-grid-image{flex: 0 0 100%; justify-content: center; padding: 0; border-left:none;}
     .reverse .company-grid-content{padding: 0; border-left: none;}
     .reverse .company-grid-image{padding: 0; justify-content: center;}
+    .company-grid-content h3{font-size: 32px; line-height: 1.38;}
+    .company-grid-content .button{margin-top: -12px;}
+
+    .leadership-wrap{padding: 80px 0;}
+    .leadership-main{max-width: 100%;}
+    .leadership-heading{width: 100%; margin-right: 0;}
+    .leadership-image{margin-bottom: 30px;}
+    .leadership-content{width: 100%;}
+    .leadership-heading h2{font-size: 32px; line-height: 1.38; margin-bottom: 19px;}
+    .leadership-content .button{margin-top: -12px;}
+
+    .featured-project-main{gap: 21px;}
+    .featured-project-list{width: 309px; height: 417px;}
+    .featured-project-category{margin-bottom: 17px;}
+    .featured-project-category a{font-weight: 400;}
+    .featured-project-content h3{font-size: 26px; line-height: 1.46;}
+    .featured-project-content{padding: 45px 38px 60px 40px;}
 
 }
