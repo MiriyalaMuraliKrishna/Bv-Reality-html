@@ -95,10 +95,13 @@
 @media screen and (max-width:767px) and (min-width:200px){
     .company-banner-wrap{padding: 91px 0;}
     .company-banner-main{flex-direction: column-reverse;}
-    .company-location{min-height: 122px;}
+    .company-location{min-height: 122px; margin-bottom: 60px;}
     .dot-location{width: 7px; height: 7px;}
     .dot-location.one{position: absolute; top: 0; left: 184px;}
     .dot-location.two{position: absolute; top: 45px; left: 280px;}
     .dot-location.three{position: absolute; bottom: 0; left: 42px;}
+
+    .company-test h1{font-size: 46px; font-weight: bold; line-height: 1.17;}
+    .company-test h1 > .big-text{display: initial;}
 
 }
