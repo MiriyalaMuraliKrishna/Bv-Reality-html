@@ -19,33 +19,44 @@
 </head>
 <body>
 <header class="main-header">
-<div class="container">
-	<div class="header flex">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+	<div class="container">
+		<div class="header flex">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+			</div>
+			<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
+			<nav class="navigation">
+				<ul class="main_menu flex">
+					<li class="current-menu-item"><a href="#">company</a></li>
+					<li class="menu-item-has-children"><a href="#">ourcommunities</a>
+						<ul class="sub-menu">
+							<li><a href="#">sample sub-page</a></li>
+							<li class="menu-item-has-children"><a href="#">another sample page</a>
+								<ul class="sub-menu">
+									<li><a href="#">sample sub-page</a></li>
+									<li><a href="#">another sample page</a></li>
+									<li><a href="#">third page sample</a></li>
+								</ul>
+							</li>
+							<li><a href="#">third page sample</a></li>
+						</ul>
+					</li>
+					<li><a href="#">contact</a></li>
+				</ul>
+				<div class="call-to-action">
+					<p>Need an Extra <strong>Call to Action?</strong></p>
+					<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+				</div>
+			</nav>
 		</div>
-		<nav class="navigation">
-			<ul class="main_menu flex">
-				<li><a href="#">Company</a></li>
-				<li><a href="#">Our Communities</a>
-					<ul class="sub-menu">
-						<li><a href="#">sample sub-page</a></li>
-						<li><a href="#">another sample page</a></li>
-						<li><a href="#">third page sample</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-    </div>
-</div>
+	</div>
 </header>
 <div class="flexible-default-page site-main-cover">
 <section class="default-banner-section pos-relative">
-<div class="default-banner-image">
+<div class="default-banner-image background-bg">
 	<picture class="default-banner-thumb object-fit">
 		<source srcset="images/flexible-default-bg-image@2x.jpg" media="(min-width: 768px)"/>
-		<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+		<img src="images/flexible-banner-mobile@2x.jpg" alt="flexible-banner-mobile"/>
 	</picture>
 </div>
 <div class="container">

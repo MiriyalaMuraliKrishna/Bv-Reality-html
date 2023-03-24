@@ -1,6 +1,4 @@
-
-
-.default-banner-image{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0; }
+.default-banner-section{z-index: 1;}
 .default-banner-main{padding: 271px 0 124px;}
 .banner-left-line{width: 3px; height: calc(100% - 17px); left: 0; bottom: 0; background-color: var(--green-color); position: absolute;}
 .default-banner-text{color: var(--white); font-weight: 300;}
@@ -11,9 +9,11 @@
     .default-banner-text .button{margin-top: 5px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .default-banner-text{padding-left: 30px; font-size: 19px; line-height: 30px;}
+    .default-banner-text{padding-left: 53px; font-size: 19px; line-height: 30px;}
     .default-banner-text .button{margin-top: 5px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    
+    .default-banner-main { padding: 271px 0 108px; }
+    .default-banner-text{padding-left: 43px;}
+    .default-banner-text p:not(:last-child){margin-bottom: 19px;}
 }
