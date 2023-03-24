@@ -62,7 +62,7 @@ $(document).ready(function(){
 let mobileScn = function(){
     if($(window).width() <= 767){
         $('.featured-project-slider').slick({
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             variableWidth: true,
             arrows: false,
