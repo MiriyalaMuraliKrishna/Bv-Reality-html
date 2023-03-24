@@ -59,9 +59,6 @@ $(document).ready(function(){
     });
 });
 
-<<<<<<< HEAD
-
-=======
 let mobileScn = function(){
     if($(window).width() <= 767){
         $('.featured-project-slider').slick({
@@ -76,5 +73,4 @@ let mobileScn = function(){
     }
 }
 $(document).on('ready', function () { mobileScn(); });
->>>>>>> 181284b35ce96e10cd001a8ceda4de4074655d6f
 
