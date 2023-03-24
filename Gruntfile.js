@@ -8,13 +8,13 @@ module.exports = function(grunt) {
       concat: config('concat'),
       uglify: config('uglify'),
       cssmin: config('cssmin'),
-    //   cssmin: {
-    //     target: {
-    //       files: {
-    //         'core.bundle.css': ['css/*.css']
-    //       }
-    //     }
-    //   },
+      cssmin: {
+        target: {
+          files: {
+            'core.bundle.css': ['css/*.css']
+          }
+        }
+      },
       uglify: {
         my_target: {
           files: {
@@ -48,6 +48,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
  
     // Default task(s).
-    grunt.registerTask('default', ['concat', 'uglify', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'watch']);
 
   };

@@ -21,12 +21,13 @@
     .copyrights-main{padding: 39px 0;}
     .copyrights-logo{max-width: 120px; margin: 0 auto 20px;}
     .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; text-align: center;}
-    .copyrights-links{text-align: center; justify-content: center; line-height: 1;}
+    .copyrights-links{text-align: center; line-height: 1;}
 
 }
 @media screen and (max-width:767px) and (min-width:200px) {
     .copyrights-main{padding: 39px 0;}
     .copyrights-logo{max-width: 92px; margin: 0 auto 38px;}
+    .copyrights-year{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; text-align: center;}
     .copyrights-text{font-size: 10px; letter-spacing: 0.38px; line-height: 1; margin-bottom: 8px; text-align: center;}
-    .copyrights-links{text-align: center; justify-content: center; line-height: 1;}
+    .copyrights-links{text-align: center; line-height: 1;}
 }
