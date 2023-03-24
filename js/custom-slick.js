@@ -73,4 +73,3 @@ let mobileScn = function(){
     }
 }
 $(document).on('ready', function () { mobileScn(); });
-

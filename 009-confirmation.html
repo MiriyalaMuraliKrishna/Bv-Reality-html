@@ -19,73 +19,80 @@
 </head>
 <body>
 <header class="main-header">
-<div class="container">
-	<div class="header flex">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+	<div class="container">
+		<div class="header flex">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+			</div>
+			<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
+			<nav class="navigation">
+				<ul class="main_menu flex">
+					<li class="current-menu-item"><a href="#">company</a></li>
+					<li class="menu-item-has-children"><a href="#">ourcommunities</a>
+						<ul class="sub-menu">
+							<li><a href="#">sample sub-page</a></li>
+							<li class="menu-item-has-children"><a href="#">another sample page</a>
+								<ul class="sub-menu">
+									<li><a href="#">sample sub-page</a></li>
+									<li><a href="#">another sample page</a></li>
+									<li><a href="#">third page sample</a></li>
+								</ul>
+							</li>
+							<li><a href="#">third page sample</a></li>
+						</ul>
+					</li>
+					<li><a href="#">contact</a></li>
+				</ul>
+				<div class="call-to-action">
+					<p>Need an Extra <strong>Call to Action?</strong></p>
+					<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+				</div>
+			</nav>
 		</div>
-		<nav class="navigation">
-			<ul class="main_menu flex">
-        		<li><a href="#">company</a></li>
-				<li><a href="#">ourcommunities</a>
-					<ul class="sub-menu">
-						<li><a href="#">sample sub-page</a></li>
-						<li><a href="#">another sample page</a></li>
-						<li><a href="#">third page sample</a></li>
-					</ul>
-				</li>
-				<li><a href="#">contact</a></li>
-			</ul>
-        </nav>
-    </div>
-</div>
+	</div>
 </header>
-
-
-<div class="site-main-cover">
-
-<section class="confirmation-page-section pos-relative">
-    <div class="confirmation-page-bg">
-	    <picture class="confirmation-page-thumb object-fit">
-	        <source srcset="images/confirmation-bg-image@2x.jpg"  media="(min-width: 768px)"/>
-	        <img src="images/line-art-banner.svg" alt="line-art-banner">
-        </picture>
-    </div>
-    <div class="container">
-    <div class="confirmation-page-main">
-	    <div class="confirmation-test flex">
-			<div class="confirmation-page-icon pos-relative flex flex-center">
-				<span class="fa-duotone fa-check tick-icon"></span>
-			</div>
-	        <div class="confirmation-desc">
-		        <h1>Confirmation Page</h1>
-		        <p>Far far away, behind the word mountains, far from the<br> countries Vokalia and Consonantia.</p>
-		        <a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="footer-custom-section pos-relative">
-	<footer class="footer-main pos-relative">
+<div class="confirmation-page site-main-cover">
+	<section class="confirmation-page-section pos-relative">
+		<div class="confirmation-page-bg background-bg">
+			<picture class="confirmation-page-thumb object-fit">
+				<source srcset="images/confirmation-bg-image@2x.jpg"  media="(min-width: 768px)"/>
+				<img src="images/line-art-banner.svg" alt="line-art-banner">
+			</picture>
+		</div>
 		<div class="container">
-			<div class="copyrights-main flex">
-				<div class="copyrights-logo">
-					<figure class="object-fit">
-						<img src="images/footer-logo.svg" alt="logo">
-					</figure>
-				</div>
-				<div class="copyrights-text flex flex-vcenter">
-					<p>© Copyright 2023 BV Realty Partners LP.<span>All rights reserved.</span></p>
-				</div>	
-				<div class="copyrights-nav flex flex-vcenter">
-					<ul class="copyrights-links flex">
-						<li><a href="#">Privacy Policy</a></li>
-					</ul>
-				</div>
+		<div class="confirmation-page-main flex">
+			<div class="confirmation-page-icon pos-relative flex flex-center">
+				<span class="fa-duotone fa-check tick-icon" data-animation="fade-in-up"></span>
+				<div class="confirmation-icon-glow" data-animation="fade-in-glow"></div>
+			</div>
+			<div class="confirmation-page-desc">
+				<h1>Confirmation Page</h1>
+				<p>Far far away, behind the word mountains, far from the<br> countries Vokalia and Consonantia.</p>
+				<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
 			</div>
 		</div>
-	</footer>
-</section>
+		<section class="footer-custom-section pos-relative">
+			<footer class="footer-main pos-relative">
+				<div class="container">
+					<div class="copyrights-main flex">
+						<div class="copyrights-logo">
+							<figure class="object-fit">
+								<img src="images/footer-logo.svg" alt="logo">
+							</figure>
+						</div>
+						<div class="copyrights-text flex flex-vcenter">
+							<p>© Copyright 2023 BV Realty Partners LP.<span>All rights reserved.</span></p>
+						</div>	
+						<div class="copyrights-nav flex flex-vcenter">
+							<ul class="copyrights-links flex">
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+	</section>
 </div><!-- site-main-cover ends here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>

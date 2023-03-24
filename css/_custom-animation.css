@@ -262,3 +262,17 @@
     transform:translateY(0);
   }
 }
+
+.fade-in-glow{
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  opacity: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
