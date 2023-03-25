@@ -10,7 +10,8 @@
 .contact-icon-text{font-size: 16px; font-weight: 300; line-height: 1.88; color: var(--white); width:calc(100% - 33px);}
 .contact-icon-text address span{font-weight: bold; }
 .contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
-.phone-list{margin: 0; }
+.phone-list{margin: 0;}
+.phone-list > li::before{display: none;}
 .frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
 
 body .frm_first.frm_half{margin-left: 0; }
@@ -27,4 +28,37 @@ body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-co
 @media screen and (min-width:1024px) {
     .contact-page-form{max-width: 650px; width: 100%; margin-right: 176px; }
     .contact-page-content{width: calc( 100% - 955px); }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .contact-page-form{max-width: 600px; width: 100%; margin-right: 50px; }
+    .contact-page-content{width: calc(100% - 650px);}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .contact-page-wrap{padding: 150px 0 80px;}
+    .contact-page-main.flex{gap: 60px;}
+    .contact-page-form{width: 100%;}
+    .contact-page-content{width: 100%;}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .contact-page-wrap{padding: 129px 0 70px;}
+    .contact-location{width: 100%; height: 50px;}
+    .contact-page .dot-location.one{position: absolute; top: 0; left: 199px;}
+    .contact-page .dot-location{width: 7px; height: 7px;}
+
+    .contact-heading{max-width: 100%; padding-left: 45px; margin-bottom: 46px;}
+    .contact-heading h1{font-size: 46px; line-height: 1.17;}
+
+    .contact-page-main{gap: 50px;}
+    .contact-page-form{width: 100%;}
+    body .frm_form_field{margin-bottom: 10px;}
+    body .frm_half{width: 100%; margin: 0 0 10px 0;}
+    body .frm_form_field.vertical_radio label{line-height: 1.86;}
+    body .frm_form_field.vertical_radio{margin: 23px 0 21px 0; }
+    .contact-page-content{width: 100%;}
+    .contact-page-content h2{font-size: 26px; line-height: 1.46; margin-bottom: 16px;}
+
 }
