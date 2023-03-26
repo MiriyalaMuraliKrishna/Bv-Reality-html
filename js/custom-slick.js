@@ -17,14 +17,16 @@ $(document).ready(function(){
             breakpoint: 1024,
                 settings: {
                     centerPadding: '100px',        
-                    variableWidth: false,
+                    variableWidth: true,
+                    arrows: false,
                 }
             },
             {
-            breakpoint: 767,
+            breakpoint: 768,
                 settings: {
                     centerPadding: '30px',  
-                    variableWidth: false,
+                    variableWidth: true,
+                    arrows: false,
                 }
             }
         ]
@@ -45,14 +47,16 @@ $(document).ready(function(){
             breakpoint: 1024,
                 settings: {
                     centerPadding: '100px',        
-                    variableWidth: false,
+                    variableWidth: true,
+                    arrows: false,
                 }
             },
             {
-            breakpoint: 767,
+            breakpoint: 768,
                 settings: {
                     centerPadding: '30px',  
-                    variableWidth: false,
+                    variableWidth: true,
+                    arrows: false,
                 }
             }
         ]

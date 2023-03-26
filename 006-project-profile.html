@@ -48,7 +48,7 @@
 	<div class="project-banner-bg">
 		<picture class="project-banner-thumb object-fit">
 			<source srcset="images/confirmation-bg-image@2x.jpg"  media="(min-width: 768px)"/>
-			<img src="images/line-art-banner.svg" alt="line-art-banner">
+			<img src="images/communities-banner-bg-mobile@2x.jpg" alt="line-art-banner">
 		</picture>
 	</div>
 	<div class="container">
@@ -58,32 +58,45 @@
 			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
 			<div class="project-num-count flex">
 				<div class="num-count-list">
-					<img src="images/location-icon.svg" alt="location-icon">
-					<div class="num-value">+200</div>
-					<span>Completed Projects</span>
+					<div class="num-count-icon">
+						<img src="images/location-icon.svg" alt="location-icon">
+					</div>
+					<div class="num-count-text">
+						<div class="num-value">+200</div>
+						<span>Completed Projects</span>
+					</div>
 				</div>
 				<div class="num-count-list">
-					<img src="images/member-icon.svg" alt="member-icon">
-					<div class="num-value">24</div>
-					<span>Team Members</span>
+					<div class="num-count-icon">
+						<img src="images/member-icon.svg" alt="member-icon">
+					</div>
+					<div class="num-count-text">
+						<div class="num-value">24</div>
+						<span>Team Members</span>
+					</div>
 				</div>
 				<div class="num-count-list">
-					<img src="images/location-icon.svg" alt="location-icon">
-					<div class="num-value">12</div>
-					<span>Offices in Canada</span>
+					<div class="num-count-icon">
+						<img src="images/location-icon.svg" alt="location-icon">
+					</div>
+					<div class="num-count-text">
+						<div class="num-value">12</div>
+						<span>Offices in Canada</span>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="project-image">
-			<figure class="object-fit project-image-thumb">
+			<picture class="object-fit project-image-thumb">
+				<source srcset="images/project-profile-thumb@2x.jpg" media="(min-witdh: 768px)"/>
 				<img src="images/project-profile-thumb@2x.jpg" alt="project-profile-thumb">
-			</figure>
+			</picture>
 		</div>
 	</div>
 </section>
 
 <section class="project-sub-heading">
-	<div class="container-md">
+	<div class="container md">
 		<div class="project-sub-heading-wrap">
 			<div class="project-sub-heading-main flex">
 				<div class="project-title">
@@ -94,25 +107,27 @@
 				<div class="project-facts">
 					<span class="facts-heading">Quick Facts</span>
 					<ul>
-						<li class="flex"><span class="facts-title">Location:</span>15 Holmes Ave., North York</li>
-						<li class="flex"><span class="facts-title">Parcel Count:</span>3 Parcels</li>
-						<li class="flex"><span class="facts-title">Status: </span>Built</li>
-						<li class="flex"><span class="facts-title">Design:</span>32-storey Condo Tower</li>
-						<li class="flex"><span class="facts-title">Unit Count:</span>358</li>
-						<li class="flex"><span class="facts-title">Builder/Partner:</span>Capital Developments</li>
-						<li class="flex"><span class="facts-title">Architect:</span>IBI Group</li>
+						<li class="flex"><span class="facts-title">Location:</span><span class="facts-content">15 Holmes Ave., North York</span></li>
+						<li class="flex"><span class="facts-title">Parcel Count:</span><span class="facts-content">3 Parcels</span></li>
+						<li class="flex"><span class="facts-title">Status: </span><span class="facts-content">Built</span></li>
+						<li class="flex"><span class="facts-title">Design:</span><span class="facts-content">32-storey Condo Tower</span></li>
+						<li class="flex"><span class="facts-title">Unit Count:</span><span class="facts-content">358</span></li>
+						<li class="flex"><span class="facts-title">Builder/Partner:</span><span class="facts-content">Capital Developments</span></li>
+						<li class="flex"><span class="facts-title">Architect:</span><span class="facts-content">IBI Group</span></li>
 					</ul>
 				</div>
 			</div>
 			<div class="big-image">
-				<div class="fluid-container pos-relative">
-					<div class="container">
-						<figure class="object-fit big-image-thumb">
-							<img src="images/short-headline-image@2x.jpg" alt="short-headline-image">
-						</figure>
-						<div class="big-image-caption">
-							<h6>Image Title / Caption</h6>
-							<span>Short description</span>
+				<div class="container">
+					<div class="fluid-container pos-relative">
+						<div class="big-image-main pos-relative">
+							<figure class="object-fit big-image-thumb">
+								<img src="images/short-headline-image@2x.jpg" alt="short-headline-image">
+							</figure>
+							<div class="big-image-caption">
+								<h6>Image Title / Caption</h6>
+								<span>Short description</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -176,7 +191,7 @@
 
 <section class="graph-performance pos-relative">
 	<div class="graph-bg">
-		<picture class="object-fit graph-thumb">
+		<picture class="object-fit graph-bg-thumb">
 			<source srcset="images/confirmation-bg-image@2x.jpg" media="(min-width: 768px)">
 			<img src="images/confirmation-bg-image@2x.jpg" alt="confirmation-bg-image">
 		</picture>
@@ -184,7 +199,32 @@
 	<div class="container">
 		<div class="graph-performance-wrap">
 			<div class="graph-content flex">
-				<div class="graph-location"></div>
+				<div class="graph-location pos-relative">
+					<div class="graph-img active one">
+						<figure class="object-fit graph-thumb pos-relative">
+							<img src="images/avatar-one@2x.png" alt="avatar-one">
+						</figure>
+						<div class="dot pos-relative"></div>
+					</div>
+					<div class="graph-img two hide-tablet hide-mobile">
+						<figure class="object-fit graph-thumb pos-relative">
+							<img src="images/avatar-two@2x.png" alt="avatar-two">
+						</figure>
+						<div class="dot pos-relative"></div>
+					</div>
+					<div class="graph-img active three">
+						<figure class="object-fit graph-thumb pos-relative">
+							<img src="images/avatar-three@2x.png" alt="avatar-three">
+						</figure>
+						<div class="dot pos-relative"></div>
+					</div>
+					<div class="graph-img four">
+						<figure class="object-fit graph-thumb pos-relative">
+							<img src="images/avatar-four@2x.png" alt="avatar-four">
+						</figure>
+						<div class="dot pos-relative"></div>
+					</div>
+				</div>
 				<div class="graph-text">
 					<span class="graph-sub-title">Optional Subtitle</span>
 					<h2><span class="big-text">Graphical</span> Performance Description Text</h2>
@@ -242,33 +282,30 @@
 <section class="full-width-section">
 	<div class="full-width-wrap">
 		<div class="full-width-main full-width-slider">
-			<div class="full-width-slide">
-				<div class="full-width-list">
-					<figure class="object-fit full-width-thumb">
-						<img src="images/full-width-thumb-one@2x.jpg" alt="full-width-thumb-one">
-					</figure>
-				</div>
+			<div class="full-width-list">
+				<picture class="object-fit full-width-thumb">
+					<source srcset="images/full-width-thumb-one@2x.jpg" media="(min-width: 767px)"/>
+					<img src="images/full-width-thumb-one@2x.jpg" alt="full-width-thumb-one">
+				</picture>
 			</div>
-			<div class="full-width-slide">
-				<div class="full-width-list">
-					<figure class="object-fit full-width-thumb">
-						<img src="images/full-width-thumb-two@2x.jpg" alt="full-width-thumb-two">
-					</figure>
-				</div>
+			<div class="full-width-list">
+				<picture class="object-fit full-width-thumb">
+					<source srcset="images/full-width-thumb-two@2x.jpg" media="(min-width: 767px)"/>
+					<img src="images/full-width-thumb-two@2x.jpg" alt="full-width-thumb-two">
+				</picture>
 			</div>
-			<div class="full-width-slide">
-				<div class="full-width-list">
-					<figure class="object-fit full-width-thumb">
-						<img src="images/full-width-thumb-three@2x.jpg" alt="full-width-thumb-three">
-					</figure>
-				</div>
+			<div class="full-width-list">
+				<picture class="object-fit full-width-thumb">
+					<source srcset="images/full-width-thumb-three@2x.jpg" media="(min-width: 767px)"/>
+					<img src="images/full-width-thumb-three@2x.jpg" alt="full-width-thumb-three">
+				</picture>
 			</div>
 		</div>
 	</div>
 </section>
 
 <section class="project-second-section">
-	<div class="container-md">
+	<div class="container md">
 		<div class="project-second-wrap">
 			<h2>Short headline as H2</h2>
 			<p>This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files.</p>
@@ -276,24 +313,26 @@
 			<h3>Short headline as H3</h3>
 			<p>This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files. The Design Files offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here. This website is operated by the Design Files. Throughout the site, the terms “we”, “us” and “our” refer to the Design Files.</p>
 			<div class="two-grid-section">
-				<div class="fluid-container pos-relative">
-					<div class="two-grid-main flex">
-						<div class="two-grid-list pos-relative">
-							<figure class="object-fit two-grid-thumb">
-								<img src="images/short-headline-thumb-one@2x.jpg" alt="short-headline-thumb-one">
-							</figure>
-							<div class="two-grid-caption">
-								<h6>Image Title / Caption</h6>
-								<span>Short description</span>
+				<div class="container">
+					<div class="fluid-container pos-relative">
+						<div class="two-grid-main flex">
+							<div class="two-grid-list pos-relative">
+								<figure class="object-fit two-grid-thumb">
+									<img src="images/short-headline-thumb-one@2x.jpg" alt="short-headline-thumb-one">
+								</figure>
+								<div class="two-grid-caption">
+									<h6>Image Title / Caption</h6>
+									<span>Short description</span>
+								</div>
 							</div>
-						</div>
-						<div class="two-grid-list pos-relative">
-							<figure class="object-fit two-grid-thumb">
-								<img src="images/short-headline-thumb-two@2x.jpg" alt="short-headline-thumb-two">
-							</figure>
-							<div class="two-grid-caption">
-								<h6>Image Title / Caption</h6>
-								<span>Short description</span>
+							<div class="two-grid-list pos-relative">
+								<figure class="object-fit two-grid-thumb">
+									<img src="images/short-headline-thumb-two@2x.jpg" alt="short-headline-thumb-two">
+								</figure>
+								<div class="two-grid-caption">
+									<h6>Image Title / Caption</h6>
+									<span>Short description</span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -316,26 +355,9 @@
 			</div>
 			<div class="more-communities-main flex more-communities-slider">
 				<div class="more-communities-list">
-					<div class="more-communities-thumb">
-						<figure class="object-fit">
-							<img src="images/communities-thumb-one@2x.jpg" alt="communities-thumb-one">
-						</figure>
-					</div>
-					<div class="more-communities-content flex">
-						<div class="more-communities-category flex">
-							<a href="#">Category</a>
-							<a href="#">Category</a>
-						</div>
-						<h3>Another Commnity Name</h3>
-						<a href="#" class="button">More<span class="fa-solid fa-caret-right right-arrow"></span></a>
-					</div>
-				</div>
-				<div class="more-communities-list">
-					<div class="more-communities-thumb">
-						<figure class="object-fit">
-							<img src="images/communities-thumb-two@2x.jpg" alt="communities-thumb-two">
-						</figure>
-					</div>
+					<figure class="object-fit more-communities-thumb">
+						<img src="images/communities-thumb-one@2x.jpg" alt="communities-thumb-one">
+					</figure>
 					<div class="more-communities-content flex">
 						<div class="more-communities-category flex">
 							<a href="#">Category</a>
@@ -345,11 +367,9 @@
 					</div>
 				</div>
 				<div class="more-communities-list">
-					<div class="more-communities-thumb">
-						<figure class="object-fit">
-							<img src="images/communities-thumb-three@2x.jpg" alt="communities-thumb-three">
-						</figure>
-					</div>
+					<figure class="object-fit more-communities-thumb">
+						<img src="images/communities-thumb-two@2x.jpg" alt="communities-thumb-two">
+					</figure>
 					<div class="more-communities-content flex">
 						<div class="more-communities-category flex">
 							<a href="#">Category</a>
@@ -359,11 +379,9 @@
 					</div>
 				</div>
 				<div class="more-communities-list">
-					<div class="more-communities-thumb">
-						<figure class="object-fit">
-							<img src="images/communities-thumb-three@2x.jpg" alt="communities-thumb-three">
-						</figure>
-					</div>
+					<figure class="object-fit more-communities-thumb">
+						<img src="images/communities-thumb-three@2x.jpg" alt="communities-thumb-three">
+					</figure>
 					<div class="more-communities-content flex">
 						<div class="more-communities-category flex">
 							<a href="#">Category</a>
@@ -373,11 +391,21 @@
 					</div>
 				</div>
 				<div class="more-communities-list">
-					<div class="more-communities-thumb">
-						<figure class="object-fit">
-							<img src="images/communities-thumb-three@2x.jpg" alt="communities-thumb-three">
-						</figure>
+					<figure class="object-fit more-communities-thumb">
+						<img src="images/communities-thumb-three@2x.jpg" alt="communities-thumb-three">
+					</figure>
+					<div class="more-communities-content flex">
+						<div class="more-communities-category flex">
+							<a href="#">Category</a>
+						</div>
+						<h3>Another Commnity Name</h3>
+						<a href="#" class="button">More<span class="fa-solid fa-caret-right right-arrow"></span></a>
 					</div>
+				</div>
+				<div class="more-communities-list">
+					<figure class="object-fit more-communities-thumb">
+						<img src="images/communities-thumb-three@2x.jpg" alt="communities-thumb-three">
+					</figure>
 					<div class="more-communities-content flex">
 						<div class="more-communities-category flex">
 							<a href="#">Category</a>
