@@ -239,7 +239,7 @@
 
 
 
-.animation-smooth-out {
+.animation-smooth-out{
   animation: animation-smooth-out 3s;
   -webkit-transition:opacity 0.7s cubic-bezier(.694,0,.335,1),transform 0.7s cubic-bezier(.694,0,.335,1);
   -o-transition:opacity 0.7s cubic-bezier(.694,0,.335,1),transform 0.7s cubic-bezier(.694,0,.335,1);
