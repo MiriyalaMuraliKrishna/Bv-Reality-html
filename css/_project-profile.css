@@ -158,8 +158,9 @@
     .project-sub-heading h3{font-size: 26px; margin-bottom: 16px;}
 
     .full-width-wrap{padding-bottom: 60px;}
-    .full-width-list{width: 371px; margin: 0 30px; height: 263px !important;}
-
+    .full-width-list{width: 371px; margin: 0 30px;}
+    .full-width-thumb img{height: 263px;}
+    
     .project-second-wrap{padding-bottom: 79px;}
     .project-second-section h2{font-size: 32px; line-height: 1.38; margin-bottom: 16px;}
     .project-second-section h3{font-size: 26px; margin-bottom: 16px;}
