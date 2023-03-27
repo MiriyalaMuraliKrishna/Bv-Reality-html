@@ -23,18 +23,32 @@
 <header class="main-header">
 	<div class="container">
 		<div class="header flex">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+			</div>
+			<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
 			<nav class="navigation">
 				<ul class="main_menu flex">
-					<li><a href="#">company</a></li>
-					<li><a href="#">our communities</a>
+					<li class="current-menu-item"><a href="#">company</a></li>
+					<li class="menu-item-has-children"><a href="#">ourcommunities</a>
 						<ul class="sub-menu">
 							<li><a href="#">sample sub-page</a></li>
-							<li><a href="#">another sample page</a></li>
+							<li class="menu-item-has-children"><a href="#">another sample page</a>
+						        <ul class="sub-menu">
+							        <li><a href="#">sample sub-page</a></li>
+							        <li><a href="#">another sample page</a></li>
+							        <li><a href="#">third page sample</a></li>
+					        	</ul>					
+					        </li>
 							<li><a href="#">third page sample</a></li>
-						</ul>					
+						</ul>
 					</li>
 					<li><a href="#">contact</a></li>
 				</ul>
+				<div class="call-to-action">
+					<p>Need an Extra <strong>Call to Action?</strong></p>
+					<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+				</div>
 			</nav>
 		</div>
 	</div>
@@ -44,15 +58,15 @@
 	<div class="home-banner-image">
 		<picture class="home-banner-thumb object-fit">
 			<source srcset="images/Home-bg-image@2x.jpg" media="(min-width: 768px)"/>
-			<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+			<img src="images/home-bg-image-mobile@2x.jpg" alt="home-bg-image"/>
 		</picture>
 	</div>
 	<div class="container">
 		<div class="home-banner-main">
 			<div class="home-banner-text">
 			    <p>Sample Pre-Heading</p>
-			    <h1>Building Value is the <br>core of our business.</h1>
-				<a href="#" class="button">Optional Button</a>
+			    <h1>Building Value is the core of our business.</h1>
+				<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
 			</div>
 		</div>
 	</div>
@@ -61,26 +75,26 @@
 	<div class="captivating-banner-bg">
 		<picture class="captivating-banner-thumb object-fit">
 			<source srcset="images/captivating-bg-image@2x.jpg" media="(min-width: 768px)"/>
-			<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+			<img src="images/captivating-bg-mobile@2x.jpg" alt="captivating-bg"/>
 		</picture>
 	</div>
 	<div class="container">
 	    <div class="captivating-banner-main">
 			<div class="captivating-banner-text">
 				<p>Sample Pre-Heading</p>
-				<h2><strong>Captivating heading for the social proof section<br> longer</strong> and more descriptive than usual.</h2>
-		    	<a href="#" class="button">Optional Button</a>
+				<h2>Captivating heading for the social proof section longer <span>and more descriptive than usual.</span></h2>
+		    	<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
 			</div>
 		</div>
 		<div class="captivating-row flex">
-			<div class="captivting-icons-list flex">
+			<div class="captivating-icons-list flex">
 			    <div class="captivating-list">
 				    <figure class="captivating-icon1">
 					    <img src="images/captivating-icon1.svg">
 				    </figure>
 				    <div class="captivating-text">
 					    <span class="number">+200</span>
-					    <p>Completed<br>Projects</p>
+					    <p>Completed Projects</p>
 				    </div>
 			    </div>
 			    <div class="captivating-list">
@@ -89,7 +103,7 @@
 				    </figure>
 				    <div class="captivating-text">
 					    <span class="number">24</span>
-					    <p>Team <br>Members</p>
+					    <p>Team Members</p>
 				    </div>
 			    </div>
 			    <div class="captivating-list">
@@ -98,7 +112,7 @@
 				    </figure>
 				    <div class="captivating-text">
 					    <span class="number">12</span>
-					    <p>Offices<br>in Canada</p>
+					    <p>Offices in Canada</p>
 				    </div>
 			    </div>
 	            <div class="captivating-text-right">
