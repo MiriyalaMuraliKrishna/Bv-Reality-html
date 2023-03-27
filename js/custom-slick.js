@@ -62,6 +62,39 @@ $(document).ready(function(){
         ]
     });
 
+    $('.home-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '200px',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        variableWidth: true,
+        infinity: true,
+        dots: true,
+        arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
+        responsive: [
+            {
+            breakpoint: 1024,
+                settings: {
+                    centerPadding: '100px',        
+                    variableWidth: true,
+                    arrows: false,
+                }
+            },
+            {
+            breakpoint: 768,
+                settings: {
+                    centerPadding: '30px',  
+                    variableWidth: true,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
     if($(window).width() <= 1023){
         $('.featured-project-slider').slick({
             slidesToShow: 1,
