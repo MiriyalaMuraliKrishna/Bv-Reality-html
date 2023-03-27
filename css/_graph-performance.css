@@ -61,7 +61,7 @@
     .graph-content{margin-bottom: 50px;}
     .graph-text{width: calc(100% - 400px); text-align: right;}
     .graph-sub-title{margin-bottom: 27px;}
-    .graph-text h2{font-size: 46px; margin-bottom: 25px;}
+    .graph-text h2{font-size: 41px; margin-bottom: 25px;}
 
     .graph-number{gap: 24px;}
     .graph-number-list{flex: 0 0 31%;}

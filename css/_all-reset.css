@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow-x: hidden; overflow-y: scroll; position: relative; scroll-behavior: smooth;}
+body{font-family: 'Poppins', sans-serif; font-size: 16px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow: hidden;}
 a {color: var(--blue-color); text-decoration: none; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
@@ -40,9 +40,9 @@ ul {list-style: none; margin: 27px 0 56px 39px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 6px;}
 ul > li::before{content: "\f0da"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 0; left: -24px; font-size: 11px; font-weight: bold; color: var(--green-color); }
 li > ul {margin: 25px 0 26px 25px;}
-ol {counter-reset: section; list-style: none; margin: 32px 0 37px 58px;}
-ol > li {counter-increment: li; position: relative; margin-bottom: 9px;}
-ol > li:before{counter-increment: section; content: counter(section, decimal) "."; top: 0; left: -32px; color: var(--light-blue); position: absolute; font-size: 21px; line-height: normal; font-weight: 600;font-family: 'Urbanist', sans-serif; }
+ol {counter-reset: section; list-style: none; margin: 30px 0 37px 39px;}
+ol > li {counter-increment: li; position: relative; margin-bottom: 6px;}
+ol > li:before{counter-increment: section; content: counter(section, decimal); top: 5px; left: -24px; color: var(--green-color); position: absolute; font-size: 15px; line-height: normal; font-weight: bold; /*font-family: 'Urbanist', sans-serif;*/  font-family: 'Quicksand', sans-serif;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
@@ -177,4 +177,10 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 	.container{max-width: 100%; padding: 0 20px;}
 	.hide-mobile{display: none;}
 	h1{font-size: 46px; line-height: 54px; margin-bottom: 12px;} 
+	ul{margin: 27px 0 56px 23px;}
+	ul > li{margin-bottom: 12px; line-height: 1.5;}
+	ul > li::before{top: 2px;}
+	ol{margin: 30px 0 37px 21px; }
+	ol > li{ margin-bottom: 12px; line-height: 1.5; }
+	ol > li::before{left: -21px;}
 }
