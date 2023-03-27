@@ -13,6 +13,9 @@
     .optional-feature-text{flex: 0 0 calc(100% - 67px);}
 }
 
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .optional-feature-list{flex: 0 0 calc(50% - 60px);}
+}
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .optional-feature-main{padding: 80px 0;}
     .optional-feature-list{flex: 0 0 45%;}

@@ -21,6 +21,12 @@
 
 }
 
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .flexible-default-page .communities-grid-list{flex: 0 0 35%;}
+    .flexible-default-page .communities-grid-list:nth-child(2){flex: 0 0 60%;}
+}
+
+
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .flexible-default-page .default-banner-main{padding: 151px 0 108px;}
     .default-content-wrap{padding: 60px 0 0;}

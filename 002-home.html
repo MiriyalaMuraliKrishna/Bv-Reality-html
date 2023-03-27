@@ -23,18 +23,32 @@
 <header class="main-header">
 	<div class="container">
 		<div class="header flex">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+			</div>
+			<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
 			<nav class="navigation">
 				<ul class="main_menu flex">
-					<li><a href="#">company</a></li>
-					<li><a href="#">our communities</a>
+					<li class="current-menu-item"><a href="#">company</a></li>
+					<li class="menu-item-has-children"><a href="#">ourcommunities</a>
 						<ul class="sub-menu">
 							<li><a href="#">sample sub-page</a></li>
-							<li><a href="#">another sample page</a></li>
+							<li class="menu-item-has-children"><a href="#">another sample page</a>
+						        <ul class="sub-menu">
+							        <li><a href="#">sample sub-page</a></li>
+							        <li><a href="#">another sample page</a></li>
+							        <li><a href="#">third page sample</a></li>
+					        	</ul>					
+					        </li>
 							<li><a href="#">third page sample</a></li>
-						</ul>					
+						</ul>
 					</li>
 					<li><a href="#">contact</a></li>
 				</ul>
+				<div class="call-to-action">
+					<p>Need an Extra <strong>Call to Action?</strong></p>
+					<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+				</div>
 			</nav>
 		</div>
 	</div>
@@ -44,15 +58,15 @@
 	<div class="home-banner-image">
 		<picture class="home-banner-thumb object-fit">
 			<source srcset="images/Home-bg-image@2x.jpg" media="(min-width: 768px)"/>
-			<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+			<img src="images/home-bg-image-mobile@2x.jpg" alt="home-bg-image"/>
 		</picture>
 	</div>
 	<div class="container">
 		<div class="home-banner-main">
 			<div class="home-banner-text">
 			    <p>Sample Pre-Heading</p>
-			    <h1>Building Value is the <br>core of our business.</h1>
-				<a href="#" class="button">Optional Button</a>
+			    <h1><span>Building Value</span> is the core of our business.</h1>
+				<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
 			</div>
 		</div>
 	</div>
@@ -61,46 +75,48 @@
 	<div class="captivating-banner-bg">
 		<picture class="captivating-banner-thumb object-fit">
 			<source srcset="images/captivating-bg-image@2x.jpg" media="(min-width: 768px)"/>
-			<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+			<img src="images/captivating-bg-mobile@2x.jpg" alt="captivating-bg"/>
 		</picture>
 	</div>
-	<div class="container">
+	<div class="container md">
 	    <div class="captivating-banner-main">
 			<div class="captivating-banner-text">
 				<p>Sample Pre-Heading</p>
-				<h2><strong>Captivating heading for the social proof section<br> longer</strong> and more descriptive than usual.</h2>
-		    	<a href="#" class="button">Optional Button</a>
+				<h2>Captivating heading for the social proof section longer <span>and more descriptive than usual.</span></h2>
+		    	<a href="#" class="button">Optional Button<span class="fa-solid fa-caret-right right-arrow"></span></a>
 			</div>
 		</div>
-		<div class="captivating-row flex">
-			<div class="captivting-icons-list flex">
-			    <div class="captivating-list">
-				    <figure class="captivating-icon1">
-					    <img src="images/captivating-icon1.svg">
-				    </figure>
-				    <div class="captivating-text">
-					    <span class="number">+200</span>
-					    <p>Completed<br>Projects</p>
-				    </div>
-			    </div>
-			    <div class="captivating-list">
-				    <figure class="captivating-icon2">
-					    <img src="images/captivating-icon2.svg">
-				    </figure>
-				    <div class="captivating-text">
-					    <span class="number">24</span>
-					    <p>Team <br>Members</p>
-				    </div>
-			    </div>
-			    <div class="captivating-list">
-				    <figure class="captivating-icon3">
-					    <img src="images/captivating-icon3.svg">
-				    </figure>
-				    <div class="captivating-text">
-					    <span class="number">12</span>
-					    <p>Offices<br>in Canada</p>
-				    </div>
-			    </div>
+		<div class="captivating-row">
+			<div class="captivating-main flex">
+			    <div class="captivating-list-main flex">
+					<div class="captivating-list">
+						<div class="captivating-icon flex flex-vcenter">
+							<img src="images/captivating-icon1.svg">
+						</div>
+						<div class="captivating-text">
+							<span class="number">+200</span>
+							<p>Completed Projects</p>
+						</div>
+					</div>
+					<div class="captivating-list">
+						<div class="captivating-icon flex flex-vcenter">
+							<img src="images/captivating-icon2.svg">
+						</div>
+						<div class="captivating-text">
+							<span class="number">24</span>
+							<p>Team Members</p>
+						</div>
+					</div>
+					<div class="captivating-list">
+						<div class="captivating-icon flex flex-vcenter">
+							<img src="images/captivating-icon3.svg">
+						</div>
+						<div class="captivating-text">
+							<span class="number">12</span>
+							<p>Offices in Canada</p>
+						</div>
+					</div>
+				</div>
 	            <div class="captivating-text-right">
                     <p>Far far away, behind the word mountains, far from the countries<br> Vokalia and Consonantia, there live the blind texts. Separated they<br> live in Bookmarksgrove right at the coast of the Semantics, a large<br> ocean.</p>
 		        </div>
@@ -109,52 +125,52 @@
 </section>
 <section class="home-slider-section">
 	<div class="container">
-		<div class="home-slider-main flex">
-		    <div class="home-slider-list pos-relative">
-				<div class="home-slider-image">
-		            <picture class="home-slider-thumb object-fit">
-					    <source srcset="images/home-featured-thumb-one@2x.jpg" media="(min-width: 768px)"/>
-					    <img src="images/line-art-banner.svg" alt="line-art-banner"/>
-				    </picture>
-			    </div>
-                <div class="home-slider-content">
-					<p>Featured Project</p>
-            	    <h4>The Title Heading<br> Appears Here</h4>
-					<a href="#" class="button">Learn More</a>
-                </div>
-			</div>
-            
-            <div class="home-slider-list pos-relative">
-				<div class="home-slider-image">
-       	        <picture class="home-slider-thumb object-fit">
-       	            <source srcset="images/home-featured-thumb-two@2x.jpg" media="(min-width: 768px)"/>
-       	            <img src="images/line-art-banner.svg" alt="line-art-banner"/>
-       	        </picture>
+		<div class="fluid-container pos-relative">
+			<div class="home-slider-main flex">
+				<div class="home-slider-list pos-relative">
+					<picture class="home-slider-thumb object-fit">
+						<source srcset="images/home-featured-thumb-one@2x.jpg" media="(min-width: 768px)"/>
+						<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+					</picture>
+					<div class="home-slider-content">
+						<div class="home-slider-category flex">
+							<a href="#">Featured Project</a>
+						</div>
+						<h4>The Title Heading Appears Here</h4>
+						<a href="#" class="button">Learn More<span class="fa-solid fa-caret-right right-arrow"></span></a>
+					</div>
 				</div>
-			
-				<div class="home-slider-content">
-				    <p>Featured Project</p>
-                    <h4>The Title Heading<br> Appears Here</h4>
-					<a href="#" class="button">Learn More</a>
-                </div>
-         	</div>
-			<div class="home-slider-list pos-relative">
-				<div class="home-slider-image">
-				    <picture class="home-slider-thumb object-fit">
-					    <source srcset="images/home-featured-thumb-three@2x.jpg" media="(min-width: 768px)"/>
-					    <img src="images/line-art-banner.svg" alt="line-art-banner"/>
-				    </picture>
-			    </div>
-			    <div class="home-slider-content">
-				    <p>Featured Project</p>
-				    <h4>The Title Heading<br> Appears Here</h4>
-				    <a href="#" class="button">Learn More</a>
-			    </div>
-		   </div>
+				<div class="home-slider-list pos-relative">
+					<picture class="home-slider-thumb object-fit">
+						<source srcset="images/home-featured-thumb-two@2x.jpg" media="(min-width: 768px)"/>
+						<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+					</picture>
+					<div class="home-slider-content">
+						<div class="home-slider-category flex">
+							<a href="#">Featured Project</a>
+						</div>
+						<h4>The Title Heading Appears Here</h4>
+						<a href="#" class="button">Learn More<span class="fa-solid fa-caret-right right-arrow"></span></a>
+					</div>
+				 </div>
+				<div class="home-slider-list pos-relative">
+					<picture class="home-slider-thumb object-fit">
+						<source srcset="images/home-featured-thumb-three@2x.jpg" media="(min-width: 768px)"/>
+						<img src="images/line-art-banner.svg" alt="line-art-banner"/>
+					</picture>
+					<div class="home-slider-content">
+						<div class="home-slider-category flex">
+							<a href="#">Featured Project</a>
+						</div>
+						<h4>The Title Heading Appears Here</h4>
+						<a href="#" class="button">Learn More<span class="fa-solid fa-caret-right right-arrow"></span></a>
+					</div>
+			   </div>
+			</div>
 		</div>
     </div>
 </section>		
-<section class="repeater-section">
+<!-- <section class="repeater-section">
 <div class="container">
 	<div class="repeater-content-main">
 		<div class="repeater-row flex">
@@ -181,7 +197,49 @@
 		        </figure>
 		    </div>
 	    </div>
+</section> -->
+
+<section class="company-grid-section">
+	<div class="container">
+		<div class="company-grid-wrap">
+			<div class="company-grid-main flex">
+				<div class="company-grid-list flex">
+					<div class="company-grid-content">
+						<h3>Repeater Section with Video</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in right at the coast of the Semantics, a large ocean.</p>
+						<a href="#" class="button btn-black">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+					</div>
+					<div class="company-grid-image">
+						<div class="company-grid-inner pos-relative">
+							<figure class="object-fit company-grid-thumb">
+								<img src="images/repeater-thumb-one@2x.jpg" alt="repeater-thumb-one">
+							</figure>
+							<div class="play-btn-main flex flex-center">
+								<div class="play-btn pos-relative" data-animation="animation-smooth-out">
+									<a class="play-btn-bg flex flex-center open-popup" href="https://www.youtube.com/embed/plf5Qgi5zHg"><img src="images/play-icon.svg" alt="play-icon"></a>
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="company-grid-list flex reverse">
+					<div class="company-grid-content">
+						<h3>Repeater Section with Video</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in right at the coast of the Semantics, a large ocean.</p>
+						<a href="#" class="button btn-black">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+					</div>
+					<div class="company-grid-image flex">
+						<figure class="object-fit company-grid-thumb">
+							<img src="images/repeater-thumb-two@2x.jpg" alt="repeater-thumb-one">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
+
+
 <section class="footer-custom-section pos-relative">
 	<div class="background-bg footer-overlay">
 		<picture class="object-fit background-thumb">
