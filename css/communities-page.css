@@ -33,7 +33,7 @@
 .delay-one span{animation-delay: 0s;}
 .delay-two span{animation-delay: 2s; background: var(--white-20); opacity: 0;}
 .delay-three span{animation-delay: 4s;}
-.delay-four span{animation-delay: 0s; background: var(--white-20); opacity: 0;}
+.delay-four span{animation-delay: 8s; background: var(--white-20); opacity: 0;}
 
 .communities-img.active{width: 68px; }
 .communities-img.active .communities-thumb img{border-color: var(--green-color);}
