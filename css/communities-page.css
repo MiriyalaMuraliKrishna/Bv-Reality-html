@@ -79,8 +79,9 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-img.three{position: absolute; bottom: 60px; left: 283px;}
     .communities-img.four{position: absolute; bottom: -62px; left: 70px;}
 
-    .communities-grid-list:nth-child(2){flex: 0 0 65%; max-height: 429px; overflow: hidden; }
-    .communities-grid-list:nth-child(6){flex: 0 0 65%; max-height: 429px; overflow: hidden; }
+    .communities-grid-list:nth-child(2){flex: 0 0 65%;}
+    .communities-grid-list:nth-child(6){flex: 0 0 65%;}
+    .communities-grid-thumb{height: 100%;}
 }
 
 
