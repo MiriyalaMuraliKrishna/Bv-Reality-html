@@ -7,37 +7,33 @@
 .communities-thumb::before{content: "\f0d7"; position: absolute; font-size: 26px; font-weight: bold; font-family: "Font Awesome 6 Pro"; color: var(--white); bottom: 0; line-height: 0; left: 50%; transform: translateX(-50%);}
 .communities-thumb img{border: 3px solid var(--white); border-radius: 50%;}
 .communities-img{width: 56px; }
-.communities-dot{width: 11px; height: 11px; margin: 23px auto 0; background-color: var(--white); border-radius: 50%; position: relative; z-index: 1; animation: pulseDot 3s ease-out infinite;}
-.communities-dot::before{width: 120px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); animation: pulse 3s ease-out infinite;}
-.delay-one{animation-delay: -0.5s; }
-.delay-two{animation-delay: 3.5s; animation: pulseDoReverse 6s ease-out infinite;}
-.delay-three{animation-delay: 6.5s;} 
-.delay-four{animation-delay: 9.5s; animation: pulseDoReverse 9.5s ease-in-out infinite;}
-@keyframes pulseDot{
-    100%{
-        transform: scale(1);
+.communities-dot{width: 11px; height: 11px; margin: 23px auto 0; background-color: var(--white); border-radius: 50%; position: relative; z-index: 1; transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; transition-delay: 0s; }
+.communities-dot span{width: 120px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, var(--green-color), rgba(0, 190, 102, 0) 71%); animation: pulse 3s ease-out infinite; transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; transition-delay: 0s; border-radius: 50%;}
+.communities-dot span:nth-child(2){ animation-delay: 4s; opacity: 0; animation: pulseReverse 3s ease-out infinite; }
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.75;
     }
-    0%{
-        transform: scale(0.25);
-    }
-}
-@keyframes pulseDoReverse{
-    100%{
-        transform: scale(0.25);
-    }
-    0%{
-        transform: scale(1);
-    }
-}
-@keyframes pulse{
-    100%{
+    100% {
         transform: translate(-50%, -50%) scale(2);
         opacity: 0.2;
     }
-    50%{
-        opacity: 0.5;
+}
+@keyframes pulseReverse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0.2;
     }
 }
+.delay-one span{animation-delay: 0s;}
+.delay-two span{animation-delay: 2s; background: var(--white-20); opacity: 0;}
+.delay-three span{animation-delay: 4s;}
+.delay-four span{animation-delay: 0s; background: var(--white-20); opacity: 0;}
 
 .communities-img.active{width: 68px; }
 .communities-img.active .communities-thumb img{border-color: var(--green-color);}
