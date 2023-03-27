@@ -18,28 +18,39 @@
 <link rel="stylesheet" href="core.bundle.css" media="all"/>
 </head>
 <body>
-<header class="main-header">
-	<div class="container">
-		<div class="header flex">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+	<header class="main-header">
+		<div class="container">
+			<div class="header flex">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+				</div>
+				<a class="toogle-btn" href="javascript:void(0);" aria-hidden="false"><span></span></a>
+				<nav class="navigation">
+					<ul class="main_menu flex">
+						<li class="current-menu-item"><a href="#">company</a></li>
+						<li class="menu-item-has-children"><a href="#">ourcommunities</a>
+							<ul class="sub-menu">
+								<li><a href="#">sample sub-page</a></li>
+								<li class="menu-item-has-children"><a href="#">another sample page</a>
+									<ul class="sub-menu">
+										<li><a href="#">sample sub-page</a></li>
+										<li><a href="#">another sample page</a></li>
+										<li><a href="#">third page sample</a></li>
+									</ul>
+								</li>
+								<li><a href="#">third page sample</a></li>
+							</ul>
+						</li>
+						<li><a href="#">contact</a></li>
+					</ul>
+					<div class="call-to-action">
+						<p>Need an Extra <strong>Call to Action?</strong></p>
+						<a href="#" class="button">Optional Button <span class="fa-solid fa-caret-right right-arrow"></span></a>
+					</div>
+				</nav>
 			</div>
-			<nav class="navigation">
-				<ul class="main_menu flex">
-					<li><a href="#">company</a></li>
-					<li><a href="#">our communities</a>
-						<ul class="sub-menu">
-							<li><a href="#">sample sub-page</a></li>
-							<li><a href="#">another sample page</a></li>
-							<li><a href="#">third page sample</a></li>
-						</ul>
-					</li>
-					<li><a href="#">contact</a></li>
-				</ul>
-			</nav>
 		</div>
-	</div>
-</header>
+	</header>
 
 <div class="site-main-cover">
 		

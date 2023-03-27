@@ -12,6 +12,7 @@
 .contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
 .phone-list{margin: 0;}
 .phone-list > li::before{display: none;}
+.phone-list li > a > .contact-icon-text:hover{color: var(--green-color);}
 .frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
 
 body .frm_first.frm_half{margin-left: 0; }
