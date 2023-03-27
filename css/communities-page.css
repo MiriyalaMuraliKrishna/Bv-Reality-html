@@ -9,11 +9,10 @@
 .communities-img{width: 56px; }
 .communities-dot{width: 11px; height: 11px; margin: 23px auto 0; background-color: var(--white); border-radius: 50%; position: relative; z-index: 1; animation: pulseDot 3s ease-out infinite;}
 .communities-dot::before{width: 120px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); animation: pulse 3s ease-out infinite;}
-.delay-one{animation-delay: 0.5s;}
+.delay-one{animation-delay: -0.5s; }
 .delay-two{animation-delay: 3.5s; animation: pulseDoReverse 6s ease-out infinite;}
-.delay-three{animation-delay: 6.5s;}
+.delay-three{animation-delay: 6.5s;} 
 .delay-four{animation-delay: 9.5s; animation: pulseDoReverse 9.5s ease-in-out infinite;}
-
 @keyframes pulseDot{
     100%{
         transform: scale(1);

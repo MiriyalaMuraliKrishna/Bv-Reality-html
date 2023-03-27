@@ -58,8 +58,7 @@
 .featured-project-content .button{margin-top: auto; max-width: fit-content; }
 .featured-project-content .button:hover{background-color: #00be66; border-color: #00be66;}
 
-
-
+/*-- media css starts here --*/
 @media screen and (min-width:1024px) {
     .num-count-list{flex: 0 0 20%;}
     .company-content-list{flex: 0 0 50%; padding-right: 150px;}
