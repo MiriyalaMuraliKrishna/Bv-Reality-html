@@ -18,7 +18,6 @@ $(document).ready(function(){
                 settings: {
                     centerPadding: '100px',        
                     variableWidth: true,
-                    arrows: false,
                 }
             },
             {
@@ -26,11 +25,16 @@ $(document).ready(function(){
                 settings: {
                     centerPadding: '30px',  
                     variableWidth: true,
-                    arrows: false,
                 }
             }
         ]
     });
+    const $defaultDots = $(".full-width-slider ul.slick-dots");
+    if (typeof $defaultDots !== "undefined" && $defaultDots.length > 0){
+        $('div.slick-next').insertBefore('.slick-dots-container');
+        $defaultDots.wrap("<div class='default-dots-center aligncenter'><div class='default-dots-container'></div></div>");
+        $('.default-dots-container ul.slick-dots').before($('div.slick-arrow'));
+    }
 
 	$('.more-communities-slider').slick({
         slidesToShow: 4,
