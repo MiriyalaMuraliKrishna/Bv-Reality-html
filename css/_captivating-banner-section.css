@@ -10,6 +10,7 @@
 .captivating-text-right{color: #ffffff; font-size: 16px; line-height: 30px;}
 .number{font-size: 40px;}
 
+
 /*-- media css starts here --*/
 @media screen and (min-width:1024px) {
     .captivating-banner-text h2{margin-bottom: 29px; line-height: 53px; font-size: 44px; color: var(--white);}
