@@ -5,14 +5,13 @@
 .contact-heading h1{font-size: 74px; font-weight: bold; line-height: 1.12; color: var(--white); text-transform: capitalize;}
 .contact-heading p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); }
 
-.contact-page-content h2{font-size: 34px; font-weight: bold; line-height: 1.18; color: var(--white); }
-.contact-page-content p{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
-.contact-icon-text{font-size: 16px; font-weight: 300; line-height: 1.88; color: var(--white); width:calc(100% - 33px);}
-.contact-icon-text address span{font-weight: bold; }
+.contact-page-desc{margin-bottom: 30px;}
+.contact-page-desc h2{font-size: 34px; font-weight: bold; line-height: 1.18; color: var(--white); }
+.contact-page-desc{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
+.address-list:not(:last-child){margin-bottom: 18px;}
+.contact-icon-text{margin: 0; font-size: 16px; font-weight: 300; line-height: 1.88; color: var(--white); width:calc(100% - 33px);}
+.contact-icon-text p{margin-bottom: 0;}
 .contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
-.phone-list{margin: 0;}
-.phone-list > li::before{display: none;}
-.phone-list li > a > .contact-icon-text:hover{color: var(--green-color);}
 .frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
 
 body .frm_first.frm_half{margin-left: 0; }
@@ -27,39 +26,39 @@ body .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .
 body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-color: #00be66; border-color: #00be66;; }
 
 @media screen and (min-width:1024px) {
-    .contact-page-form{max-width: 650px; width: 100%; margin-right: 176px; }
-    .contact-page-content{width: calc( 100% - 955px); }
+    .contact-page-head{max-width: 1020px;}
+    .contact-dot-loc{right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
+    .contact-page-main{gap: 176px;}
+    .contact-page-form{flex: 0 0 650px;}
+    .contact-page-text{flex: 0 0 calc( 100% - 826px); max-width: 440px; }
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px){
-    .contact-page-form{max-width: 600px; width: 100%; margin-right: 50px; }
-    .contact-page-content{width: calc(100% - 650px);}
+    .contact-page-head{max-width: 750px;}
+    .contact-heading{padding-left: 40px;}
+    .contact-page-main{gap: 30px;}
+    .contact-page-form{flex: 0 0 550px;}
+    .contact-page-text{flex: 0 0 calc( 100% - 580px); max-width: 440px; }
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .contact-page-wrap{padding: 150px 0 80px;}
-    .contact-page-main.flex{gap: 60px;}
-    .contact-page-form{width: 100%;}
-    .contact-page-content{width: 100%;}
-
+    .contact-dot-loc{display: block; position: relative; margin: 0 auto 60px;}
+    .contact-heading{padding-left: 40px;}
+    .contact-page-main{display: block;}
+    .contact-page-form{margin-bottom: 60px;}
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px){
     .contact-page-wrap{padding: 129px 0 70px;}
     .contact-location{width: 100%; height: 50px;}
-    .contact-page .dot-location.one{position: absolute; top: 0; left: 199px;}
-    .contact-page .dot-location{width: 7px; height: 7px;}
-
+    .contact-dot-loc{display: block; position: relative; margin: 0 auto 60px;}
     .contact-heading{max-width: 100%; padding-left: 45px; margin-bottom: 46px;}
     .contact-heading h1{font-size: 46px; line-height: 1.17;}
 
-    .contact-page-main{gap: 50px;}
-    .contact-page-form{width: 100%;}
+    .contact-page-main{display: block;}
+    .contact-page-form{margin-bottom: 50px;}
+
     body .frm_form_field{margin-bottom: 10px;}
     body .frm_half{width: 100%; margin: 0 0 10px 0;}
     body .frm_form_field.vertical_radio label{line-height: 1.86;}
     body .frm_form_field.vertical_radio{margin: 23px 0 21px 0; }
-    .contact-page-content{width: 100%;}
-    .contact-page-content h2{font-size: 26px; line-height: 1.46; margin-bottom: 16px;}
-
+    .contact-page-text h2{font-size: 26px; line-height: 1.46; margin-bottom: 16px;}
 }
