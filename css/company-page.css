@@ -129,12 +129,7 @@
     .company-logo-wrap{padding: 53px 0 80px;}
     .logo-slider-item{width: 187px; margin: 0 25px;}
     .logo-slider .slick-list{overflow: inherit;}
-    .logo-slider ul.slick-dots{list-style: none; margin: 0; width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
-    .logo-slider ul.slick-dots li { margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
-    .logo-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
-    .logo-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
-    .logo-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
-    .logo-slider ul.slick-dots li::before{display: none;}
+    .logo-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
 
     .featured-project-wrap{padding: 0; margin-bottom: -117px;}
     .featured-project-main{gap: 21px;}
@@ -144,13 +139,7 @@
     .featured-project-content h3{font-size: 26px; line-height: 1.46;}
     .featured-project-content{padding: 45px 38px 60px 40px;}
     .featured-project-slider .slick-list{overflow: inherit;}
-    .featured-project-slider ul.slick-dots{list-style: none; margin: 0; width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
-    .featured-project-slider ul.slick-dots li { margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
-    .featured-project-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
-    .featured-project-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(255, 255, 255, 0.2); content: ""; position: absolute; border: none; transition: none; }
-    .featured-project-slider ul.slick-dots li.slick-active button::before{background-color: var(--white);}
-    .featured-project-slider ul.slick-dots li::before{display: none;}
-
+    .featured-project-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
     .company-page .custom-cta-main{padding: 115px 0 0; }
 
 }

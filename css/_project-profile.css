@@ -34,12 +34,8 @@
 .full-width-slider .slick-arrow{font-size: 30px; line-height: 30px; cursor: pointer;}
 .full-width-slider .slick-arrow.slick-prev{order: 1;}
 .full-width-slider .slick-arrow.slick-next{order: 3;}
-.full-width-slider ul.slick-dots{list-style: none; margin: 0; display: inline-flex; align-items: center; order: 1;}
-.full-width-slider ul.slick-dots li{margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
-.full-width-slider ul.slick-dots li::before{display: none;}
-.full-width-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
-.full-width-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
-.full-width-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
+.full-width-slider ul.slick-dots{display: inline-flex; align-items: center; order: 1;}
+
 
 /* two grid section */
 .two-grid-caption{position: absolute; bottom: 0; background: #00052d; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; }
@@ -60,12 +56,7 @@
 .more-communities-content .button{margin-top: auto; max-width: fit-content; }
 .more-communities-content .button:hover{background-color: #00be66; border-color: #00be66;}
 
-.more-communities-slider ul.slick-dots{list-style: none; margin: 0; width: auto; display: flex; justify-content: end; position: absolute; top: -91px; right: 50px;}
-.more-communities-slider ul.slick-dots li{margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
-.more-communities-slider ul.slick-dots li::before{display: none;}
-.more-communities-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
-.more-communities-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
-.more-communities-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
+.more-communities-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; top: -91px; right: 50px;}
 
 .more-communities-slider .slick-arrow{position: absolute; top: -101px; font-size: 29px; }
 .more-communities-slider .slick-arrow.slick-next{right: 0;}

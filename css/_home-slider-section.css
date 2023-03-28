@@ -3,14 +3,12 @@
 .home-slider-category a{font-size: 11.5px; font-weight: 400; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
 .home-slider-content h4{font-size: 38px; line-height: 1.37; color: var(--white); margin-bottom: 22px;}
 
-.home-slider ul.slick-dots{list-style: none; margin: 35px 0 0; width: auto; display: flex; justify-content: center; position: relative; }
-.home-slider ul.slick-dots li{margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
-.home-slider ul.slick-dots li::before{display: none;}
-.home-slider ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
-.home-slider ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
-.home-slider ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
+.home-slick-slider ul.slick-dots{margin-top: 30px; width: auto; display: flex; justify-content: center; position: relative; }
+
 
 @media screen and (min-width: 1024px) {
     .home-slider-main{gap: 60px;}
     .home-slider-list{flex: 0 0 calc(33.333% - 40px);}
+    .home-slick-slider.slick-slider{width: calc(100% + 60px);}
+    .home-slick-slider .slick-slide{margin-right: 60px;}
 }
