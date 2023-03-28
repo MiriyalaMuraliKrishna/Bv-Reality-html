@@ -96,22 +96,19 @@
     .two-grid-list:nth-child(even){transform: translateY(30px);}
 
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .project-text{margin-right: 50px;}
-    .project-image{width: calc(100% - 588px); margin-bottom: -120px;}
-    .project-banner-bg{height: 100%;}
-    .project-banner-main{padding: 265px 0 70px;}
-    .project-sub-heading-wrap{padding: 80px 0 88px;}
-    .project-title{margin-right: 50px;}
-    .project-facts{width: calc(100% - 588px);}
+    .project-banner-main{padding: 265px 0 70px; gap: 30px; flex-direction: row-reverse;}
+    .project-image{flex: 0 0 492px;}
+    .project-text{flex: 0 0 calc(100% - 522px);}
+
+    .project-sub-heading-main{gap: 30px;}
+    .project-title{flex: 0 0 433px;}
+    .project-facts{flex: 0 0 calc( 100% - 463px);}
     .full-width-list{width: 1000px;}
     .more-communities-list{margin-right: 30px;}
     .two-grid-main{max-width: 100%; gap: 40px;}
     .two-grid-list{max-width: 48%;}
-
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .project-banner-main{padding: 100px 0 50px; gap: 30px; flex-direction: row-reverse;}
     .project-image{flex: 0 0 285px; position: relative;}

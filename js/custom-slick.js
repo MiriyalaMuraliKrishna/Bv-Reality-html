@@ -16,15 +16,13 @@ $(document).ready(function(){
             {
             breakpoint: 1024,
                 settings: {
-                    centerPadding: '100px',        
-                    variableWidth: true,
+                    centerPadding: '100px',
                 }
             },
             {
             breakpoint: 768,
                 settings: {
-                    centerPadding: '30px',  
-                    variableWidth: true,
+                    centerPadding: '30px',
                 }
             }
         ]
