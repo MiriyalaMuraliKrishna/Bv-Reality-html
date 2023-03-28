@@ -26,30 +26,30 @@ body .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .
 body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-color: #00be66; border-color: #00be66;; }
 
 @media screen and (min-width:1024px) {
+    .contact-page-head{max-width: 1020px;}
+    .contact-dot-loc{right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
     .contact-page-main{gap: 176px;}
     .contact-page-form{flex: 0 0 650px;}
     .contact-page-text{flex: 0 0 calc( 100% - 826px); max-width: 440px; }
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
+    .contact-page-head{max-width: 750px;}
     .contact-heading{padding-left: 40px;}
     .contact-page-main{gap: 30px;}
     .contact-page-form{flex: 0 0 550px;}
     .contact-page-text{flex: 0 0 calc( 100% - 580px); max-width: 440px; }
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .contact-page-wrap{padding: 150px 0 80px;}
+    .contact-dot-loc{display: block; position: relative; margin: 0 auto 60px;}
     .contact-heading{padding-left: 40px;}
     .contact-page-main{display: block;}
     .contact-page-form{margin-bottom: 60px;}
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px){
     .contact-page-wrap{padding: 129px 0 70px;}
     .contact-location{width: 100%; height: 50px;}
-    .contact-page .dot-location.one{position: absolute; top: 0; left: 199px;}
-    .contact-page .dot-location{width: 7px; height: 7px;}
-
+    .contact-dot-loc{display: block; position: relative; margin: 0 auto 60px;}
     .contact-heading{max-width: 100%; padding-left: 45px; margin-bottom: 46px;}
     .contact-heading h1{font-size: 46px; line-height: 1.17;}
 
