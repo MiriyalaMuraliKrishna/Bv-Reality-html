@@ -1,4 +1,4 @@
-.captivating-banner-bg{position: absolute; z-index: -1;}
+
 .captivating-banner-main{padding: 100px 0 58px 0;}
 .captivating-banner-text{text-transform: capitalize; color: white;}
 .captivating-banner-text p{margin-bottom: 25px; font-size: 19px; color: #ffffff; opacity: 40%;}
@@ -13,6 +13,7 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width:1024px) {
+    .captivating-banner-bg{max-height: 984px;}
     .captivating-banner-text h2{margin-bottom: 29px; line-height: 53px; font-size: 44px; color: var(--white);}
     .captivating-banner-text{max-width: 1115px;}
     .captivating-main{gap: 67px;}
