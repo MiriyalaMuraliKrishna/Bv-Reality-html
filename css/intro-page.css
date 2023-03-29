@@ -5,27 +5,30 @@
 
 
 @media screen and (min-width: 1024px){
-    .intro-one{top: calc(50% - 200px); left: 210px;}
-    .intro-two{right: 420px; top: 14px; left: auto;}
-    .intro-three{top: 200px; right: 38px; bottom: auto; left: auto;}
-    .intro-four{bottom: 0; left: 380px;}
+    .intro-one{top: calc(50% - 228px); left: calc(50% - 469px);}
+    .intro-two{right: calc(50% - 258px); top: calc(50% - 214px); left: auto;}
+    .intro-three{top: calc(50% - 27px); right: calc(50% - 640px); bottom: auto; left: auto;}
+    .intro-four{bottom: calc(50% - 334px); left: calc(50% - 298px);}
     .intro-logo{max-width: 512px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .intro-logo{max-width: 412px;}
+    .intro-one{left: calc(50% - 415px);}
+    .intro-three{right: 0;}
+    .intro-four{bottom: calc(50% - 295px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 768px){
-    .intro-one{top: 4px; left: 66px;}
-    .intro-two{top: 0; right: 66px; left: auto;}
-    .intro-three{bottom: 0; right: 81px; left: auto;}
+    .intro-one{top: calc(50% - 296px); left: calc(50% - 277px);}
+    .intro-two{top: calc(50% - 300px); right: calc(50% - 221px); left: auto;}
+    .intro-three{top: calc(50% - 79px); right: calc(50% - 273px); left: auto;}
     .intro-logo{max-width: 312px;}
     
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px){
-    .intro-one{top: 4px; left: 66px;}
-    .intro-two{top: 0; right: 66px; left: auto;}
-    .intro-three{bottom: 0; right: 81px; left: auto;}
+    .intro-one{top: calc(50% - 296px); left: calc(50% - 121px);}
+    .intro-two{top: calc(50% - 300px); right: calc(50% - 121px); left: auto;}
+    .intro-three{top: calc(50% - 146px); right: calc(50% - 106px); left: auto;}
     .intro-logo{max-width: 242px;}
 
 }
