@@ -60,8 +60,6 @@
 
 /* More Communities */
 .featured-project-wrap{padding: 50px 0 0; margin-bottom: -75px; z-index: 2; position: relative;}
-.featured-project-main{gap: 60px; }
-.featured-project-list{width: 486px; position: relative;}
 .featured-project-content{position: absolute; bottom: 0; padding: 45px 73px 81px 80px; flex-direction: column;}
 .featured-project-category{gap: 15px; margin-bottom: 23px;}
 .featured-project-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
@@ -86,6 +84,9 @@
     .leadership-content{width: calc(100% - 447px);}
 
     .company-grid-image{flex: 0 0 50%;}
+
+    .featured-project-main{gap: 60px; }
+    .featured-project-list{flex: 0 0 calc(33.333% - 30px);}
 }
 
 @media screen and (max-width:1299px) and (min-width:1024px){
