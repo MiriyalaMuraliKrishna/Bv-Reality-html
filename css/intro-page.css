@@ -1,25 +1,32 @@
-.intro-page-section{height: 100vh;}
-.intro-location{width: 100%;}
+.intro-page-section{width:100%; height: 100dvh;}
+.intro-page-main{width:100%; height: 100dvh;}
+.intro-location{position: absolute;}
+.intro-logo{left: 50%; top: 50%; transform: translate(-50% , -50%); position: absolute;}
 
 
 @media screen and (min-width: 1024px){
-    .intro-page-wrap{padding: 203px 0;}
-    .intro-page-main{width: 100%; min-height: 600px;}
-    .intro-location .dot-location.one{position: absolute; top: 0px; left: 210px;}
-    .intro-location .dot-location.two{position: absolute; right: 420px; top: 14px; left: auto;}
-    .intro-location .dot-location.three{position: absolute; top: 200px; right: 38px; bottom: auto; left: auto;}
-    .intro-location .dot-location.four{position: absolute; bottom: 0; left: 380px;}
-    .intro-logo{position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%); }
-    .intro-logo .logo{flex: 0 0 512px; }
+    .intro-page-main{height: 100%; min-height: 600px;}
+    .intro-one{top: 0px; left: 210px;}
+    .intro-two{right: 420px; top: 14px; left: auto;}
+    .intro-three{top: 200px; right: 38px; bottom: auto; left: auto;}
+    .intro-four{bottom: 0; left: 380px;}
+    .intro-logo{max-width: 512px;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .intro-logo{max-width: 412px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .intro-one{top: 4px; left: 66px;}
+    .intro-two{top: 0; right: 66px; left: auto;}
+    .intro-three{bottom: 0; right: 81px; left: auto;}
+    .intro-logo{max-width: 312px;}
+    
 }
 
-@media screen and (max-width: 1023px) and (min-width: 200px){
-    .intro-page-wrap{padding: 124px 0;}
-    .intro-location{min-height: 161px; margin-bottom: 70px;}
-    .intro-location .dot-location.one{position: absolute; top: 4px; left: 66px;}
-    .intro-location .dot-location.two{position: absolute; top: 0; right: 66px; left: auto;}
-    .intro-location .dot-location.three{position: absolute; bottom: 0; right: 81px; left: auto;}
-    .intro-logo{justify-content: center;}
-    .intro-logo .logo{flex: 0 0 242px;}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .intro-one{top: 4px; left: 66px;}
+    .intro-two{top: 0; right: 66px; left: auto;}
+    .intro-three{bottom: 0; right: 81px; left: auto;}
+    .intro-logo{max-width: 242px;}
 
 }
