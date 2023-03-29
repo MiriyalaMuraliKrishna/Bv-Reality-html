@@ -121,6 +121,7 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-desc p{font-size: 19px; font-weight: 300;}
 
     .communities-grid-wrap{padding: 22px 0 80px;}
+    .communities-heading{margin-bottom: 20px;}
     ul.communities-tab > li{width: 50%;}
     ul.communities-tab > li > a {padding-bottom: 27px; font-size: 17px; line-height: 1.76;}
 
