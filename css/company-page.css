@@ -60,9 +60,7 @@
 
 /* More Communities */
 .featured-project-wrap{padding: 50px 0 0; margin-bottom: -75px; z-index: 2; position: relative;}
-.featured-project-main{gap: 60px; }
-.featured-project-list{width: 486px; position: relative;}
-.featured-project-content{position: absolute; bottom: 0; padding: 45px 73px 81px 80px; flex-direction: column;}
+.featured-project-content{position: absolute; bottom: 0; }
 .featured-project-category{gap: 15px; margin-bottom: 23px;}
 .featured-project-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
 .featured-project-content h3{font-size: 38px; font-weight: bold; line-height: 1.37; color: var(--white); }
@@ -86,8 +84,14 @@
     .leadership-content{width: calc(100% - 447px);}
 
     .company-grid-image{flex: 0 0 50%;}
-}
 
+    .featured-project-main{gap: 60px; }
+    .featured-project-list{flex: 0 0 calc(33.333% - 40px);}
+    .featured-project-content { padding: 45px 73px 81px; }
+}
+@media screen and (max-width: 1499px) and (min-width:1024px){
+    .featured-project-content { padding: 45px 60px 81px; }
+}
 @media screen and (max-width:1299px) and (min-width:1024px){
     .company-test{max-width: 510px; margin-right: 20px; }
     .company-location{width: calc(100% - 530px);}
@@ -97,8 +101,8 @@
     .reverse .company-grid-content{padding: 90px 0 0 45px;}
     .reverse .company-grid-image{padding: 90px 45px 0 0;}
 
-    .featured-project-main{gap: 17px;}
-    .featured-project-list{width: 310px;}
+    .featured-project-main{gap: 30px;}
+    .featured-project-list{flex: 0 0 calc(33.333% - 20px);}
     .featured-project-content{padding: 30px;}
     .featured-project-content h3{font-size: 32px;}
 }
@@ -114,10 +118,7 @@
     .company-banner-content{padding: 54px 0;}
     .company-content-list{width: 100%; padding-bottom: 40px;}
     .company-content-list:nth-child(2){width: 100%; padding: 40px 0 0 0; border-top: 1px solid rgba(255, 255, 255, 0.2);}
-
-}
-
-@media screen and (max-width: 1023px) and (min-width: 768px){
+    
     .company-grid-list{gap: 28px;}
     .company-grid-content{flex: 0 0 48%; padding: 0 20px 50px 0;}
     .company-grid-image{padding: 0 0 50px 20px; flex: 0 0 48%;}
