@@ -1,9 +1,12 @@
 .intro-page-section{width:100%; height: 100dvh;}
 .intro-page-main{width:100%; height: 100dvh;}
 .intro-location{position: absolute;}
+.intro-two .dot-pulse{animation-delay: -2s;}
+.intro-three .dot-pulse{animation-delay: 2s;}
+.intro-four .dot-pulse{animation-delay: 4s;}
 .intro-logo{left: 50%; top: 50%; transform: translate(-50% , -50%); position: absolute;}
 
-
+/*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .intro-one{top: calc(50% - 228px); left: calc(50% - 469px);}
     .intro-two{right: calc(50% - 258px); top: calc(50% - 214px); left: auto;}
@@ -21,14 +24,12 @@
     .intro-one{top: calc(50% - 296px); left: calc(50% - 277px);}
     .intro-two{top: calc(50% - 300px); right: calc(50% - 221px); left: auto;}
     .intro-three{top: calc(50% - 79px); right: calc(50% - 273px); left: auto;}
+    .intro-four{bottom: calc(50% - 265px); left: calc(50% - 177px);}
     .intro-logo{max-width: 312px;}
-    
 }
-
 @media screen and (max-width: 767px) and (min-width: 200px){
     .intro-one{top: calc(50% - 296px); left: calc(50% - 121px);}
     .intro-two{top: calc(50% - 300px); right: calc(50% - 121px); left: auto;}
     .intro-three{top: calc(50% - 146px); right: calc(50% - 106px); left: auto;}
     .intro-logo{max-width: 242px;}
-
 }
