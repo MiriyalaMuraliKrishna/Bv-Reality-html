@@ -14,7 +14,6 @@
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
-    /* .intro-page-section.pos-relative{height: 100vh;} */
     .intro-page-wrap{padding: 124px 0;}
     .intro-location{min-height: 161px; margin-bottom: 70px;}
     .intro-location .dot-location.one{position: absolute; top: 4px; left: 66px;}
