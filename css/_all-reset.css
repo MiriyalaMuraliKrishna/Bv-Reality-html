@@ -77,8 +77,8 @@ hr{display: block; background-color: #dfdfdf; border: 0; width:100%; height: 1px
 hr.blue{background-color: var(--light-blue); opacity: 1;}
 
 /* Support a widely-adopted but non-standard selector for text selection styles * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898. */ 
-::selection {background-color: #231f20; color: #ffffff;}
-::-moz-selection {background-color: #231f20; color: #ffffff;}
+::selection {background-color: #231f20; color: var(--white);}
+::-moz-selection {background-color: #231f20; color: var(--white);}
 
 /* Input fields */
 input[type="search"], input, select, textarea, body .frm_style_formidable-style.with_frm_style .frm_form_fields input, body .with_frm_style textarea{outline: 0; width: 100%; font-size: 16px; line-height: 24px; letter-spacing: 0.57px; background: var(--white); box-shadow: none; color: var(--white); padding: 11px 20px 13px; vertical-align: middle; font-family: 'Urbanist', sans-serif; font-weight: 500; height: auto; transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;  border-radius: 6px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.13); border: none;}
@@ -94,12 +94,12 @@ button[type="submit"]:hover::after{right: 14px;}
 .search-submit {display: none;}
 
 /* Buttons */
-.button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 11px 21px 11px 23px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; text-transform: capitalize; text-align: center; color: #FFFFFF; }
+.button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 11px 21px 11px 23px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; text-transform: capitalize; text-align: center; color: var(--white); transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .btn-black{border: 3px solid #00052d; color: var(--heading-color); }
 .btn-black:hover{background-color: var(--heading-color); color: #fff;}
 .button:hover, .button:focus {background-color: var(--green-color); color: var(--white); border-color: var(--green-color);}
-
-.button .right-arrow{font-size: 12px; margin-left: 12px; }
+.button .right-arrow{font-size: 12px; margin-left: 12px; transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+.button:hover .right-arrow{margin-left: 16px;}
 
 /* Placeholder text color -- selectors need to be separate to work. */ 
 ::-webkit-input-placeholder {color: var(--white-50); font-family: 'Urbanist', sans-serif;}
