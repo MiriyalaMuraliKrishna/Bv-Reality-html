@@ -14,25 +14,21 @@ $(document).ready(function(){
         nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
         responsive: [
             {
-            breakpoint: 1024,
+            breakpoint: 1023,
                 settings: {
                     centerPadding: '100px',
+                    arrows: false,
                 }
             },
             {
-            breakpoint: 768,
+            breakpoint: 767,
                 settings: {
                     centerPadding: '30px',
+                    arrows:false,
                 }
             }
         ]
     });
-    const $defaultDots = $(".full-width-slider ul.slick-dots");
-    if (typeof $defaultDots !== "undefined" && $defaultDots.length > 0){
-        $('div.slick-next').insertBefore('.slick-dots-container');
-        $defaultDots.wrap("<div class='default-dots-center aligncenter'><div class='default-dots-container'></div></div>");
-        $('.default-dots-container ul.slick-dots').before($('div.slick-arrow'));
-    }
 
 	$('.more-communities-slider').slick({
         slidesToShow: 4,
@@ -74,25 +70,25 @@ $(document).ready(function(){
         nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
         responsive: [
             {
-            breakpoint: 1024,
+            breakpoint: 1023,
                 settings: {
-
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false,
                 }
             },
             {
-            breakpoint: 768,
+            breakpoint: 767,
                 settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    variableWidth: true,
+                    arrows: false,
                 }
             }
         ]
     });
-    const $homeDots = $(".home-slick-slider ul.slick-dots");
-    if (typeof $homeDots !== "undefined" && $homeDots.length > 0){
-        $('div.slick-next').insertBefore('.slick-dots-container');
-        $homeDots.wrap("<div class='home-dots-center aligncenter'><div class='home-dots-container'></div></div>");
-        $('.home-dots-container ul.slick-dots').before($('div.slick-arrow'));
-    }
-
+    
     if($(window).width() <= 1023){
         $('.featured-project-slider').slick({
             slidesToShow: 1,
