@@ -5,8 +5,7 @@
 
 
 @media screen and (min-width: 1024px){
-    .intro-page-main{height: 100%; min-height: 600px;}
-    .intro-one{top: 0px; left: 210px;}
+    .intro-one{top: calc(50% - 200px); left: 210px;}
     .intro-two{right: 420px; top: 14px; left: auto;}
     .intro-three{top: 200px; right: 38px; bottom: auto; left: auto;}
     .intro-four{bottom: 0; left: 380px;}
