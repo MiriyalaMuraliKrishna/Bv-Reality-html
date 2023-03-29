@@ -121,7 +121,7 @@
     
     .company-grid-list{gap: 28px;}
     .company-grid-content{flex: 0 0 48%; padding: 0 20px 50px 0;}
-    .company-grid-image{padding: 0 0 50px 20px; flex: 0 0 48%;}
+    .company-grid-image{padding: 0 0 50px 20px; flex: 0 0 48%;display: flex; align-items: center;}
     .reverse .company-grid-content{padding: 50px 0 0 20px;}
     .reverse .company-grid-image{padding: 50px 20px 0 0;}
 }
@@ -173,7 +173,7 @@
     .company-grid-main{gap: 80px;}
     .company-grid-list{border-bottom: none; gap: 50px;}
     .company-grid-content{flex: 0 0 100%; padding: 0;}
-    .company-grid-image{flex: 0 0 100%; justify-content: center; padding: 0; border-left:none;}
+    .company-grid-image{flex: 0 0 100%; display: flex; justify-content: center; padding: 0; border-left:none;}
     .reverse .company-grid-content{padding: 0; border-left: none;}
     .reverse .company-grid-image{padding: 0; justify-content: center;}
     .company-grid-content h3{font-size: 32px; line-height: 1.38;}
