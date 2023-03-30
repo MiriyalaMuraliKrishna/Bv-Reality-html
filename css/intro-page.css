@@ -5,6 +5,42 @@
 .intro-three .dot-pulse{animation-delay: 2s;}
 .intro-four .dot-pulse{animation-delay: 4s;}
 .intro-logo{left: 50%; top: 50%; transform: translate(-50% , -50%); position: absolute;}
+.intro-logo a{width: 100%; display: block;}
+.intro-logo svg{width: 100%; height: 100%;}
+.intro-anim-1{
+    transition-delay: 0.25s;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.075,.82,.165,1);
+    stroke: var(--white);
+    stroke-width: 2px;
+    fill: transparent;
+    animation: slidesDown 2s linear forwards;
+    opacity: 0.5;
+}
+@keyframes slidesDown {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.intro-anim-2{
+    transition-delay: 0.25s;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.075,.82,.165,1);
+    animation: slidesUp 2s linear infinite;
+}
+@keyframes slidesUp {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
@@ -12,10 +48,10 @@
     .intro-two{right: calc(50% - 258px); top: calc(50% - 214px); left: auto;}
     .intro-three{top: calc(50% - 27px); right: calc(50% - 640px); bottom: auto; left: auto;}
     .intro-four{bottom: calc(50% - 334px); left: calc(50% - 298px);}
-    .intro-logo{max-width: 512px;}
+    .intro-logo{width: 512px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
-    .intro-logo{max-width: 412px;}
+    .intro-logo{width: 412px;}
     .intro-one{left: calc(50% - 415px);}
     .intro-three{right: 0;}
     .intro-four{bottom: calc(50% - 295px);}
@@ -25,11 +61,11 @@
     .intro-two{top: calc(50% - 300px); right: calc(50% - 221px); left: auto;}
     .intro-three{top: calc(50% - 79px); right: calc(50% - 273px); left: auto;}
     .intro-four{bottom: calc(50% - 265px); left: calc(50% - 177px);}
-    .intro-logo{max-width: 312px;}
+    .intro-logo{width: 312px;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     .intro-one{top: calc(50% - 296px); left: calc(50% - 121px);}
     .intro-two{top: calc(50% - 300px); right: calc(50% - 121px); left: auto;}
     .intro-three{top: calc(50% - 146px); right: calc(50% - 106px); left: auto;}
-    .intro-logo{max-width: 242px;}
+    .intro-logo{width: 242px;}
 }
