@@ -78,7 +78,7 @@
     ul.main_menu > li > ul > li > ul li > a{padding: 9px 34px 10px; color: var(--link-color); font-weight: 700; font-size: 16px; line-height: 20px; text-transform: capitalize; font-family: 'Quicksand', sans-serif; display: block;}
     ul.main_menu > li > ul > li > ul li > a:hover{color: var(--white);}
     ul.main_menu > li > ul > li > ul li:last-child > a{border-bottom: none;}
-    ul.main_menu > li.menu-item-has-children > a::after{content: "\f107"; font-family: 'Font Awesome 6 Pro'; font-weight: 400; font-size: 27px; display: inline-block; right: 12px; top: 25px; transform: none; margin: auto; position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: var(--white);}
+    ul.main_menu > li.menu-item-has-children > a::after{content: "\f107"; font-family: 'Font Awesome 6 Pro'; font-weight: 400; font-size: 27px; display: inline-block; right: 12px; top: 25px; /*transform: none; margin: auto;*/ position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: var(--white);}
     ul.main_menu > li.menu-item-has-children > a.active:after{top: 42px; transform: rotate(180deg); color: var(--green-color);}
     .call-to-action{color: var(--white);}
     .call-to-action p{margin-bottom: 16px;}
