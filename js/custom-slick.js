@@ -1,5 +1,5 @@
 var $ = jQuery.noConflict();
-$(document).ready(function(){  
+$(document).ready(function(){
     $('.full-width-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -99,17 +99,47 @@ $(document).ready(function(){
             infinity: true,
             focusOnSelect: true,
         });
+    }
 
-        $('.logo-slider').slick({
-            slidesToShow: 1,
+    let count = $('.logo-slick-slider').children().length;
+    if (count > 6) {
+        $('.logo-slick-slider').slick({
+            slidesToShow: 6,
             slidesToScroll: 1,
-            variableWidth: true,
-            centerMode: true,
-            centerPadding: '200px',
-            arrows: false,
+            speed: 500,
+            infinite: false,
             dots: true,
-            infinity: true,
-            focusOnSelect: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1299,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                        }
+                    },
+                {
+                breakpoint: 1023,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        variableWidth: true,
+                        centerMode: true,
+                        centerPadding: '200px',
+                        arrows: false,
+                        dots: true,
+                        infinity: true,
+                        focusOnSelect: true,
+                    }
+                }
+            ],
         });
     }
 
