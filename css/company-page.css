@@ -128,6 +128,8 @@
     .featured-project-content{padding: 45px 38px 60px 40px;}
     .featured-project-slider .slick-list{overflow: inherit;}
     .featured-project-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
+    .featured-project-slider ul.slick-dots li button::before{background-color: rgba(255, 255, 255, 0.2);}
+    .featured-project-slider ul.slick-dots li.slick-active button::before{background-color: var(--white);}
     .company-page .custom-cta-main{padding: 115px 0 0; }
 
 }
