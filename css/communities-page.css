@@ -50,7 +50,7 @@
 ul.communities-tab{margin: 0;}
 ul.communities-tab > li{width: 430px; text-align: center; margin: 0;}
 ul.communities-tab > li::before{display: none; }
-ul.communities-tab > li > a{color: #a3a5b9; font-size: 19px; font-weight: 600; line-height: 1.58; padding-bottom: 42px; display: block;}
+ul.communities-tab > li > a{color: #a3a5b9; font-size: 19px; font-family: 'Poppins-Medium', sans-serif; line-height: 1.58; padding-bottom: 42px; display: block;}
 ul.communities-tab > li > a.active, ul.communities-tab li > a:hover{color: var(--heading-color); }
 ul.communities-tab > li > a::after{width: 0%; height: 5px; bottom: 0; left: 0;  background-color: var(--green-color); content: ""; display: block; position: absolute; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 ul.communities-tab > li > a.active::after{width: 100%;}

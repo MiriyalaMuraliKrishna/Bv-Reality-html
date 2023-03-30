@@ -9,9 +9,16 @@ Version: 2022.10-10-02
 Text Domain: Bv Realty
 */
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 @font-face { font-family: 'Poppins-Light'; src: url('./fonts/Poppins-Light.ttf') format('truetype'), url('./fonts/Poppins-Light.woff') format('woff'),  url('./fonts/Poppins-Light.woff2') format('woff2'); font-style: normal; font-display: swap; }
 @font-face { font-family: 'Poppins-Regular'; src: url('./fonts/Poppins-Regular.ttf') format('truetype'), url('./fonts/Poppins-Regular.woff') format('woff'),  url('./fonts/Poppins-Regular.woff2') format('woff2'); font-style: normal; font-display: swap; }
 @font-face { font-family: 'Poppins-Medium'; src: url('./fonts/Poppins-Medium.ttf') format('truetype'), url('./fonts/Poppins-Medium.woff') format('woff'),  url('./fonts/Poppins-Medium.woff2') format('woff2'); font-style: normal; font-display: swap; }
 @font-face { font-family: 'Poppins-SemiBold'; src: url('./fonts/Poppins-SemiBold.ttf') format('truetype'), url('./fonts/Poppins-SemiBold.woff') format('woff'),  url('./fonts/Poppins-SemiBold.woff2') format('woff2'); font-style: normal; font-display: swap; }
+=======
+@font-face { font-family: 'Poppins-Light', sans-serif; src: url('./fonts/Poppins-Light.ttf') format('truetype'), url('./fonts/Poppins-Light.woff') format('woff'),  url('./fonts/Poppins-Light.woff2') format('woff2'); font-style: normal; font-display: swap; }
+@font-face { font-family: 'Poppins-Regular', sans-serif; src: url('./fonts/Poppins-Regular.ttf') format('truetype'), url('./fonts/Poppins-Regular.woff') format('woff'),  url('./fonts/Poppins-Regular.woff2') format('woff2'); font-style: normal; font-display: swap; }
+@font-face { font-family: 'Poppins-Medium', sans-serif; src: url('./fonts/Poppins-Medium.ttf') format('truetype'), url('./fonts/Poppins-Medium.woff') format('woff'),  url('./fonts/Poppins-Medium.woff2') format('woff2'); font-style: normal; font-display: swap; }
+@font-face { font-family: 'Poppins-SemiBold', sans-serif; src: url('./fonts/Poppins-SemiBold.ttf') format('truetype'), url('./fonts/Poppins-SemiBold.woff') format('woff'),  url('./fonts/Poppins-SemiBold.woff2') format('woff2'); font-style: normal; font-display: swap; }
+>>>>>>> 7795b47b7ebb21d5a88aac39699e049c998db1c1
