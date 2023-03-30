@@ -23,6 +23,7 @@
 .logo-slider-main{gap: 31px; }
 .logo-slider-item{flex: 0 0 200px;}
 .logo-slider-thumb img{max-width: 187px; max-height: 59px; }
+.logo-slider-main ul.slick-dots{margin: 43px 0 0 0; }
 
 /* company grid section */
 .company-grid-wrap{padding: 24px 0 130px; }
