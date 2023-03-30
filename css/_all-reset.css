@@ -94,7 +94,7 @@ button[type="submit"]:hover::after{right: 14px;}
 .search-submit {display: none;}
 
 /* Buttons */
-.button{display: inline-block; font-size: 16px; font-weight: bold; line-height: normal; letter-spacing: 0.5px; padding: 11px 21px 11px 23px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; text-transform: capitalize; text-align: center; color: var(--white); transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+.button{display: inline-block; font-size: 18px; font-weight: 300; font-family: 'Quicksand', sans-serif; line-height: 22px; padding: 6px 22px 13px 28px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; text-transform: capitalize; text-align: center; color: var(--white); transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .btn-black{border: 3px solid #00052d; color: var(--heading-color); }
 .btn-black:hover{background-color: var(--heading-color); color: #fff;}
 .button:hover, .button:focus {background-color: var(--green-color); color: var(--white); border-color: var(--green-color);}
