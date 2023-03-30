@@ -3,7 +3,7 @@
 /* .graph-bg-thumb img{max-height: 933px; width: 100%;} */
 .graph-performance-wrap{position: relative; z-index: 1; padding: 66px 0 266px;}
 .graph-content{margin-bottom: 98px;}
-.graph-sub-title{font-size: 19px; font-weight: 600; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
+.graph-sub-title{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
 .graph-text h2{font-size: 56px; color: var(--white); font-weight: normal; line-height: 1.14; margin-bottom: 22px;}
 .graph-text h2 .big-text{font-weight: bold;}
 .graph-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white); max-width: 510px; margin-left: auto;}
@@ -12,7 +12,7 @@
 .graph-number-count{margin-bottom: 16px;}
 .graph-number-icon img{height: auto;}
 
-.graph-number-count span{font-size: 21px; font-weight: 600; color: rgba(255, 255, 255, 0.4); font-family: 'Quicksand', sans-serif;}
+.graph-number-count span{font-size: 21px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); font-family: 'Quicksand', sans-serif;}
 .graph-number-value p{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6);}
 
 .graph-thumb{box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.5);}
