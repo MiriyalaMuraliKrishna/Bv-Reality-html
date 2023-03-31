@@ -142,12 +142,4 @@ $(document).ready(function(){
             ],
         });
     }
-
 });
-
-let mobileScn = function(){
-    if($(window).width() <= 767){
-
-    }
-}
-$(document).on('ready', function () { mobileScn(); });

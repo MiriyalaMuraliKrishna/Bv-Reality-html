@@ -14,7 +14,10 @@
 .contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
 .frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
 
-.frm_combo_inputs_container, .frm_grid_container, .frm_form_fields .frm_section_heading, .frm_form_fields .frm_fields_container{display: block;}
+body .frm_forms.frm_combo_inputs_container, 
+body .frm_forms .frm_grid_container,
+body .frm_forms .frm_form_fields .frm_section_heading, 
+body .frm_forms .frm_form_fields .frm_fields_container{display: block;}
 body .frm_form_field { margin-bottom: 20px;}
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio{position: relative; margin-top: 25px;}
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid #00be66; background: 0 0; border-radius: 4px; position: absolute; margin: 2px 0 0 0; backdrop-filter: none; }
