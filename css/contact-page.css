@@ -14,8 +14,8 @@
 .contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
 .frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
 
-body .frm_first.frm_half{margin-left: 0; }
-body .frm_last.frm_half{margin-right: 0; }
+body .frm_first.frm_half{margin-left: 0; width: 100%;}
+body .frm_last.frm_half{margin-right: 0; width: 100%;}
 body .frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px; float: left; clear: none; }
 body .frm_form_field { margin-bottom: 20px;}
 body .frm_form_field.vertical_radio{position: relative; margin-top: 25px;}
