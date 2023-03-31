@@ -1,6 +1,5 @@
 
 /* Banner section */
-/* .project-banner{overflow: hidden;} */
 .project-banner-bg{position: absolute; z-index: -1; height: 100%; width: 100%; left: 0; top: 0;}
 
 .project-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
@@ -17,9 +16,10 @@
 .facts-heading{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: #a2a4b7; margin-bottom: 25px; display: block; }
 
 .big-image{padding: 104px 0 91px; }
-.big-image-caption{position: absolute; bottom: 0; background: #00052d; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; }
+.big-image-caption{position: absolute; bottom: 0; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; z-index: 1;}
 .big-image-caption h6{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: #fff; margin-bottom: 0;}
 .big-image-caption span{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
+.caption-bg{width: 100%; height: 100%; top: 0; left: 0; position: absolute; background: #00052d;z-index: -1; }
 
 /* Project second */
 .project-second-wrap{padding-bottom: 85px;}

@@ -18,20 +18,42 @@
 .graph-thumb{box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.5);}
 .graph-thumb::before{content: "\f0d7"; position: absolute; font-size: 26px; font-weight: bold; font-family: "Font Awesome 6 Pro"; color: var(--white); bottom: 0; line-height: 0; left: 50%; transform: translateX(-50%);}
 .graph-thumb img{border: 3px solid var(--white); border-radius: 50%;}
-.graph-img{width: 56px; }
-.dot{width: 11px; height: 11px; background-color: var(--white); border-radius: 50%; margin: 23px auto 0; }
-.dot::before{content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); width: 120px; height: 120px; top: -50px; left: -50px; }
+.graph-img{width: 56px; transform: scale(1); transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; }
+.graph-dot{width: 11px; height: 11px; background-color: var(--white); border-radius: 50%; margin: 23px auto 0; transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; transition-delay: 0s; position: relative;}
+.graph-dot span{width: 120px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, var(--green-color), rgba(0, 190, 102, 0) 71%); transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; transition-delay: 0s; border-radius: 50%;}
+.graph-dot span:nth-child(2){ animation-delay: 4s; opacity: 0; }
 
 .graph-img.active{width: 68px; }
 .graph-img.active .graph-thumb img{border-color: var(--green-color);}
 .graph-img.active .graph-thumb::before{font-size: 34px; color: var(--green-color);}
-.graph-img.active .dot{background-color: var(--green-color);}
+.graph-img.active .graph-dot{background-color: var(--green-color);}
 
+.active .graph-dot span{animation: graphPulse 3s ease-out infinite;}
+.active .graph-dot span:nth-child(2){animation: graphPulseReverse 5s ease-out infinite;}
+@keyframes graphPulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.75;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0.2;
+    }
+}
+@keyframes graphPulseReverse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0.2;
+    }
+}
 
 @media screen and (min-width:1024px) {
     .graph-location{max-width: 677px; width: 100%; min-height: 356px;}
     .graph-text{width: calc(100% - 677px); text-align: end; padding-top: 53px;}
-    /* .graph-number-lists{gap: 60px;} */
     .graph-number{gap: 48px;}
     .graph-number-list{flex: 0 0 30%;}
     .graph-number-icon{width: 50px; margin-right: 20px;}
@@ -53,7 +75,7 @@
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .graph-performance-wrap{padding: 70px 0 232px;}
     .graph-location{width: 400px; min-height: 194px; margin-bottom: 48px;}
-    .graph-img .dot{width: 7px; height: 7px;}
+    .graph-dot{width: 7px; height: 7px;}
     .graph-img.one{position: absolute; bottom: 0; left: 11px;}
     .graph-img.three{position: absolute; bottom: 19px; right: 28px;}
     .graph-img.four{position: absolute; top: 0; left: 159px; }
@@ -76,7 +98,7 @@
 @media screen and (max-width: 767px) and (min-width: 200px){
     .graph-performance-wrap{padding: 70px 0 232px;}
     .graph-location{width: 100%; min-height: 194px; margin-bottom: 48px;}
-    .graph-img .dot{width: 7px; height: 7px;}
+    .graph-dot{width: 7px; height: 7px;}
     .graph-img.one{position: absolute; bottom: 0; left: 11px;}
     .graph-img.three{position: absolute; bottom: 19px; right: 28px;}
     .graph-img.four{position: absolute; top: 0; left: 159px; }

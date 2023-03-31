@@ -62,9 +62,9 @@
 	<div class="container">
 	<div class="project-banner-main flex">
 		<div class="project-image">
-			<picture class="object-fit project-image-thumb">
+			<picture class="object-fit project-image-thumb" data-animation="fade-in-up">
 				<source srcset="images/project-profile-thumb@2x.jpg" media="(min-width: 768px)">
-				<img src="images/project-profile-thumb-mobile@2x.jpg" alt="vide-frame-thumb">
+				<img loading="eager" src="images/project-profile-thumb-mobile@2x.jpg" alt="vide-frame-thumb">
 			</picture>
 		</div>
 		<div class="project-text">
@@ -72,7 +72,7 @@
 			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
 			<div class="project-num-count flex">
 				<div class="num-count-list">
-					<div class="num-count-icon">
+					<div class="num-count-icon" data-animation="fade-in-up">
 						<img src="images/location-icon.svg" alt="location-icon">
 					</div>
 					<div class="num-count-text">
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 				<div class="num-count-list">
-					<div class="num-count-icon">
+					<div class="num-count-icon" data-animation="fade-in-down">
 						<img src="images/member-icon.svg" alt="member-icon">
 					</div>
 					<div class="num-count-text">
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 				<div class="num-count-list">
-					<div class="num-count-icon">
+					<div class="num-count-icon" data-animation="fade-in-up">
 						<img src="images/location-icon.svg" alt="location-icon">
 					</div>
 					<div class="num-count-text">
@@ -133,7 +133,8 @@
 								<source srcset="images/short-headline-image@2x.jpg" media="(min-width:767px)"/>
 								<img src="images/short-headline-image-mobile@2x.jpg" alt="short-headline-image-mobile">
 							</picture>
-							<div class="big-image-caption">
+							<div class="big-image-caption pos-relative">
+								<div class="caption-bg" data-animation="scale-x-in-left"></div>
 								<h6>Image Title / Caption</h6>
 								<span>Short description</span>
 							</div>
@@ -159,7 +160,7 @@
 			</div>
 		<div class="optional-feature-row flex">
 			<div class="optional-feature-list flex">
-				<figure class="optional-feature-icon">
+				<figure class="optional-feature-icon" data-animation="fade-in-down">
 					<img src="images/location-icon.svg" alt="location-icon">
 				</figure>
 				<div class="optional-feature-text">
@@ -168,7 +169,7 @@
 				</div>
 			</div>
 			<div class="optional-feature-list flex">
-				<figure class="optional-feature-icon">
+				<figure class="optional-feature-icon" data-animation="fade-in-up">
 					<img src="images/feature-icon2.svg" alt="feature-icon2">
 				</figure>
 				<div class="optional-feature-text">
@@ -177,7 +178,7 @@
 				</div>
 			</div>
 			<div class="optional-feature-list flex">
-				<figure class="optional-feature-icon">
+				<figure class="optional-feature-icon" data-animation="fade-in-down">
 					<img src="images/feature-icon3.svg" alt="feature-icon3">
 				</figure>
 				<div class="optional-feature-text">
@@ -186,7 +187,7 @@
 				</div>
 			</div>
 			<div class="optional-feature-list flex">
-				<figure class="optional-feature-icon">
+				<figure class="optional-feature-icon" data-animation="fade-in-up">
 					<img src="images/member-icon.svg" alt="member-icon">
 				</figure>
 				<div class="optional-feature-text">
@@ -209,29 +210,29 @@
 		<div class="graph-performance-wrap">
 			<div class="graph-content flex">
 				<div class="graph-location pos-relative">
-					<div class="graph-img active one">
+					<div class="graph-img one" data-value="1">
 						<figure class="object-fit graph-thumb pos-relative">
 							<img src="images/avatar-one@2x.png" alt="avatar-one">
 						</figure>
-						<div class="dot pos-relative"></div>
+						<div class="graph-dot"><span></span><span></span></div>
 					</div>
-					<div class="graph-img two hide-tablet hide-mobile">
+					<div class="graph-img two hide-tablet hide-mobile" data-value="2">
 						<figure class="object-fit graph-thumb pos-relative">
 							<img src="images/avatar-two@2x.png" alt="avatar-two">
 						</figure>
-						<div class="dot pos-relative"></div>
+						<div class="graph-dot"><span></span><span></span></div>
 					</div>
-					<div class="graph-img active three">
+					<div class="graph-img three" data-value="3">
 						<figure class="object-fit graph-thumb pos-relative">
 							<img src="images/avatar-three@2x.png" alt="avatar-three">
 						</figure>
-						<div class="dot pos-relative"></div>
+						<div class="graph-dot"><span></span><span></span></div>
 					</div>
-					<div class="graph-img four">
+					<div class="graph-img four" data-value="4">
 						<figure class="object-fit graph-thumb pos-relative">
 							<img src="images/avatar-four@2x.png" alt="avatar-four">
 						</figure>
-						<div class="dot pos-relative"></div>
+						<div class="graph-dot"><span></span><span></span></div>
 					</div>
 				</div>
 				<div class="graph-text">

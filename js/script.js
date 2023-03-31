@@ -65,4 +65,15 @@ $(document).ready(function(){
         ++currentIndex;
     }
     setInterval(activeAnim, 5000);
+
+    let graphEle = $('.graph-img').length + 1;
+    console.log(graphEle)
+    let graphIndex = 0;
+    function graphAnim(){
+        let counterGraph = graphIndex % graphEle;
+        $(".graph-img").removeClass('active');
+        $(".graph-img[data-value="+ counterGraph +"]").addClass('active');
+        ++graphIndex;
+    }
+    setInterval(graphAnim, 4000);
 });
