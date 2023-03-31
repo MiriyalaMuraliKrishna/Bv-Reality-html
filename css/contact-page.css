@@ -14,16 +14,13 @@
 .contact-icon{width: 15px; margin: 8px 18px 0 0; color: #00be66; }
 .frm_checkbox{font-size: 14px; font-weight: 300; line-height: 1.86; color: var(--white); }
 
-body .frm_first.frm_half{margin-left: 0; width: 100%;}
-body .frm_last.frm_half{margin-right: 0; width: 100%;}
-body .frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px; float: left; clear: none; }
 body .frm_form_field { margin-bottom: 20px;}
-body .frm_form_field.vertical_radio{position: relative; margin-top: 25px;}
-body .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid #00be66; background: 0 0; border-radius: 4px; position: absolute; margin: 2px 0 0 0; backdrop-filter: none; }
-body .frm_form_field.vertical_radio label{padding-left: 25px; cursor: pointer; display: block; font-size: 14px; line-height: 1.5; color: var(--white); text-indent: 0; }
-.with_frm_style .frm_checkbox input[type=checkbox]:before {content: ""; display: block; clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); border-radius: 0; }
-body .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .frm_form_field.vertical_radio input[type=radio]::before { width: 12px; height: 10px; margin: 2px 0 0 2px; box-shadow: inset 8px 8px var(--white); }
-body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-color: #00be66; border-color: #00be66;; }
+body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio{position: relative; margin-top: 25px;}
+body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid #00be66; background: 0 0; border-radius: 4px; position: absolute; margin: 2px 0 0 0; backdrop-filter: none; }
+body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio label{padding-left: 25px; cursor: pointer; display: block; font-size: 14px; line-height: 1.5; color: var(--white); text-indent: 0; }
+body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio .frm_checkbox input[type=checkbox]:before {content: ""; display: block; clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); border-radius: 0; }
+body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .frm_form_field.vertical_radio input[type=radio]::before { width: 12px; height: 10px; margin: 2px 0 0 2px; box-shadow: inset 8px 8px var(--white); }
+body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input[type=checkbox]:checked { background-color: #00be66; border-color: #00be66;; }
 
 @media screen and (min-width:1024px) {
     .contact-page-head{max-width: 1020px;}
@@ -31,6 +28,13 @@ body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-co
     .contact-page-main{gap: 176px;}
     .contact-page-form{flex: 0 0 650px;}
     .contact-page-text{flex: 0 0 calc( 100% - 826px); max-width: 440px; }
+
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(32.777% - 16px); margin-left: 16px; margin-right: 16px; float: left; clear: none;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_first{margin-left: 0;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_last{margin-right: 0;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .contact-page-head{max-width: 750px;}
@@ -45,6 +49,9 @@ body .frm_form_field.vertical_radio input[type=checkbox]:checked { background-co
     .contact-heading{padding-left: 40px;}
     .contact-page-main{display: block;}
     .contact-page-form{margin-bottom: 60px;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 10px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px){
     .contact-page-wrap{padding: 129px 0 70px;}
