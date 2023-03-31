@@ -18,6 +18,7 @@ body .frm_forms.frm_combo_inputs_container,
 body .frm_forms .frm_grid_container,
 body .frm_forms .frm_form_fields .frm_section_heading, 
 body .frm_forms .frm_form_fields .frm_fields_container{display: block;}
+body .frm_forms .frm_form_fields .frm_form_field{position: relative;}
 body .frm_form_field { margin-bottom: 20px;}
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio{position: relative; margin-top: 25px;}
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input{width: 17px; height: 17px; left: 0; padding: 0; cursor: pointer; border: 1px solid #00be66; background: 0 0; border-radius: 4px; position: absolute; margin: 2px 0 0 0; backdrop-filter: none; }
@@ -25,6 +26,9 @@ body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio l
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio .frm_checkbox input[type=checkbox]:before {content: ""; display: block; clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); border-radius: 0; }
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input[type=checkbox]:checked::before, body .frm_form_field.vertical_radio input[type=radio]::before { width: 12px; height: 10px; margin: 2px 0 0 2px; box-shadow: inset 8px 8px var(--white); }
 body .frm_style_formidable-style.with_frm_style .frm_form_field.vertical_radio input[type=checkbox]:checked { background-color: #00be66; border-color: #00be66;; }
+body .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="text"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="password"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="url"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="tel"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="number"], .frm_style_formidable-style.with_frm_style .frm_blank_field input[type="email"], .frm_style_formidable-style.with_frm_style .frm_blank_field textarea, .frm_style_formidable-style.with_frm_style .frm_blank_field .mce-edit-area iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field select:not(.ui-datepicker-month):not(.ui-datepicker-year), .frm_form_fields_error_style, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .g-recaptcha iframe, .frm_style_formidable-style.with_frm_style .frm_blank_field .frm-card-element.StripeElement, .frm_style_formidable-style.with_frm_style .frm_blank_field .chosen-container-multi .chosen-choices, .frm_style_formidable-style.with_frm_style .frm_blank_field .chosen-container-single .chosen-single, .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{background-color: rgba(255,255,255,.13); border-color: transparent;}
+body .frm_style_formidable-style.with_frm_style input::placeholder, .frm_style_formidable-style.with_frm_style textarea::placeholder{color: var(--white-50);}
+body .frm_style_formidable-style.with_frm_style .frm_error::after{font-family: "Font Awesome 6 Pro"; font-weight: 400; content: "\f06a"; font-size: 14px; line-height: normal; color: #f00000; position: absolute; right: 18px; top: 19px;}
 
 @media screen and (min-width:1024px) {
     .contact-page-head{max-width: 1020px;}
