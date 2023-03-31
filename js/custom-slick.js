@@ -1,4 +1,5 @@
 var $ = jQuery.noConflict();
+
 $(document).ready(function(){
     $('.full-width-slider').slick({
         slidesToShow: 1,

@@ -19,12 +19,6 @@ $(document).ready(function(){
     });
     
 });
-let desktopScn = function(){
-    if($(window).width() >= 1024){
-     
-    }
-}
-$(document).on('ready', function () { desktopScn(); });
 
 let mobileIpad = function(){
     if($(window).width() <= 1023){
@@ -55,7 +49,7 @@ let mobileIpad = function(){
 }
 $(document).on('ready', function () { mobileIpad(); });
 
-$(document).ready(function(){
+$(document).on('ready', function(){
     let communitiesEle = $('.communities-img').length;
     let currentIndex = 0;
     function activeAnim(){
@@ -67,7 +61,6 @@ $(document).ready(function(){
     setInterval(activeAnim, 5000);
 
     let graphEle = $('.graph-img').length + 1;
-    console.log(graphEle)
     let graphIndex = 0;
     function graphAnim(){
         let counterGraph = graphIndex % graphEle;
