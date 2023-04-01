@@ -13,7 +13,6 @@
 
 .default-grid-wrap{padding: 58px 0 90px;}
 .default-grid-content{position: absolute; top: 0; height: 100%; padding: 45px 60px 49px 58px; flex-direction: column;}
-.default-grid-thumb{height: 100%;}
 .default-grid-category{gap: 15px; margin-bottom: 18px;}
 .default-grid-category a{font-size: 11.5px; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
 .default-grid-content h3{font-size: 38px; font-weight: bold; line-height: 1.11; color: var(--white); }
