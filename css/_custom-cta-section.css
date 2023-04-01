@@ -12,8 +12,8 @@
     .custom-cta-main{max-width: 1129px; width: 100%;}
     .custom-cta-content{max-width: 538px; width: 100%; margin: 10px 60px 0 0;}
     .custom-cta-img{width: calc(100% - 598px);}
+    .custom-cta-content.no_cta_image{max-width: 100%; margin: 0;}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .custom-cta-main{padding: 105px 0;}
 }

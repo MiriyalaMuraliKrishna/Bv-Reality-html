@@ -4,7 +4,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
 body{font-family: 'Poppins-Light', sans-serif; font-size: 16px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow: hidden;}
-a {color: var(--blue-color); text-decoration: none; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
+a {color: var(--green-color); text-decoration: none; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--gray-color);}
