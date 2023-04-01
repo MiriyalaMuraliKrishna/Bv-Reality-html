@@ -1,7 +1,5 @@
-var $ = jQuery.noConflict();
-
-$(document).ready(function(){
-    $('.full-width-slider').slick({
+jQuery(document).ready(function(){
+    jQuery('.full-width-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
@@ -31,7 +29,7 @@ $(document).ready(function(){
         ]
     });
 
-	$('.more-communities-slider').slick({
+	jQuery('.more-communities-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
@@ -61,7 +59,7 @@ $(document).ready(function(){
         ]
     });
 
-    $('.home-slick-slider').slick({
+    jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         infinity: true,
@@ -90,8 +88,8 @@ $(document).ready(function(){
         ]
     });
     
-    if($(window).width() <= 1023){
-        $('.featured-project-slider').slick({
+    if(jQuery(window).width() <= 1023){
+        jQuery('.featured-project-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             variableWidth: true,
@@ -102,9 +100,9 @@ $(document).ready(function(){
         });
     }
 
-    let count = $('.logo-slick-slider').children().length;
+    let count = jQuery('.logo-slick-slider').children().length;
     if (count > 6) {
-        $('.logo-slick-slider').slick({
+        jQuery('.logo-slick-slider').slick({
             slidesToShow: 6,
             slidesToScroll: 1,
             speed: 500,

@@ -1,71 +1,71 @@
-var $ = jQuery.noConflict();
-$(document).ready(function(){
-    $(window).on('scroll load', function(){
-        var scroll = $(this).scrollTop();
+
+jQuery(document).ready(function(){
+    jQuery(window).on('scroll load', function(){
+        var scroll = jQuery(this).scrollTop();
         if(scroll > 4){
-            $('.main-header').addClass('fixed_header');
+            jQuery('.main-header').addClass('fixed_header');
         }
         else{
-            $('.main-header').removeClass('fixed_header');
+            jQuery('.main-header').removeClass('fixed_header');
         }
     });
-    $('ul.communities-tab > li > a').on('click', function(e){
+    jQuery('ul.communities-tab > li > a').on('click', function(e){
         e.preventDefault();
-        $(this).parent().siblings().find('a').removeClass('active');
-        $(this).addClass('active');
-        $(".communities-grid-row").hide().removeClass('open');
-        let attr = $(this).attr('data-value');
-        $(".communities-grid-row[data-target=" + attr + "]").fadeIn(500).removeClass('open');
+        jQuery(this).parent().siblings().find('a').removeClass('active');
+        jQuery(this).addClass('active');
+        jQuery(".communities-grid-row").hide().removeClass('open');
+        let attr = jQuery(this).attr('data-value');
+        jQuery(".communities-grid-row[data-target=" + attr + "]").fadeIn(500).removeClass('open');
     });
     
 });
 
 let mobileIpad = function(){
-    if($(window).width() <= 1023){
-        $('.toogle-btn').on('click', function(e){
+    if(jQuery(window).width() <= 1023){
+        jQuery('.toogle-btn').on('click', function(e){
             e.preventDefault();
-            $('html').toggleClass('no_scroll');
-            $(this).toggleClass('on');
-            $('.navigation').toggleClass('open');
+            jQuery('html').toggleClass('no_scroll');
+            jQuery(this).toggleClass('on');
+            jQuery('.navigation').toggleClass('open');
         });
 
-        $("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
+        jQuery("ul.main_menu > li.menu-item-has-children > a").on("click", function(event){
           event.preventDefault();
-          $('ul.main_menu > li.menu-item-has-children > a').not($(this)).removeClass('active');
-          $(this).toggleClass("active");
-          $(this).parent().siblings().find('ul.sub-menu').slideUp();
-          $(this).siblings('ul.main_menu > li > ul.sub-menu').slideToggle();
-          $(this).parent().siblings().toggleClass('sib');
+          jQuery('ul.main_menu > li.menu-item-has-children > a').not(jQuery(this)).removeClass('active');
+          jQuery(this).toggleClass("active");
+          jQuery(this).parent().siblings().find('ul.sub-menu').slideUp();
+          jQuery(this).siblings('ul.main_menu > li > ul.sub-menu').slideToggle();
+          jQuery(this).parent().siblings().toggleClass('sib');
         });
-        $("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
+        jQuery("ul.main_menu ul > li.menu-item-has-children > a").on("click", function(event){
           event.preventDefault();
-          $('ul.main_menu ul > li.menu-item-has-children > a').not($(this)).removeClass('active');
-          $(this).toggleClass("active");
-          $(this).parent().siblings().find('ul.sub-menu').slideUp();
-          $(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
+          jQuery('ul.main_menu ul > li.menu-item-has-children > a').not(jQuery(this)).removeClass('active');
+          jQuery(this).toggleClass("active");
+          jQuery(this).parent().siblings().find('ul.sub-menu').slideUp();
+          jQuery(this).siblings('ul.main_menu ul > li > ul.sub-menu').slideToggle();
         });
 
     }
 }
-$(document).on('ready', function () { mobileIpad(); });
+jQuery(document).on('ready', function () { mobileIpad(); });
 
-$(document).on('ready', function(){
-    let communitiesEle = $('.communities-img').length;
+jQuery(document).on('ready', function(){
+    let communitiesEle = jQuery('.communities-img').length;
     let currentIndex = 0;
     function activeAnim(){
         let counter = currentIndex % communitiesEle;
-        $(".communities-img").removeClass('active');
-        $(".communities-img[data-value="+ counter +"]").addClass('active');
+        jQuery(".communities-img").removeClass('active');
+        jQuery(".communities-img[data-value="+ counter +"]").addClass('active');
         ++currentIndex;
     }
     setInterval(activeAnim, 5000);
 
-    let graphEle = $('.graph-img').length + 1;
+    let graphEle = jQuery('.graph-img').length + 1;
     let graphIndex = 0;
     function graphAnim(){
         let counterGraph = graphIndex % graphEle;
-        $(".graph-img").removeClass('active');
-        $(".graph-img[data-value="+ counterGraph +"]").addClass('active');
+        jQuery(".graph-img").removeClass('active');
+        jQuery(".graph-img[data-value="+ counterGraph +"]").addClass('active');
         ++graphIndex;
     }
     setInterval(graphAnim, 4000);
