@@ -16,9 +16,12 @@
 .default-grid-category{gap: 15px; margin-bottom: 18px;}
 .default-grid-category a{font-size: 11.5px; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
 .default-grid-content h3{font-size: 38px; font-weight: bold; line-height: 1.11; color: var(--white); }
+.default-grid-content h3 a{color: var(--white);}
+.default-grid-content h3 a:hover{color: var(--white-50);}
 .default-grid-content .button{margin-top: auto; max-width: fit-content; }
 .default-grid-content .button:hover{background-color: var(--green-color); border-color: var(--green-color);}
 
+/*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .default-grid-sec .container{max-width: 1361px;}
     .default-grid-main{gap: 61px;}
