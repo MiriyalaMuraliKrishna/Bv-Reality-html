@@ -1,6 +1,5 @@
 jQuery(document).ready(function($) {
-    jQuery('.popup-youtube').magnificPopup({
-     /* disableOn: 700,*/
+    jQuery('.open-popuo').magnificPopup({
       type: 'iframe',
       mainClass: 'mfp-fade',
       removalDelay: 160,
