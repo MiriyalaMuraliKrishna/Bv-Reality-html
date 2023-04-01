@@ -1,5 +1,5 @@
 
-
+ul.blog_list{margin: 0;}
 .communities-page-bg{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0; overflow: hidden;}
 .communities-page-wrap{padding: 330px 0 174px; }
 
