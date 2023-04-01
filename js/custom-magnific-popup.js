@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  jQuery('.open-popuo').magnificPopup({
+  jQuery('.popup-youtube').magnificPopup({
     type: 'iframe',
     mainClass: 'mfp-video',
     removalDelay: 160,
