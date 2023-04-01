@@ -11,7 +11,7 @@ module.exports = function(grunt) {
       cssmin: {
         target: {
           files: {
-            'core.bundle.css': ['css/*.css']
+            'core.bundle.css': ['css/**.css']
           }
         }
       },

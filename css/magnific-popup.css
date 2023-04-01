@@ -1,4 +1,4 @@
-/* Magnific Popup CSS */
+
 .mfp-bg {
   top: 0;
   left: 0;
@@ -18,7 +18,7 @@
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  backface-visibility: hidden; }
 
 .mfp-container {
   text-align: center;
@@ -110,7 +110,7 @@ button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
+  appearance: none;
   display: block;
   outline: none;
   padding: 0;
@@ -121,7 +121,6 @@ button.mfp-arrow {
 button::-moz-focus-inner {
   padding: 0;
   border: 0; }
-
 .mfp-close {
   width: 44px;
   height: 44px;
