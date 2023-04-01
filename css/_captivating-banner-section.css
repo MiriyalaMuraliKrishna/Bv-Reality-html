@@ -8,8 +8,7 @@
 .captivating-text p{color: rgba(255, 255, 255, 0.4); font-size: 20px; font-family: 'Poppins-Medium',sans-serif; line-height: 1.3;}
 .captivating-banner-text h2 span{font-weight: 300;}
 .captivating-text-right{color: var(--white); font-size: 16px; line-height: 30px;}
-.captivating-number{font-size: 42px; display: block; font-weight: bold; font-family: 'Quicksand', sans-serif;}
-
+.captivating-number{font-size: 42px; line-height: 50px; display: block; font-weight: bold; font-family: 'Quicksand', sans-serif;}
 
 
 /*-- media css starts here --*/
@@ -21,7 +20,7 @@
     .captivating-list-main{flex: 0 0 calc(100% - 605px); gap: 76px;}
     .captivating-list{flex: 0 0 calc(33.333% - 51px);}
     .captivating-text-right{flex: 0 0 538px;}
-    .captivating-icon{width: 52px; height: 52px; margin-bottom: 30px; }
+    .captivating-icon{width: 52px; height: 52px; margin-bottom: 20px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .captivating-main{display: block;}

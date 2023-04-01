@@ -7,14 +7,14 @@
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
-    .home-slider-wrap{padding: 0 0 100px;}
+    .home-slider-wrap{padding: 0 0 113px;}
     .home-slider-main{gap: 60px;}
     .home-slider-list{flex: 0 0 calc(33.333% - 40px);}
     .home-slick-slider.slick-slider{width: calc(100% + 60px);}
     .home-slick-slider .slick-slide{margin-right: 60px;}
     .home-slider-thumb img{min-height: 664px; max-height: 664px;}
     .home-slider-content{padding: 80px;}
-    .home-slick-slider ul.slick-dots{margin: 30px auto 0; max-width: 197px;}
+    .home-slick-slider ul.slick-dots{margin: 40px auto 0; max-width: 197px;}
     .home-slick-slider .slick-arrow{bottom: -11px; position: absolute;}
     .home-slick-slider .slick-arrow.slick-prev{left: calc(50% - 98px);}
     .home-slick-slider .slick-arrow.slick-next{right: calc(50% - 98px);}
