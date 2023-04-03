@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
         }
     });
     jQuery('ul.communities-tab > li > a').on('click', function(e){
-        e.preventDefault();
+        //e.preventDefault();
         jQuery(this).parent().siblings().find('a').removeClass('active');
         jQuery(this).addClass('active');
         jQuery(".communities-grid-row").hide().removeClass('open');
