@@ -172,12 +172,15 @@ ul.slick-dots li::before{display: none;}
 @keyframes dotPulse { 0%{transform:scale(.1); opacity: 0;} 50%{ opacity: .2;} 100%{transform: scale(2); opacity: 0;} }
 
 /* Cookie bar */
+body .cky-modal.cky-modal-open button.cky-show-desc-btn:not(:hover):not(:active){color: #008000;}
+body .cky-box-bottom-left{right: 40px; left: auto;}
 body .cky-revisit-bottom-left{right: 15px; left: auto;}
 body .cky-revisit-bottom-left:hover::before{background: var(--heading-color); right: calc(100% + 7px); left: auto;}
 body .cky-revisit-bottom-left:hover::after{right: calc(100% + 2px); border-right-color: var(--heading-color); left: auto;}
-body .cky-btn.cky-btn-reject, body .cky-btn.cky-btn-preferences{font-size: 18px; font-weight: 300; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--heading-color) !important; border-radius: 34px;}
+body .cky-btn.cky-btn-reject, body .cky-btn.cky-btn-preferences, body .cky-btn.cky-btn-customize{font-size: 18px; font-weight: 300; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--heading-color) !important; border-radius: 34px; transition: all .6s ease;}
+body .cky-btn.cky-btn-reject:hover, body .cky-btn.cky-btn-accept:hover,body .cky-btn.cky-btn-customize:hover{background-color: var(--green-color) !important; color: var(--white) !important; border-color: var(--green-color) !important; opacity: 1;}
 body .cky-modal.cky-modal-open button.cky-btn.cky-btn-reject:hover, body .cky-modal.cky-modal-open button.cky-btn.cky-btn-preferences:hover{background-color: var(--green-color) !important; color: var(--white) !important; border-color: var(--green-color) !important; opacity: 1;}
-body .cky-btn.cky-btn-accept{font-size: 18px; font-weight: 300; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--white) !important; background-color: var(--heading-color) !important; border-radius: 34px;}
+body .cky-btn.cky-btn-accept{font-size: 18px; font-weight: 300; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--white) !important; background-color: var(--heading-color) !important; border-radius: 34px; transition: all .6s ease;}
 body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color: var(--green-color) !important; color: var(--white) !important; background-color: var(--green-color) !important; opacity: 1;}
 
 /*-- media css starts here --*/
