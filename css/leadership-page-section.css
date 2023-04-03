@@ -3,7 +3,7 @@
 .leadership-content-desc{font-size: 14px; line-height: 23px; font-weight: 300;}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1300px){
     .leadership-page-main{padding: 98px 0 8px;}
     .leadership-page-row{gap: 107px; padding: 0 127px 102px; margin-bottom: 98px; border-bottom: solid 1px rgba(0, 0, 0, 0.1);}
     .leadership-page-row:last-child{border: none; margin-bottom: 0; }
@@ -14,6 +14,18 @@
     .leadership-page-content{gap: 60px; padding-top: 36px; align-items: flex-start;}
     .leadership-content-text{ width: 310px; }
     .leadership-content-desc{ width: calc(100% - 370px);}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .leadership-page-main{padding: 98px 0 8px;}
+    .leadership-page-row{gap: 30px; padding: 0 0 102px; margin-bottom: 98px; border-bottom: solid 1px rgba(0, 0, 0, 0.1);}
+    .leadership-page-row:last-child{border: none; margin-bottom: 0; }
+    .leadership-page-row:nth-child(even){flex-direction: row-reverse;}
+    .leadership-page-image{width: 296px;}
+    .leadership-page-text{width: calc(100% - 326px);}
+    .leadership-page-text h2{font-size: 38px; line-height: 44px; margin-bottom: 1px;}
+    .leadership-page-content{gap: 30px; padding-top: 36px; align-items: flex-start;}
+    .leadership-content-text{ width: 310px; }
+    .leadership-content-desc{ width: calc(100% - 340px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .leadership-page-main{padding: 98px 0 8px;}

@@ -8,12 +8,19 @@
 .leadership-team-hr{width: 100%; height: 1px; background-color: var(--white); opacity: 0.2; }
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1300px){
     .leadership-banner-wrap{padding: 271px 0 124px;}
     .leadership-banner-main{gap: 28px; align-items: flex-end; flex-direction: row-reverse; max-width: 1246px;}
     .leadership-banner-text{flex: 0 0 770px;}
     .leadership-banner-teams{flex: 0 0 calc(100% - 798px); justify-content: flex-end; padding-right: 7px;}
     .leadership-team-hr{width: 600px; height: 1px; left: -427px; top: 50%; transform: translateY(-50%); position: absolute;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .leadership-banner-wrap{padding: 271px 0 124px;}
+    .leadership-banner-teams{gap: 19px; margin-bottom: 43px; align-items: center;}
+    .leadership-team-thumb{width: 58px; height: 58px;}
+    .leadership-banner-text{max-width: 800px;}
+    .leadership-team-hr{flex: 0 0 calc(100% - 231px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .leadership-banner-wrap{padding: 150px 0 98px;}
