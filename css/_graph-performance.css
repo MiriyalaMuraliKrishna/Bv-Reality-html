@@ -77,6 +77,7 @@
     .graph-location{width: 400px; min-height: 194px; margin-bottom: 48px;}
     .graph-dot{width: 7px; height: 7px;}
     .graph-img.one{position: absolute; bottom: 0; left: 11px;}
+    .graph-img.two{display: none;}
     .graph-img.three{position: absolute; bottom: 19px; right: 28px;}
     .graph-img.four{position: absolute; top: 0; left: 159px; }
 
@@ -100,6 +101,7 @@
     .graph-location{width: 100%; min-height: 194px; margin-bottom: 48px;}
     .graph-dot{width: 7px; height: 7px;}
     .graph-img.one{position: absolute; bottom: 0; left: 11px;}
+    .graph-img.two{display: none;}
     .graph-img.three{position: absolute; bottom: 19px; right: 28px;}
     .graph-img.four{position: absolute; top: 0; left: 159px; }
 
