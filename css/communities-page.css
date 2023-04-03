@@ -64,6 +64,8 @@ ul.communities-tab > li > a.active::after{width: 100%;}
 .communities-grid-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
 .communities-grid-category a:hover{background-color: var(--white); color: black;}
 .communities-grid-content h3{font-size: 38px; font-weight: bold; line-height: 1.11; color: var(--white); }
+.communities-grid-content h3 a{color: var(--white);}
+.communities-grid-content h3 a:hover{color: var(--green-color);}
 .communities-grid-content .button{margin-top: auto; max-width: fit-content; }
 .communities-grid-content .button:hover{background-color: var(--green-color); border-color: var(--green-color);}
 
@@ -79,6 +81,7 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-grid-list{flex: 0 0 33.3333%; padding: 0 30px;}
     .communities-grid-list:nth-child(2){flex: 0 0 66.3333%;}
     .communities-grid-list:nth-child(6){flex: 0 0 66.3333%;}
+    .communities-grid-image{max-height: 429px;}
 
     .communities-img.one{position: absolute; top: -54px; left: 33px;}
     .communities-img.two{position: absolute; left: 450px; top: -79px;}
@@ -99,6 +102,7 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-page-wrap{padding: 180px 0 80px;}
     .communities-image{width: 100%; min-height: 200px; margin-bottom: 46px;}
     .communities-img.one{position: absolute; top: 0; left: 0;}
+    .communities-img.two{display: none;}
     .communities-img.three{position: absolute; top: 0; right: 46px;}
     .communities-img.four{position: absolute; top: 88px; left: 128px; }
     
@@ -114,6 +118,7 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-page-wrap{padding: 92px 0 80px;}
     .communities-image{width: 100%; min-height: 200px; margin-bottom: 46px;}
     .communities-img.one{position: absolute; top: 0; left: 0;}
+    .communities-img.two{display: none;}
     .communities-img.three{position: absolute; top: 0; right: 46px;}
     .communities-img.four{position: absolute; top: 88px; left: 128px; }
 

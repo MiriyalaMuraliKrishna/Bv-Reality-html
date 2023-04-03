@@ -59,7 +59,7 @@
 @media screen and (min-width:1024px) {
     .num-count-list{flex: 0 0 20%;}
     .company-content-list{flex: 0 0 50%; padding-right: 150px;}
-    .company-content-list:nth-child(2){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2);}
+    .company-content-list:nth-child(even){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2);}
     .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
     .company-location{width: calc(100% - 690px); position: relative;}
 
@@ -81,6 +81,9 @@
     .featured-project-content { padding: 45px 60px 81px; }
 }
 @media screen and (max-width:1299px) and (min-width:1024px){
+    .company-content-list{padding-right: 50px;}
+    .company-content-list:nth-child(even){padding: 0 0 0 50px;}
+
     .company-test{max-width: 510px; margin-right: 20px; }
     .company-location{width: calc(100% - 530px);}
 
