@@ -42,11 +42,8 @@
     .leadership-page-row{display: block; padding: 0 0 48px; margin-bottom: 51px; border-bottom: solid 1px rgba(0, 0, 0, 0.1);}
     .leadership-page-row:last-child{border: none; margin-bottom: 0; }
     .leadership-page-image{max-width: 177px; margin-bottom: 30px;}
-    .leadership-page-text h2{font-size: 32px; line-height: 44px; margin-bottom: 0;}
-    .role-position{font-size: 15px; margin: -4px 0 0; display: block;}
+    .leadership-page-text h2{font-size: 32px; line-height: 38px; margin-bottom: 0;}
+    .role-position{font-size: 15px; margin: 0; display: block;}
     .leadership-page-content{display: block; padding-top: 27px;}
     .leadership-content-desc{padding-top: 30px;}
-}
-@media only screen and (max-width: 413px) and (min-width: 200px){
-    .leadership-page-text h2 { font-size: 32px; line-height: 40px; margin-bottom: 10px; }
 }
