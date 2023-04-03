@@ -68,6 +68,9 @@ ul.communities-tab > li > a.active::after{width: 100%;}
 .communities-grid-content h3 a:hover{color: var(--green-color);}
 .communities-grid-content .button{margin-top: auto; max-width: fit-content; }
 .communities-grid-content .button:hover{background-color: var(--green-color); border-color: var(--green-color);}
+.communities-grid-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to top, #eee , #00052D); mix-blend-mode: multiply; }
+.load-btn-wrap{display: block; margin-top: 40px;}
+.load-btn-wrap .button{margin: 0 auto; display: block; max-width: fit-content;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1440px) {
