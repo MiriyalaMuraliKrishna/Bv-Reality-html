@@ -47,6 +47,6 @@
     .leadership-page-content{display: block; padding-top: 27px;}
     .leadership-content-desc{padding-top: 30px;}
 }
-@media only screen and (max-width: 767px) and (min-width: 200px){
+@media only screen and (max-width: 413px) and (min-width: 200px){
     .leadership-page-text h2 { font-size: 32px; line-height: 40px; margin-bottom: 10px; }
 }
