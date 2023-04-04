@@ -103,11 +103,15 @@ jQuery(document).ready(function(){
     let count = jQuery('.logo-slick-slider').children().length;
     if (count > 6) {
         jQuery('.logo-slick-slider').slick({
+            dots: true,
+        });
+    }
+        jQuery('.logo-slick-slider').slick({
             slidesToShow: 6,
             slidesToScroll: 1,
             speed: 500,
             infinite: false,
-            dots: true,
+            dots: false,
             arrows: false,
             responsive: [
                 {
@@ -115,6 +119,7 @@ jQuery(document).ready(function(){
                         settings: {
                             slidesToShow: 4,
                             slidesToScroll: 1,
+                            dots: true,
                         }
                     },
                 {
@@ -122,6 +127,7 @@ jQuery(document).ready(function(){
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
+                        dots: true,
                     }
                 },
                 {
@@ -140,5 +146,5 @@ jQuery(document).ready(function(){
                 }
             ],
         });
-    }
+
 });

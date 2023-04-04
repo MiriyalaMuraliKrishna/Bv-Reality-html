@@ -4,7 +4,7 @@
 
 .company-test .sub-text{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
 .company-test h1{font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white);}
-.company-test h1 > .big-text{font-weight: bold; display: block;}
+.company-test h1 > b{font-weight: bold; display: block;}
 .company-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
 .company-num-count{gap: 60px; margin-top: 72px;}
 .num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
@@ -12,6 +12,7 @@
 .num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4); line-height: 24px; display: block;}
 
 .company-banner-content{padding: 79px 0 109px; }
+.company-banner-content.full_width .company-content-list{flex: 0 0 100%;}
 .company-content-list h6{font-family: 'Poppins', sans-serif; font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: var(--white); margin-bottom: 14px; }
 .company-content-list p{font-size: 14px; font-weight: 300; color: rgba(255, 255, 255, 0.4); line-height: 1.43;}
 
@@ -24,9 +25,12 @@
 .logo-slider-item{flex: 0 0 200px;}
 .logo-slider-thumb img{max-width: 187px; max-height: 59px; }
 .logo-slider-main ul.slick-dots{margin: 43px 0 0 0; }
+.logo-slick-slider .slick-track{display: flex; align-items: center; justify-content: center;}
 
 /* company grid section */
 .company-grid-wrap{padding: 24px 0 130px; }
+.company-grid-content p:not(:last-child){margin-bottom: 23px;}
+
 
 /* Leadership section */
 .leadership-wrap{padding: 90px 0 40px; }
@@ -36,11 +40,13 @@
 
 
 /* More Communities */
-.featured-project-wrap{padding: 50px 0 0; margin-bottom: -75px; z-index: 2; position: relative;}
-.featured-project-content{position: absolute; bottom: 0; }
+.featured-project-wrap{padding: 50px 0 0; margin-bottom: -105px; z-index: 2; position: relative;}
+.featured-project-content{position: absolute; bottom: 0;}
 .featured-project-category{gap: 15px; margin-bottom: 23px;}
 .featured-project-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
-.featured-project-content h3{font-size: 38px; font-weight: bold; line-height: 1.37; color: var(--white); }
+.featured-project-content h3{font-size: 38px; font-weight: bold; line-height: 1.37;}
+.featured-project-content h3 > a{color: var(--white); }
+.featured-project-content h3 > a:hover{color: var(--green-color);}
 .featured-project-content .button{margin-top: auto; max-width: fit-content; }
 .featured-project-content .button:hover{background-color: #00be66; border-color: #00be66;}
 
@@ -79,6 +85,7 @@
     .company-grid-list:last-child .company-grid-content{padding-bottom: 0;}
     .company-grid-list:last-child .company-grid-image{padding-bottom: 0;}
     .no_repeater_image .company-grid-content{flex: 0 0 100%; padding-right: 0; padding-left: 0;}
+    .page-template-company .custom-cta-main{padding: 210px 0 95px;}
 }
 @media screen and (max-width: 1499px) and (min-width:1024px){
     .featured-project-content { padding: 45px 60px 81px; }
@@ -86,12 +93,14 @@
 @media screen and (max-width:1299px) and (min-width:1024px){
     .company-content-list{padding-right: 50px;}
     .company-content-list:nth-child(even){padding: 0 0 0 50px;}
+    .company-grid-list:nth-child(even) .company-grid-content{padding-left: 45px;}
+    .company-grid-list:nth-child(even) .company-grid-image{padding-right: 45px;}
 
     .company-test{max-width: 510px; margin-right: 20px; }
     .company-location{width: calc(100% - 530px);}
 
-    .company-grid-content{padding: 0 45px 90px 0; }
-    .company-grid-image{padding: 0 0 90px 45px;}
+    .company-grid-content{padding: 90px 45px 90px 0; }
+    .company-grid-image{padding: 90px 0 90px 45px;}
     .reverse .company-grid-content{padding: 90px 0 0 45px;}
     .reverse .company-grid-image{padding: 90px 45px 0 0; justify-content: end;}
 

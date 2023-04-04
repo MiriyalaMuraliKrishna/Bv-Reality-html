@@ -13,6 +13,9 @@
 .optional-feature-text{flex: 0 0 calc(100% - 63px);}
 .optional-feature-icon img{width: 100%; object-fit: cover;}
 
+.flexible-default-page .optional-feature-section{background-color: transparent; position: relative;}
+.flexible-default-page .optional-feature-section::after{width: 100%; height: calc(100% + 168px); top: -168px; content: ""; display: block; position: absolute; z-index: -1; background-color: #eef6ff;}
+
 /* Media query start */
 @media screen and (min-width: 1024px) {
     .optional-feature-list{flex: 0 0 calc(25% - 60px);}
