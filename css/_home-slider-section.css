@@ -14,11 +14,11 @@
     .home-slick-slider .slick-slide{margin-right: 60px;}
     .home-slider-thumb img{min-height: 664px; max-height: 664px;}
     .home-slider-content{padding: 80px;}
-    .home-slick-slider ul.slick-dots{margin: 40px auto 0; max-width: 360px; gap: 15px 21px; position: absolute; left: 0; right: 0;}
+    .home-slick-slider ul.slick-dots{margin: 40px auto 0; max-width: 200px; gap: 15px 21px; position: absolute; left: 0; right: 0;}
     .home-slick-slider ul.slick-dots li{margin: 0;}
     .home-slick-slider .slick-arrow{bottom: -60px; position: absolute;}
-    .home-slick-slider .slick-arrow.slick-prev{left: calc(50% - 240px);}
-    .home-slick-slider .slick-arrow.slick-next{right: calc(50% - 240px);}
+    .home-slick-slider .slick-arrow.slick-prev{left: calc(50% - 125px);}
+    .home-slick-slider .slick-arrow.slick-next{right: calc(50% - 125px);}
 }
 @media only screen and (max-width: 1399px) and (min-width: 1024px){
     .home-slider-content{padding: 70px;}

@@ -61,7 +61,7 @@ jQuery(document).ready(function(){
 
     jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         infinity: true,
         dots: true,
         arrows: true,
