@@ -28,6 +28,7 @@
 .full-width-section{margin-top: -146px;}
 .full-width-wrap{padding-bottom: 97px; }
 .full-width-list{width: 1123px; margin: 0 30px;}  
+.full-width-slider .slick-list{overflow: inherit;}
 
 /* two grid section */
 .two-grid-caption{position: absolute; bottom: 0; background: #00052d; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; }
@@ -42,9 +43,11 @@
 .more-communities-slider .slick-list{overflow: inherit;}
 .more-communities-list{width: 413px; margin-right: 60px; position: relative;}
 .more-communities-content{position: absolute; top: 0; height: 100%; padding: 45px 60px 49px 58px; flex-direction: column;}
-.more-communities-category{gap: 15px; margin-bottom: 18px;}
+.more-communities-category{gap: 4px; margin-bottom: 18px;}
 .more-communities-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
-.more-communities-content h3{font-size: 38px; font-weight: bold; line-height: 1.11; color: var(--white); }
+.more-communities-content h3{font-size: 38px; font-weight: bold; line-height: 1.11;}
+.more-communities-content h3 > a{color: var(--white); }
+.more-communities-content h3 > a:hover{color: var(--green-color);}
 .more-communities-content .button{margin-top: auto; max-width: fit-content; }
 .more-communities-content .button:hover{background-color: #00be66; border-color: #00be66;}
 
@@ -69,6 +72,8 @@
     .project-title{flex: 0 0 533px;}
     .project-facts{flex: 0 0 calc( 100% - 711px); margin-top: 69px;}
 
+    /* .project-profile .graph-performance-wrap{padding: 66px 0 266px;} */
+
     .facts-title{flex:0 0 43%;}
     .facts-content{flex: 0 0 57%;}
     .big-image-main{max-width: 1356px; margin: 0 auto;}
@@ -77,6 +82,7 @@
     .two-grid-list{flex: 0 0 calc(50% - 30px); transform: translateY(-30px);}
     .two-grid-list:nth-child(even){transform: translateY(30px);}
 
+   
     .full-width-slider ul.slick-dots{margin: 30px auto 0; max-width: 197px;}
     .full-width-slider .slick-arrow{bottom: -11px; position: absolute;}
     .full-width-slider .slick-arrow.slick-prev{left: calc(50% - 98px);}

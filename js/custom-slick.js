@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 
 	jQuery('.more-communities-slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: true,
         autoplaySpeed: 3000,
         variableWidth: true,
