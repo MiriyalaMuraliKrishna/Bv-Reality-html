@@ -62,7 +62,7 @@ jQuery(document).ready(function(){
     jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
-        infinity: true,
+        infinity: false,
         dots: true,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',

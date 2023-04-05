@@ -33,10 +33,11 @@
 
 
 /* Leadership section */
-.leadership-wrap{padding: 90px 0 40px; }
+.leadership-wrap{padding: 91px 0 40px; }
 .leadership-image{gap: 30px; margin-bottom: 20px;}
 .leadership-thumb{width: 62px;}
-.leadership-heading h2{font-size: 42px; font-weight: bold; line-height: 1.26; color: var(--heading-color); }
+.leadership-heading h2{font-size: 42px; font-weight: bold; line-height: 1.26; color: var(--heading-color);}
+.leadership-content p{margin-bottom: 22px;}
 
 
 /* More Communities */
@@ -86,6 +87,8 @@
     .company-grid-list:last-child .company-grid-image{padding-bottom: 0;}
     .no_repeater_image .company-grid-content{flex: 0 0 100%; padding-right: 0; padding-left: 0;}
     .page-template-company .custom-cta-main{padding: 210px 0 95px;}
+    .logo-slider-item{margin: 0 15px;}
+    .logo-slider-thumb{display: flex; justify-content: center;}
 }
 @media screen and (max-width: 1499px) and (min-width:1024px){
     .featured-project-content { padding: 45px 60px 81px; }
@@ -129,13 +132,15 @@
     .company-grid-image{flex: 0 0 100%; display: flex; justify-content: left; padding: 0; border-left:none;}
     .reverse .company-grid-content{padding: 0; border-left: none;}
     .reverse .company-grid-image{padding: 0; justify-content: left;}
-    .company-grid-content h3{font-size: 32px; line-height: 1.38;}
+    .company-grid-content h2{font-size: 32px; line-height: 1.38;}
     .company-grid-content .button{margin-top: -12px;}
+
+    .company-logo-wrap{padding: 53px 0 80px;}
 
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
-    .company-logo-wrap{padding: 53px 0 80px;}
+    
     .logo-slider-item{width: 187px; margin: 0 25px;}
     .logo-slider .slick-list{overflow: inherit;}
     .logo-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
@@ -151,7 +156,7 @@
     .featured-project-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
     .featured-project-slider ul.slick-dots li button::before{background-color: rgba(255, 255, 255, 0.2);}
     .featured-project-slider ul.slick-dots li.slick-active button::before{background-color: var(--white);}
-    .company-page .custom-cta-main{padding: 115px 0 0; }
+    .page-template-company .custom-cta-main{padding: 115px 0 0; }
 
     
 
@@ -174,7 +179,7 @@
     .num-count-list img{margin-bottom: 0;}
     .num-count-icon{width: 48px; margin-right: 25px;}
     .num-count-text{width: calc(100% - 73px);}
-    .num-value{font-size: 36px;}
+    .num-value{font-size: 36px; margin-bottom: 4px;}
     .num-count-list span{font-size: 17px;}
 
     .company-banner-content{padding: 54px 0;}
@@ -188,15 +193,18 @@
     .company-grid-image{flex: 0 0 100%; display: flex; justify-content: center; padding: 0; border-left:none;}
     .reverse .company-grid-content{padding: 0; border-left: none;}
     .reverse .company-grid-image{padding: 0; justify-content: center;}
-    .company-grid-content h3{font-size: 32px; line-height: 1.38;}
-    .company-grid-content .button{margin-top: -12px;}
+    .company-grid-content h2{font-size: 32px; line-height: 1.38;}
+    .company-grid-content .button{margin-top: -5px;}
 
     .leadership-wrap{padding: 80px 0;}
     .leadership-main{max-width: 100%;}
     .leadership-heading{width: 100%; margin-right: 0;}
-    .leadership-image{margin-bottom: 30px;}
+    .leadership-image{gap: 25px; margin-bottom: 30px;}
+    .leadership-thumb{width: 52px;}
     .leadership-content{width: 100%;}
     .leadership-heading h2{font-size: 32px; line-height: 1.38; margin-bottom: 19px;}
     .leadership-content .button{margin-top: -12px;}
+
+    .company-logo-wrap{padding: 53px 0 38px;}
 
 }
