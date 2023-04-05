@@ -59,14 +59,21 @@ jQuery(document).ready(function(){
         ]
     });
 
+    let homeCount = jQuery('.home-slick-slider').children().length;
+    if (homeCount > 3) {
+        jQuery('.home-slick-slider').slick({
+            dots: true,
+        });
+    }
+    jQuery('.home-slick-slider').slick('refresh');
     jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinity: true,
         dots: true,
-        arrows: true,
-        prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
-        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
+        arrows: false,
+        // prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
+        // nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
         responsive: [
             {
             breakpoint: 1023,
@@ -74,6 +81,7 @@ jQuery(document).ready(function(){
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     arrows: false,
+                    dots: false,
                 }
             },
             {
@@ -83,6 +91,7 @@ jQuery(document).ready(function(){
                     slidesToScroll: 1,
                     variableWidth: true,
                     arrows: false,
+                    dots: true,
                 }
             }
         ]
