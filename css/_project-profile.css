@@ -42,9 +42,11 @@
 .more-communities-heading h4{font-size: 26px; line-height: 2.04; color: var(--heading-color); margin-bottom: 0;}
 .more-communities-slider .slick-list{overflow: inherit;}
 .more-communities-list{width: 413px; margin-right: 60px; position: relative;}
-.more-communities-content{position: absolute; top: 0; height: 100%; padding: 45px 60px 49px 58px; flex-direction: column;}
+.more-communities-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to top,#eee ,#00052d); mix-blend-mode: multiply; }
+.more-communities-content{position: absolute; top: 0; height: 100%; width:100%; padding: 45px 60px 49px 58px; flex-direction: column; display: flex; overflow-y: auto;}
 .more-communities-category{gap: 4px; margin-bottom: 18px;}
 .more-communities-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
+.more-communities-category a:hover{background-color: var(--white); color: var(--black);}
 .more-communities-content h3{font-size: 38px; font-weight: bold; line-height: 1.11;}
 .more-communities-content h3 > a{color: var(--white); }
 .more-communities-content h3 > a:hover{color: var(--green-color);}
@@ -73,6 +75,7 @@
     .project-facts{flex: 0 0 calc( 100% - 711px); margin-top: 69px;}
 
     /* .project-profile .graph-performance-wrap{padding: 66px 0 266px;} */
+    .project-profile h3{margin: 59px 0 21px;}
 
     .facts-title{flex:0 0 43%;}
     .facts-content{flex: 0 0 57%;}
@@ -87,6 +90,9 @@
     .full-width-slider .slick-arrow{bottom: -11px; position: absolute;}
     .full-width-slider .slick-arrow.slick-prev{left: calc(50% - 98px);}
     .full-width-slider .slick-arrow.slick-next{right: calc(50% - 98px);}
+
+    .more-communities-content h3{margin: 0 0 21px 0;}
+    .more-communities-thumb img{max-height: 429px; min-height: 429px;}
 
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
