@@ -1,7 +1,7 @@
 
 /* Banner section */
 .project-banner-bg{position: absolute; z-index: -1; height: 100%; width: 100%; left: 0; top: 0;}
-
+.project-text h1{color: var(--white);}
 .project-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
 .project-num-count{gap: 60px; margin-top: 40px;}
 .num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
@@ -23,6 +23,7 @@
 
 /* Project second */
 .project-second-wrap{padding-bottom: 85px;}
+.project-second-wrap.no_slider{padding-top: 72px;}
 
 /* full width slider */
 .full-width-section{margin-top: -146px;}
@@ -95,14 +96,14 @@
     .more-communities-thumb img{max-height: 429px; min-height: 429px;}
 
 }
-@media screen and (max-width: 1299px) and (min-width: 1024px) {
+@media screen and (max-width: 1299px) and (min-width: 1024px){
     .project-banner-main{padding: 265px 0 70px; gap: 30px; flex-direction: row-reverse;}
     .project-image{flex: 0 0 492px;}
     .project-text{flex: 0 0 calc(100% - 522px);}
 
-    .project-sub-heading-main{gap: 30px;}
+    .project-sub-heading-main{gap: 50px;}
     .project-title{flex: 0 0 433px;}
-    .project-facts{flex: 0 0 calc( 100% - 463px);}
+    .project-facts{flex: 0 0 calc( 100% - 483px);}
     .full-width-list{width: 1000px;}
     .more-communities-list{margin-right: 30px;}
     .two-grid-main{max-width: 100%; gap: 40px;}
@@ -112,6 +113,7 @@
     .project-banner-main{padding: 100px 0 50px; gap: 30px; flex-direction: row-reverse;}
     .project-image{flex: 0 0 285px; position: relative;}
     .project-text{flex: 0 0 calc(100% - 315px);}
+    .project-text h1{font-size: 46px; line-height: 1.17;}
 
     .project-num-count{gap: 40px;}
     .num-count-list{width: 100px;}
@@ -131,6 +133,7 @@
 
     .full-width-slider ul.slick-dots{margin-top: 30px;}
     .more-communities-list{margin-right: 30px;}
+    .more-communities-thumb img{max-height: 420px; min-height: 420px;}
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px){
@@ -165,7 +168,7 @@
     .two-grid-section .container{padding: 0;}
     .two-grid-main{padding: 49px 0 60px; gap: 20px;}
     .two-grid-caption{position: relative; padding: 24px 40px 22px 25px;}
-    .two-grid-list , .two-grid-list:first-child{transform: none;}
+    .two-grid-list , .two-grid-list:first-child{transform: none; height: 100%;}
 
     .full-width-slider ul.slick-dots{margin-top: 30px;}
 

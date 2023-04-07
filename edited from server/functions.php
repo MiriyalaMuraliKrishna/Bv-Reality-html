@@ -310,9 +310,11 @@ function community_slider(){
 							<a href="<?php echo get_the_permalink($post->ID); ?>"><img src="<?php echo $thumbnail; ?>" alt="<?php echo $alt_text; ?>"></a>
 						</figure>
 					<div class="more-communities-content">
+						<?php if(!empty($resultstr)){ ?>
 						<div class="more-communities-category flex">
 							<?php echo implode(" ",$resultstr); ?>
 						</div>
+						<?php } ?>
 						<h3><a href="<?php echo get_the_permalink($post->ID); ?>"><?php echo get_the_title($post->ID); ?></a></h3>
 						<a href="<?php echo get_the_permalink($post->ID); ?>" class="button">More<span class="fa-solid fa-caret-right right-arrow"></span></a>
 					</div>
@@ -358,7 +360,7 @@ add_shortcode('full_width_image', 'shortcode_full_width_image');
 
 
 function slider_fun(){
-
+    if ( have_rows('slides') ) : 
     $slider = '<section class="full-width-section">
 	<div class="full-width-wrap">
 		<div class="full-width-main full-width-slider">';
@@ -374,6 +376,7 @@ function slider_fun(){
 	    } endwhile;	wp_reset_postdata();
 		$slider .= '</div></div></section>';
 return $slider;
+	endif;
 
 }
 add_shortcode('slider','slider_fun');
@@ -463,7 +466,7 @@ if (!empty( $select_project ) ) {
 									<img src="'.$thumbnail.'" alt="'.$alt_text.'">
 								</figure>
 							</div>';
-						$projects .='<div class="default-grid-content flex">
+						$projects .='<div class="default-grid-content">
 								<div class="default-grid-category flex">';
 								$projects .= implode(", ",$resultstr);
 						$projects .='</div>';

@@ -2,6 +2,7 @@
 .graph-bg{position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; }
 /* .graph-bg-thumb img{max-height: 933px; width: 100%;} */
 .graph-performance-wrap{position: relative; z-index: 1; padding: 66px 0 266px;}
+.graph-performance-wrap.no_slider{padding-bottom: 80px;}
 .graph-content{margin-bottom: 98px;}
 .graph-sub-title{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
 .graph-text h2{font-size: 56px; color: var(--white); font-weight: normal; line-height: 1.14; margin-bottom: 22px;}

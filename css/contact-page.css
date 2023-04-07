@@ -35,7 +35,9 @@ body .frm_style_formidable-style.with_frm_style .frm_error::after{font-family: "
 body .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus{color: var(--white);}
 body .frm_style_formidable-style.with_frm_style .frm_form_field :invalid{color: #f00000; border-width: 0;}
 body .selectBox-dropdown .selectBox-label{padding: 0; display: block; color: var(--white-50);}
+body .selectBox-dropdown.selectBox-active .selectBox-label{color: var(--white);}
 body .selectBox-dropdown .selectBox-arrow{border-left: none;}
+body .frm_style_formidable-style.with_frm_style textarea:focus{color: var(--white);}
 
 @media screen and (min-width:1024px) {
     .contact-page-head{max-width: 1020px; margin-bottom: 87px;}
