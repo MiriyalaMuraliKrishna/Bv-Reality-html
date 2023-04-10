@@ -109,25 +109,27 @@ jQuery(document).ready(function(){
         });
     }
 
-    let count = jQuery('.logo-slick-slider').children().length;
-    if (count > 6) {
-        jQuery('.logo-slick-slider').slick({
-            dots: true,
-        });
-    }
+    // let count = jQuery('.logo-slick-slider').children().length;
+    // if (count > 6) {
+    //     jQuery('.logo-slick-slider').slick({
+    //         dots: true,
+    //     });
+    // }
         jQuery('.logo-slick-slider').slick({
             slidesToShow: 6,
             slidesToScroll: 1,
             speed: 500,
             infinite: false,
-            dots: false,
+            dots: true,
             arrows: false,
+            variableWidth: true,
             responsive: [
                 {
                     breakpoint: 1299,
                         settings: {
                             slidesToShow: 4,
                             slidesToScroll: 1,
+                            variableWidth: true,
                             dots: true,
                         }
                     },
@@ -136,6 +138,7 @@ jQuery(document).ready(function(){
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
+                        variableWidth: true,
                         dots: true,
                     }
                 },

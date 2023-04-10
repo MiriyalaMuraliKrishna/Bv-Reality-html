@@ -1,5 +1,5 @@
 
-.default-content-wrap{padding: 90px 0 0;}
+.default-content-wrap{padding: 90px 0;}
 .default-flex-image{margin: 86px 0;}
 
 .flexible-default-page .default-content-section:nth-child(2n + 1) .default-content-wrap{padding: 90px 0;}
@@ -50,7 +50,7 @@
     .default-content-wrap{padding: 60px 0 0;}
     .default-content-section h2{font-size: 32px; line-height: 1.38; margin-bottom: 22px;}
     .default-content-section h3{font-size: 26px; line-height: 1.54; margin-bottom: 16px;}
-    .default-flex-image{margin: 78px 0 0;}
+    .default-flex-image{margin: 78px 0;}
     .flexible-default-page .default-content-section:nth-child(2n+1) .default-content-wrap{padding: 69px 0 79px;}
     .default-grid-sec .container{padding: 0;}
     .default-grid-wrap{padding: 49px 0 70px;}

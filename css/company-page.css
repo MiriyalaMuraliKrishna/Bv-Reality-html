@@ -22,10 +22,10 @@
 .logo-slider-heading h6{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: var(--heading-color); font-family: 'Poppins', sans-serif; margin-bottom: 0;}
 .logo-slider-main{gap: 31px; }
 .logo-slider-item{flex: 0 0 200px;}
-.logo-slider-thumb img{max-width: 187px; max-height: 59px; }
+.logo-slider-thumb img{max-height: 37px; }
 .logo-slider-main ul.slick-dots{margin: 43px 0 0 0; }
 .logo-slick-slider .slick-track{display: flex; align-items: center; justify-content: center;}
-
+.logo-slick-slider .logo-slider-item{margin:0 15px; width: 147px;}
 /* company grid section */
 .company-grid-wrap{padding: 24px 0 130px; }
 .company-grid-content p:not(:last-child){margin-bottom: 23px;}

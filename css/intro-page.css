@@ -1,5 +1,6 @@
 .intro-page-section{width:100%; height: 100dvh;}
 .intro-page-main{width:100%; height: 100dvh;}
+.intro-page-bg{background-color: #00052d;}
 .intro-location{position: absolute;}
 .intro-two .dot-pulse{animation-delay: -2s;}
 .intro-three .dot-pulse{animation-delay: 2s;}

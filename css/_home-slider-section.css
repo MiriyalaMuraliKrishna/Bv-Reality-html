@@ -12,7 +12,7 @@
     .home-slider-list{flex: 0 0 calc(33.333% - 40px);}
     .home-slick-slider.slick-slider{width: calc(100% + 60px);}
     .home-slick-slider .slick-slide{margin-right: 60px;}
-    .home-slider-thumb img{min-height: 664px; max-height: 664px;}
+    .home-slider-thumb img{min-height: 564px; max-height: 564px;}
     .home-slider-content{padding: 80px;}
     .home-slick-slider ul.slick-dots{margin: 40px auto 0; max-width: 200px; gap: 15px 21px; position: absolute; left: 0; right: 0;}
     .home-slick-slider ul.slick-dots li{margin: 0;}

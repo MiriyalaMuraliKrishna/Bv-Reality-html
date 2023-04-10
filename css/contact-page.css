@@ -38,6 +38,9 @@ body .selectBox-dropdown .selectBox-label{padding: 0; display: block; color: var
 body .selectBox-dropdown.selectBox-active .selectBox-label{color: var(--white);}
 body .selectBox-dropdown .selectBox-arrow{border-left: none;}
 body .frm_style_formidable-style.with_frm_style textarea:focus{color: var(--white);}
+body .selectBox .selectBox-dropdown:focus label{color: var(--white);}
+
+.page-template-contact .background-bg.footer-overlay{display: none;}
 
 @media screen and (min-width:1024px) {
     .contact-page-head{max-width: 1020px; margin-bottom: 87px;}
