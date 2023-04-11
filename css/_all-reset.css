@@ -131,8 +131,12 @@ p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {m
 .alignright {float: right;}
 .aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}
 img.alignnone{margin: 37px 0 68px;}
-blockquote.alignleft, img.alignleft {margin: 37px 37px 68px 0;}
-blockquote.alignright, img.alignleft {margin: 37px 37px 68px 0;}
+blockquote.alignleft{margin: 37px 37px 68px 0;}
+blockquote.alignright{margin: 37px 37px 68px 0;}
+img.alignleft{margin:76px 22px 61px 0}
+img.alignright{margin:76px 0 61px 22px}
+img.aligncenter{margin-top:76px; margin-bottom:61px}
+img.alignnone{margin-top:76px; margin-bottom:60px}
 .hide {display: none;}
 
 /* Genericons */
@@ -232,7 +236,7 @@ body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color:
 	ul{margin: 27px 0 59px 23px;}
 	ul > li{margin-bottom: 12px; line-height: 1.5;}
 	ul > li::before{top: 2px;}
-	ol{margin: 30px 0 37px 21px; }
+	ol{margin: 30px 0 59px 21px; }
 	ol > li{ margin-bottom: 12px; line-height: 1.5; }
 	ol > li::before{left: -21px;}
 	p ~ ul, p ~ ol{margin-top: -10px;}

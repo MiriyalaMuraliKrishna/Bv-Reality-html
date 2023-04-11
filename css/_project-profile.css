@@ -15,7 +15,7 @@
 .facts-title{font-size: 16px; font-family: 'Poppins-Medium', sans-serif; line-height: 1.88; color: var(--heading-color); }
 .facts-heading{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: #a2a4b7; margin-bottom: 25px; display: block; }
 
-.big-image{padding: 104px 0 91px; }
+.big-image{padding: 65px 0 91px; }
 .big-image-caption{position: absolute; bottom: 0; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; z-index: 1;}
 .big-image-caption h6{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: #fff; margin-bottom: 0;}
 .big-image-caption span{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
@@ -32,6 +32,7 @@
 .full-width-slider .slick-list{overflow: inherit;}
 
 /* two grid section */
+.two-grid-main.full_width{justify-content: center;}
 .two-grid-caption{position: absolute; bottom: 0; background: #00052d; padding: 38px 166px 38px 47px; border-left: 5px solid #00be66; }
 .two-grid-caption h6{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: #fff; margin-bottom: 0;}
 .two-grid-caption span{font-size: 14px; font-weight: 300; line-height: 1.43; color: rgba(255, 255, 255, 0.6); }
@@ -71,7 +72,7 @@
     .project-text h1{max-width: 430px;}
     
     .project-sub-heading-wrap{padding: 15px 0 88px;}
-    .project-sub-heading-main{gap: 178px;}
+    .project-sub-heading-main{gap: 178px; margin-bottom: 40px;}
     .project-title{flex: 0 0 533px;}
     .project-facts{flex: 0 0 calc( 100% - 711px); margin-top: 69px;}
 

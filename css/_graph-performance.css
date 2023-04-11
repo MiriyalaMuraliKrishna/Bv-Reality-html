@@ -24,7 +24,7 @@
 .graph-dot span{width: 120px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, var(--green-color), rgba(0, 190, 102, 0) 71%); transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; transition-delay: 0s; border-radius: 50%;}
 .graph-dot span:nth-child(2){ animation-delay: 4s; opacity: 0; }
 
-.graph-img.active{width: 68px; }
+.graph-img.active{transform: scale(1.25);}
 .graph-img.active .graph-thumb img{border-color: var(--green-color);}
 .graph-img.active .graph-thumb::before{font-size: 34px; color: var(--green-color);}
 .graph-img.active .graph-dot{background-color: var(--green-color);}

@@ -120,30 +120,31 @@ if(empty($cta_image )){ $no_cta_image_class = "no_cta_image"; }else{ $no_cta_ima
 <?php } ?>
 </div><!-- site-main-cover ends here -->
 <script>
-	jQuery(function(){
-		let homeCount = jQuery('.home-slick-slider').children().length;
+	jQuery(document).ready(function(){
+		/*let homeCount = jQuery('.home-slick-slider').children().length;
 		if (homeCount > 3) {
 			jQuery('.home-slick-slider').slick({
 				dots: true,
 			});
-		}
+		}*/
 		setTimeout(() => {
 			jQuery('.navigation').fadeIn();	
-		
+		}, 5000);
 		
 		jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinity: true,
-        dots: false,
-        arrows: true,
+       dots: true,
+       arrows: false,
+		variableWidth: true,
          responsive: [
             {
             breakpoint: 1023,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
-                    arrows: false,
+                    arrows: true,
                     dots: true,
 					
                 }
@@ -153,14 +154,14 @@ if(empty($cta_image )){ $no_cta_image_class = "no_cta_image"; }else{ $no_cta_ima
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    variableWidth: true,
+					
                     arrows: false,
                     dots: true,
                 }
             }
         ]
     });
-}, 6000);
+
 		
 	})
 </script>

@@ -47,7 +47,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .flexible-default-page .default-banner-main{padding: 151px 0 108px;}
-    .default-content-wrap{padding: 60px 0 0;}
+    .default-content-wrap{padding: 60px 0;}
     .default-content-section h2{font-size: 32px; line-height: 1.38; margin-bottom: 22px;}
     .default-content-section h3{font-size: 26px; line-height: 1.54; margin-bottom: 16px;}
     .default-flex-image{margin: 78px 0;}
