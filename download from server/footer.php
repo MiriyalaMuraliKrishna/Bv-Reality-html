@@ -133,18 +133,20 @@ if(empty($cta_image )){ $no_cta_image_class = "no_cta_image"; }else{ $no_cta_ima
 		
 		jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         infinity: true,
        dots: true,
-       arrows: false,
+       arrows: true,
 		variableWidth: true,
+		prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
+        nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
          responsive: [
             {
             breakpoint: 1023,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    arrows: true,
+                    arrows: false,
                     dots: true,
 					
                 }
@@ -154,7 +156,6 @@ if(empty($cta_image )){ $no_cta_image_class = "no_cta_image"; }else{ $no_cta_ima
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-					
                     arrows: false,
                     dots: true,
                 }

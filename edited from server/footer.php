@@ -133,8 +133,9 @@ if(empty($cta_image )){ $no_cta_image_class = "no_cta_image"; }else{ $no_cta_ima
 		
 		jQuery('.home-slick-slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         infinity: true,
+		speed: 4000,
        dots: true,
        arrows: true,
 		variableWidth: true,
