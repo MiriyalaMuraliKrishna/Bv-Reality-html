@@ -73,7 +73,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <script>
-$(document).on('ready', function(){
+
+document.onreadystatechange = function () {
+    if (document.readyState === "complete") {
     setTimeout(function(){
         let url = 'https://bvrealty.parachutedevelopment.ca/bvrealty-html/index.html';
         $(".intro-page-section").fadeOut(100, function() {
@@ -88,7 +90,8 @@ $(document).on('ready', function(){
             'opacity': '1',
         });
     }, 2000);
-});
+}
+}
 </script>
 </body>
 </html>
