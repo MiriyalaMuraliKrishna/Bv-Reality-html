@@ -1,6 +1,7 @@
 .home-banner-image{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0;}
 .home-banner-main{padding: 294px 0 153px 0;}
 .home-banner-text{text-transform: capitalize; color: var(--white);}
+.home-banner-text h1{color: var(--white);}
 .home-banner-text p{opacity: 40%; font-size: 19px; color: var(--white); margin-bottom: 25px; font-family: 'Poppins-Medium',sans-serif;}
 
 /*-- media css starts here --*/

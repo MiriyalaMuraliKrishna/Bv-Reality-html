@@ -2,6 +2,8 @@
 .leadership-content-text{ font-size: 16px; line-height: 30px; font-weight: 300; padding-left: 31px; border-left: 2px solid #00be66;}
 .leadership-content-desc{font-size: 14px; line-height: 23px; font-weight: 300;}
 
+.leadership-page-content.full_width .leadership-content-desc, .leadership-page-content.full_width .leadership-content-text{width: 100%;}
+.leadership-page-row.full_width .leadership-page-text, .leadership-page-row.full_width .leadership-page-image{width: 100%;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px){
     .leadership-page-main{padding: 98px 0 8px;}

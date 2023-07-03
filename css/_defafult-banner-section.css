@@ -2,6 +2,7 @@
 .default-banner-main{padding: 271px 0 124px;}
 .banner-left-line{width: 3px; height: calc(100% - 17px); left: 0; bottom: 0; background-color: var(--green-color); position: absolute;}
 .default-banner-text{color: var(--white); font-weight: 300;}
+.default-banner-text h1{color: var(--white);}
 
 /*-- media css starts here --*/
 @media screen and (min-width:1024px){

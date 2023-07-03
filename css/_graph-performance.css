@@ -2,6 +2,7 @@
 .graph-bg{position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; }
 /* .graph-bg-thumb img{max-height: 933px; width: 100%;} */
 .graph-performance-wrap{position: relative; z-index: 1; padding: 66px 0 266px;}
+.graph-performance-wrap.no_slider{padding-bottom: 80px;}
 .graph-content{margin-bottom: 98px;}
 .graph-sub-title{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
 .graph-text h2{font-size: 56px; color: var(--white); font-weight: normal; line-height: 1.14; margin-bottom: 22px;}
@@ -23,7 +24,7 @@
 .graph-dot span{width: 120px; height: 120px; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; content: ""; position: absolute; opacity: 0.2; background-image: radial-gradient(circle at 50% 50%, var(--green-color), rgba(0, 190, 102, 0) 71%); transition-duration: .75s; transition-timing-function: cubic-bezier(0.175,0.885,0.32,1.275); transition-property: all; transition-delay: 0s; border-radius: 50%;}
 .graph-dot span:nth-child(2){ animation-delay: 4s; opacity: 0; }
 
-.graph-img.active{width: 68px; }
+.graph-img.active{transform: scale(1.25);}
 .graph-img.active .graph-thumb img{border-color: var(--green-color);}
 .graph-img.active .graph-thumb::before{font-size: 34px; color: var(--green-color);}
 .graph-img.active .graph-dot{background-color: var(--green-color);}

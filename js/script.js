@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
         let attr = jQuery(this).attr('data-value');
         jQuery(".communities-grid-row[data-target=" + attr + "]").fadeIn(500).removeClass('open');
     });
-    
+
 });
 
 let mobileIpad = function(){
@@ -70,3 +70,9 @@ jQuery(document).on('ready', function(){
     }
     setInterval(graphAnim, 4000);
 });
+
+jQuery(document).ready(function(){
+    jQuery('body .with_frm_style input, body .with_frm_style textarea').focus(function(){
+        jQuery('.selectBox-dropdown').addClass('selectBox-active');
+    })
+})

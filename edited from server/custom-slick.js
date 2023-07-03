@@ -1,4 +1,7 @@
 jQuery(document).ready(function(){
+
+    
+
     jQuery('.full-width-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -59,43 +62,10 @@ jQuery(document).ready(function(){
         ]
     });
 
-    let homeCount = jQuery('.home-slick-slider').children().length;
-    if (homeCount > 3) {
-        jQuery('.home-slick-slider').slick({
-            dots: true,
-        });
-    }
-    jQuery('.home-slick-slider').slick('refresh');
-    jQuery('.home-slick-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinity: false,
-        dots: true,
-        arrows: false,
-        // prevArrow: '<div class="slick-arrow slick-prev"><span class="slick-btn fa-light fa-angle-left flex flex-center"></span></div>',
-        // nextArrow: '<div class="slick-arrow slick-next"><span class="slick-btn fa-light fa-angle-right flex flex-center"></span></div>',
-        responsive: [
-            {
-            breakpoint: 1023,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    arrows: false,
-                    dots: false,
-                }
-            },
-            {
-            breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    variableWidth: true,
-                    arrows: false,
-                    dots: true,
-                }
-            }
-        ]
-    });
+
+    //jQuery('.home-slick-slider').slick('refresh');
+    
+   
     
     if(jQuery(window).width() <= 1023){
         jQuery('.featured-project-slider').slick({
@@ -109,27 +79,25 @@ jQuery(document).ready(function(){
         });
     }
 
-    // let count = jQuery('.logo-slick-slider').children().length;
-    // if (count > 6) {
-    //     jQuery('.logo-slick-slider').slick({
-    //         dots: true,
-    //     });
-    // }
+    let count = jQuery('.logo-slick-slider').children().length;
+    if (count > 6) {
+        jQuery('.logo-slick-slider').slick({
+            dots: true,
+        });
+    }
         jQuery('.logo-slick-slider').slick({
             slidesToShow: 6,
             slidesToScroll: 1,
             speed: 500,
             infinite: false,
-            dots: true,
+            dots: false,
             arrows: false,
-            variableWidth: true,
             responsive: [
                 {
                     breakpoint: 1299,
                         settings: {
                             slidesToShow: 4,
                             slidesToScroll: 1,
-                            variableWidth: true,
                             dots: true,
                         }
                     },
@@ -138,7 +106,6 @@ jQuery(document).ready(function(){
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
-                        variableWidth: true,
                         dots: true,
                     }
                 },
