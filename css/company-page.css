@@ -23,6 +23,7 @@
 .logo-slider-main ul.slick-dots{margin: 43px 0 0 0; }
 .logo-slick-slider .slick-track{display: flex; align-items: center; justify-content: center;}
 .logo-slick-slider .logo-slider-item{margin:0 15px; width: 147px;}
+
 /* company grid section */
 .company-grid-wrap{padding: 24px 0 130px; }
 .company-grid-content p:not(:last-child){margin-bottom: 23px;}
@@ -55,11 +56,15 @@
     .company-content-list{flex: 0 0 50%; padding-right: 150px;}
     .company-content-list:nth-child(even){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2);}
     .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
+    .company-desc{margin-bottom: 69px;}
     .company-location{width: calc(100% - 690px); position: relative;}
 
-    .dot-location.one{position: absolute; top: -13px; left: 34px; }
-    .dot-location.two{position: absolute; left: 440px; top: 75px; }
-    .dot-location.three{position: absolute; bottom: 173px; left: 220px; }
+    .dot-location.one{top: -13px; left: 34px; }
+    .dot-location.two{left: 440px; top: 75px; }
+    .dot-location.three{bottom: 173px; left: 298px; }
+    .dot-location.four{bottom: 222px; left: 64px; }
+    .dot-location.five{top: -68px; left: 280px; }
+    .dot-location.six{bottom: 165px; right: 85px; }
 
     .leadership-main{max-width: 890px; margin: 0 auto; }
     .leadership-heading{width: 417px; margin-right: 30px;}
@@ -118,10 +123,14 @@
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .company-banner-wrap{padding: 91px 0 25px;}
     .company-banner-main{flex-direction: column-reverse;}
+    .company-desc{margin-bottom: 54px;}
     .company-location{min-height: 122px; margin-bottom: 60px;}
-    .dot-location.one{position: absolute; top: 0; left: 184px;}
-    .dot-location.two{position: absolute; top: 45px; left: 280px;}
-    .dot-location.three{position: absolute; bottom: 0; left: 42px;}
+    .dot-location.one{top: 0; left: 184px;}
+    .dot-location.two{top: 45px; left: 280px;}
+    .dot-location.three{bottom: 0; left: 42px;}
+    .dot-location.four{bottom: 222px; left: 64px; }
+    .dot-location.five{top: 0; right: 250px; }
+    .dot-location.six{bottom: 0; right: 85px; }
 
     .company-banner-content{padding: 54px 0;}
     .company-content-list{width: 100%; padding-bottom: 40px;}
@@ -136,13 +145,10 @@
     .reverse .company-grid-image{padding: 0; justify-content: left;}
     .company-grid-content h2{font-size: 32px; line-height: 1.38;}
     .company-grid-content .button{margin-top: -12px;}
-
     .company-logo-wrap{padding: 53px 0 80px;}
-
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
-    
     .logo-slider-item{width: 187px; margin: 0 25px;}
     .logo-slider .slick-list{overflow: inherit;}
     .logo-slider ul.slick-dots{width: auto; display: flex; justify-content: end; position: absolute; bottom: -43px; left: 50%; transform: translateX(-50%);}
@@ -162,24 +168,25 @@
 
     .page-template-company .company-grid-section .company-grid-main{gap: 50px;}
     .page-template-company .company-grid-section .company-grid-wrap{padding: 50px 0;}
-
-    
-
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px){
     .company-banner-wrap{padding: 91px 0 25px;}
     .company-banner-main{flex-direction: column-reverse;}
     .company-location{min-height: 122px; margin-bottom: 60px;}
-    .dot-location{width: 7px; height: 7px;}
-    .dot-location.one{position: absolute; top: 0; left: 184px;}
-    .dot-location.two{position: absolute; top: 45px; left: 280px;}
-    .dot-location.three{position: absolute; bottom: 0; left: 42px;}
+    .company-desc{margin-bottom: 54px;}
+    .dot-location{width: 7px; height: 7px; position: absolute;}
+    .dot-location.one{top: 0; left: 184px;}
+    .dot-location.two{top: 45px; left: 280px;}
+    .dot-location.three{bottom: 0; left: 42px;}
+    .dot-location.four{bottom: 0; left: 42px;}
+    .dot-location.five{bottom: 0; left: 42px;}
+    .dot-location.six{bottom: 0; left: 42px;}
 
     .company-test h1{font-size: 46px; font-weight: bold; line-height: 1.17;}
     .company-test h1 > .big-text{display: initial;}
 
-   .company-banner-content{padding: 54px 0;}
+    .company-banner-content{padding: 27px 0 54px;}
     .company-content-list{width: 100%; padding-bottom: 40px;}
     .company-content-list:nth-child(2){width: 100%; padding: 40px 0 0 0; border-top: 1px solid rgba(255, 255, 255, 0.2);}
 
@@ -203,7 +210,5 @@
     .leadership-content .button{margin-top: -12px;}
 
     .company-logo-wrap{padding: 53px 0 38px;}
-
     .featured-project-thumb img{min-height: 417px; max-height: 417px;}
-
 }

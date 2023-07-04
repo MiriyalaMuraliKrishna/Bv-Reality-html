@@ -2,6 +2,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
+html.js{margin: 0 !important;}
 html{overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
 body{font-family: 'Poppins-Light', sans-serif; font-size: 18px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow: hidden;}
 a {color: var(--green-color); text-decoration: none; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
@@ -182,7 +183,7 @@ ul.slick-dots li::before{display: none;}
 
 .f-700{font-weight: 700;}
 
-.dot-location{width: 11px; height: 11px; background-color: #00be66; border-radius: 50%;  }
+.dot-location{width: 11px; height: 11px; background-color: #00be66; border-radius: 50%;  position: absolute;}
 .dot-pulse{content: ""; position: absolute; width: 120px; height: 120px; opacity: 0.1; background-image: radial-gradient(circle at 50% 50%, #00be66, rgba(0, 190, 102, 0) 71%); top: -54px; left: -54px; }
 .dot-pulse1{ animation: dotPulse 2s infinite; }
 .dot-pulse2{ animation: dotPulse 2s infinite .3s; }
