@@ -17,7 +17,7 @@
     .captivating-banner-text h2{margin-bottom: 29px; line-height: 53px; font-size: 44px; color: var(--white);}
     .captivating-banner-text{max-width: 1115px;}
     .captivating-main{gap: 67px;}
-    .captivating-list-main{flex: 0 0 calc(100% - 605px); gap: 76px;}
+    .captivating-list-main{flex: 0 0 calc(100% - 605px); gap: 40px 76px;}
     .captivating-list{flex: 0 0 calc(33.333% - 51px);}
     .captivating-text-right{flex: 0 0 538px;}
     .captivating-icon{width: 52px; height: 52px; margin-bottom: 20px; }

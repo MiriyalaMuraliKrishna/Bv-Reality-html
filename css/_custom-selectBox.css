@@ -7,7 +7,7 @@ ul.selectBox-dropdown-menu{margin: 0; padding: 8px 0 10px; top: 100%; left: 0; m
 ul.selectBox-dropdown-menu li:first-child{display: none;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0 18px; white-space: nowrap;}
 ul.selectBox-dropdown-menu li::before{display: none;}
-ul.selectBox-dropdown-menu li a{color: var(--black); cursor: pointer; font-size: 14px; line-height: 1; letter-spacing: normal; display: inline-block; padding: 0; text-transform: capitalize; transition: none;}
+ul.selectBox-dropdown-menu li a{color: var(--black); cursor: pointer; font-size: 14px; line-height: 18px; letter-spacing: normal; display: inline-block; padding: 0; text-transform: capitalize; transition: none;}
 ul.selectBox-dropdown-menu li a:hover{color: var(--green-color); background: transparent;}
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){

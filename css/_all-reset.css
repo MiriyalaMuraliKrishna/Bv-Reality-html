@@ -174,7 +174,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 .slick-arrow{font-size: 30px; line-height: 30px; cursor: pointer; }
 ul.slick-dots{list-style: none; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; width: 100%; }
-ul.slick-dots li { margin: 0 11px; display: inline-block; font-size: 0; line-height: 0; }
+ul.slick-dots li { margin: 0 10px; display: inline-block; font-size: 0; line-height: 0; }
 ul.slick-dots li button{width: 8px; height: 8px; min-width: 0; padding: 0; font-size: 0; line-height: 0; background: 0 0; position: relative; border: none; }
 ul.slick-dots li button::before{width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%,-50%); right: auto; bottom: auto; border-radius: 300px; background-color: rgba(0, 5, 45, 0.2); content: ""; position: absolute; border: none; transition: none; }
 ul.slick-dots li.slick-active button::before{background-color: rgb(0, 5, 45);}
