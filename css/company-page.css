@@ -2,10 +2,10 @@
 .company-banner-bg{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0;}
 .company-banner-wrap{padding: 289px 0 0;}
 
-.company-test .sub-text{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
-.company-test h1{font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white);}
-.company-test h1 > b{font-weight: bold; display: block;}
-.company-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
+.company-text .sub-text{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
+.company-text h1{font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white);}
+.company-text h1 > b{font-weight: bold; display: block;}
+.company-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
 .company-num-count{gap: 60px; margin-top: 72px;}
 
 .company-banner-content{padding: 79px 0 109px; }
@@ -28,7 +28,6 @@
 .company-grid-wrap{padding: 24px 0 130px; }
 .company-grid-content p:not(:last-child){margin-bottom: 23px;}
 
-
 /* Leadership section */
 .leadership-wrap{padding: 91px 0 40px; }
 .leadership-image{gap: 30px; margin-bottom: 20px;}
@@ -39,7 +38,7 @@
 
 /* More Communities */
 .featured-project-wrap{padding: 50px 0 0; margin-bottom: -105px; z-index: 2; position: relative;}
-.featured-project-thumb img{min-height: 644px; max-height: 644px;}
+.featured-project-thumb img{min-height: 564px; max-height: 564px;}
 .featured-project-content{position: absolute; bottom: 0; z-index: 2;}
 .featured-project-category{gap: 15px; margin-bottom: 23px;}
 .featured-project-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
@@ -48,14 +47,14 @@
 .featured-project-content h3 > a:hover{color: var(--green-color);}
 .featured-project-content .button{margin-top: auto; max-width: fit-content; }
 .featured-project-content .button:hover{background-color: #00be66; border-color: #00be66;}
-
 .page-template-company .company-grid-section .company-grid-wrap{padding: 130px 0;}
 
 /*-- media css starts here --*/
 @media screen and (min-width:1024px) {
+    .company-banner-wrap.no_below_content{padding-bottom: 84px;}
     .company-content-list{flex: 0 0 50%; padding-right: 150px;}
     .company-content-list:nth-child(even){padding: 0 0 0 150px; border-left: 1px solid rgba(255, 255, 255, 0.2);}
-    .company-test{max-width: 650px; width: 100%; margin-right: 40px;}
+    .company-text{max-width: 650px; width: 100%; margin-right: 40px;}
     .company-desc{margin-bottom: 69px;}
     .company-location{width: calc(100% - 690px); position: relative;}
 
@@ -106,7 +105,7 @@
     .company-grid-list:nth-child(even) .company-grid-content{padding-left: 45px;}
     .company-grid-list:nth-child(even) .company-grid-image{padding-right: 45px;}
 
-    .company-test{max-width: 510px; margin-right: 20px; }
+    .company-text{max-width: 510px; margin-right: 20px; }
     .company-location{width: calc(100% - 530px);}
 
     .company-grid-content{padding: 90px 45px 90px 0; }
@@ -122,6 +121,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .company-banner-wrap{padding: 91px 0 25px;}
+    .company-banner-wrap.no_below_content{padding-bottom: 54px;}
     .company-banner-main{flex-direction: column-reverse;}
     .company-desc{margin-bottom: 54px;}
     .company-location{min-height: 122px; margin-bottom: 60px;}
@@ -183,8 +183,8 @@
     .dot-location.five{bottom: 0; left: 42px;}
     .dot-location.six{bottom: 0; left: 42px;}
 
-    .company-test h1{font-size: 46px; font-weight: bold; line-height: 1.17;}
-    .company-test h1 > .big-text{display: initial;}
+    .company-text h1{font-size: 46px; font-weight: bold; line-height: 1.17;}
+    .company-text h1 > .big-text{display: initial;}
 
     .company-banner-content{padding: 27px 0 54px;}
     .company-content-list{width: 100%; padding-bottom: 40px;}
