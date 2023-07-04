@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-body{font-family: 'Poppins-Light', sans-serif; font-size: 16px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow: hidden;}
+body{font-family: 'Poppins-Light', sans-serif; font-size: 18px;  line-height: 30px; color: var(--heading-color); width: 100%; overflow: hidden;}
 a {color: var(--green-color); text-decoration: none; transition-delay: 0s; transition-duration: .4s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
@@ -101,7 +101,7 @@ input[type="search"], input, select, textarea, body .frm_style_formidable-style.
 textarea, body .with_frm_style textarea{width: 100%; resize: none; height: 215px;}
 input:focus, textarea:focus, body .frm_style_formidable-style.with_frm_style .frm_form_fields input:focus{outline: 0; box-shadow: none; border-color: var(--text-color);}
 body .frm_style_formidable-style.with_frm_style .form-field input:not([type="file"]):focus, body .frm_style_formidable-style.with_frm_style .form-field textarea:focus{box-shadow: none; border-color: transparent; background-color: rgba(255,255,255,.13);}
-input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 18px; line-height: 25px; padding: 8px 46px 10px 28px; margin: 0; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: var(--blue-color); font-weight: 300; box-shadow: none; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--white); font-family: 'Urbanist', sans-serif; }
+input[type="button"], input[type="reset"], input[type="submit"], button[type="submit"], .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button{display: inline-block; font-size: 18px; line-height: 25px; padding: 8px 46px 10px 28px; margin: 0; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: var(--white); font-weight: 600; box-shadow: none; position: relative; transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; text-transform: capitalize; text-align: center; color: var(--heading-color); font-family: 'Urbanist', sans-serif; }
 button[type="submit"]:focus,  button[type="submit"]:hover, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .frm_style_formidable-style.with_frm_style .frm_form_fields .frm_submit button:hover{background-color: var(--green-color); color: var(--white); border-color: var(--green-color);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active,  button[type="submit"]:active{outline: none;}
 button[type="submit"]::after{right: 18px; content: "\f0da"; font-size: 16px; font-family: "Font Awesome 6 Pro"; font-weight: bold; transition: all 0.3s ease-in-out; position: absolute; }
@@ -110,8 +110,8 @@ button[type="submit"]:hover::after{right: 14px;}
 .search-submit {display: none;}
 
 /* Buttons */
-.button{display: inline-block; font-size: 18px; font-weight: 300; font-family: 'Quicksand', sans-serif; line-height: 22px; padding: 9px 22px 11px 28px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: transparent; position: relative; text-transform: capitalize; text-align: center; color: var(--white); transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
-.btn-black{border: 3px solid #00052d; color: var(--heading-color); }
+.button{display: inline-block; font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; line-height: 22px; padding: 9px 22px 11px 28px; vertical-align: middle; cursor: pointer; border: 3px solid #fff; border-radius: 34px; background-color: var(--white); position: relative; text-transform: capitalize; text-align: center; color: var(--heading-color); transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);} /* font-weight: 300; background-color: transparent; color: var(--white);*/
+.btn-black{border: 3px solid #00052d; color: var(--white); background-color: var(--heading-color);} /*color: var(--heading-color);*/
 .btn-black:hover{background-color: var(--heading-color); color: #fff;}
 .button:hover, .button:focus {background-color: var(--green-color); color: var(--white); border-color: var(--green-color);}
 .button .right-arrow{font-size: 12px; margin-left: 12px; transition-duration: .7s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
@@ -197,10 +197,10 @@ body .cky-box-bottom-left{right: 40px; left: auto;}
 body .cky-revisit-bottom-left{right: 15px; left: auto;}
 body .cky-revisit-bottom-left:hover::before{background: var(--heading-color); right: calc(100% + 7px); left: auto;}
 body .cky-revisit-bottom-left:hover::after{right: calc(100% + 2px); border-right-color: var(--heading-color); left: auto;}
-body .cky-btn.cky-btn-reject, body .cky-btn.cky-btn-preferences, body .cky-btn.cky-btn-customize{font-size: 18px; font-weight: 300; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--heading-color) !important; border-radius: 34px; transition: all .6s ease;}
+body .cky-btn.cky-btn-reject, body .cky-btn.cky-btn-preferences, body .cky-btn.cky-btn-customize{font-size: 18px; font-weight: 600; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--heading-color) !important; border-radius: 34px; transition: all .6s ease;}
 body .cky-btn.cky-btn-reject:hover, body .cky-btn.cky-btn-accept:hover,body .cky-btn.cky-btn-customize:hover{background-color: var(--green-color) !important; color: var(--white) !important; border-color: var(--green-color) !important; opacity: 1;}
 body .cky-modal.cky-modal-open button.cky-btn.cky-btn-reject:hover, body .cky-modal.cky-modal-open button.cky-btn.cky-btn-preferences:hover{background-color: var(--green-color) !important; color: var(--white) !important; border-color: var(--green-color) !important; opacity: 1;}
-body .cky-btn.cky-btn-accept{font-size: 18px; font-weight: 300; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--white) !important; background-color: var(--heading-color) !important; border-radius: 34px; transition: all .6s ease;}
+body .cky-btn.cky-btn-accept{font-size: 18px; font-weight: 600; font-family: 'Quicksand',sans-serif; border: 3px solid var(--heading-color) !important; color: var(--white) !important; background-color: var(--heading-color) !important; border-radius: 34px; transition: all .6s ease;}
 body .cky-modal.cky-modal-open button.cky-btn.cky-btn-accept:hover{border-color: var(--green-color) !important; color: var(--white) !important; background-color: var(--green-color) !important; opacity: 1;}
 
 /*-- media css starts here --*/

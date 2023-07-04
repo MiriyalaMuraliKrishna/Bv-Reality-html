@@ -148,3 +148,6 @@ ul.communities-tab > li > a.active::after{width: 100%;}
     .communities-grid-category a{font-size: 11.5px; font-weight: normal;}
 }
 
+@media screen and (max-width: 400px) and (min-width: 200px) {
+    ul.communities-tab > li > a{font-size: 15px;}
+}

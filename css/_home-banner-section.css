@@ -4,6 +4,8 @@
 .home-banner-text h1{color: var(--white);}
 .home-banner-text p{opacity: 40%; font-size: 19px; color: var(--white); margin-bottom: 25px; font-family: 'Poppins-Medium',sans-serif;}
 
+.home-banner-text img{margin-bottom: 30px; max-width: 150px;}
+
 /*-- media css starts here --*/
 @media screen and (min-width:1024px) {
     .home-banner-text h1{font-size: 74px; line-height: 83px; font-weight: 400; margin-bottom: 29px;}

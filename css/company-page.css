@@ -7,8 +7,8 @@
 .company-test h1 > b{font-weight: bold; display: block;}
 .company-test p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
 .company-num-count{gap: 60px; margin-top: 72px;}
-.num-value{font-size: 38px; font-weight: bold; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
-.num-count-list img{margin-bottom: 30px;}
+.num-value{font-size: 25px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: #fff;  margin-bottom: 9px;}
+.num-count-list img{margin-bottom: 30px; max-height: 52px; min-height: 52px;}
 .num-count-list span{font-size: 18px; font-weight: 600; font-family: 'Quicksand', sans-serif; color: rgba(255, 255, 255, 0.4); line-height: 24px; display: block;}
 
 .company-banner-content{padding: 79px 0 109px; }
@@ -41,6 +41,7 @@
 
 /* More Communities */
 .featured-project-wrap{padding: 50px 0 0; margin-bottom: -105px; z-index: 2; position: relative;}
+.featured-project-thumb img{min-height: 644px; max-height: 644px;}
 .featured-project-content{position: absolute; bottom: 0;}
 .featured-project-category{gap: 15px; margin-bottom: 23px;}
 .featured-project-category a{font-size: 11.5px; font-weight: bold; letter-spacing: 1px; color: var(--white); text-transform: uppercase; border-radius: 16px; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.2); padding: 2px 19px 2px 19px; }
@@ -49,6 +50,8 @@
 .featured-project-content h3 > a:hover{color: var(--green-color);}
 .featured-project-content .button{margin-top: auto; max-width: fit-content; }
 .featured-project-content .button:hover{background-color: #00be66; border-color: #00be66;}
+
+.page-template-company .company-grid-section .company-grid-wrap{padding: 130px 0;}
 
 /*-- media css starts here --*/
 @media screen and (min-width:1024px) {
@@ -68,6 +71,8 @@
 
     .featured-project-main{gap: 60px; }
     .featured-project-list{flex: 0 0 calc(33.333% - 40px);}
+    .featured-project-image{position: relative;}
+    .featured-project-image::before{content: ""; position: absolute; width: 100%; height: 100%; background-image: linear-gradient(to bottom, #eee, rgba(216, 216, 216, 0.19) 20%); opacity: 0.7; z-index: 1;}
     .featured-project-content { padding: 45px 73px 81px; }
 
     .company-logo-wrap{padding: 94px 0 98px; }
@@ -75,7 +80,7 @@
     .company-grid-list{border-bottom: solid 1px rgba(0, 0, 0, 0.1); }
     .company-grid-list:nth-child(even){flex-direction: row-reverse;}
     .company-grid-list:last-child{ border-bottom: none;}
-    .company-grid-content{flex: 0 0 50%; padding: 131px 147px 134px 0; height: 100%;}
+    .company-grid-content{flex: 0 0 50%; padding: 131px 123px 134px 0; height: 100%;} /*padding: 131px 147px 134px 0;*/
     .company-grid-image{flex: 0 0 50%;  padding: 131px 0 134px 147px; border-left: solid 1px rgba(0, 0, 0, 0.1); height: 100%;}
 
     .company-grid-list:nth-child(even) .company-grid-content{padding-left: 147px; padding-right: 0;}
@@ -159,6 +164,9 @@
     .featured-project-slider ul.slick-dots li.slick-active button::before{background-color: var(--white);}
     .page-template-company .custom-cta-main{padding: 115px 0 0; }
 
+    .page-template-company .company-grid-section .company-grid-main{gap: 50px;}
+    .page-template-company .company-grid-section .company-grid-wrap{padding: 50px 0;}
+
     
 
 }
@@ -180,7 +188,7 @@
     .num-count-list img{margin-bottom: 0;}
     .num-count-icon{width: 48px; margin-right: 25px;}
     .num-count-text{width: calc(100% - 73px);}
-    .num-value{font-size: 36px; margin-bottom: 4px;}
+    .num-value{font-size: 25px; margin-bottom: 4px;}
     .num-count-list span{font-size: 17px;}
 
     .company-banner-content{padding: 54px 0;}
@@ -207,5 +215,7 @@
     .leadership-content .button{margin-top: -12px;}
 
     .company-logo-wrap{padding: 53px 0 38px;}
+
+    .featured-project-thumb img{min-height: 417px; max-height: 417px;}
 
 }
