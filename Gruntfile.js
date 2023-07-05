@@ -18,13 +18,13 @@ module.exports = function(grunt) {
       uglify: {
         my_target: {
           files: {
-            'dist/core.bundle.js': ['js/slick.min.js', 'js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/animation-script.js']
+            'dist/core.bundle.js': ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/animation-script.js', 'js/slick.min.js', 'js/custom-slick.js', ]
           }
         }
       },
       concat: {
         dist: {
-          src: ['js/slick.min.js', 'js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/animation-script.js'],
+          src: ['js/jquery.selectBox.js', 'js/custom-selectBox.js', 'js/script.js', 'js/magnific-popup.min.js', 'js/custom-magnific-popup.js', 'js/animation-script.js', 'js/slick.min.js', 'js/custom-slick.js',],
           dest: 'dist/core.bundle.js'
         }
       },
