@@ -1,6 +1,7 @@
 
 /* Banner section */
 .project-banner-bg{position: absolute; z-index: -1; height: 100%; width: 100%; left: 0; top: 0;}
+.project-banner-thumb img{object-position: top;}
 .project-text h1{color: var(--white);}
 .project-text p{font-size: 19px; font-weight: 300; line-height: 1.58; color: var(--white);}
 .project-desc{margin-bottom: 42px;}

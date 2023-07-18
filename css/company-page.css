@@ -1,6 +1,7 @@
 /* Banner section */
 .company-banner-bg{position: absolute; z-index: -1; width: 100%; height: 100%; top: 0; left: 0;}
 .company-banner-wrap{padding: 289px 0 0;}
+.company-banner-thumb img{object-position: top;}
 
 .company-text .sub-text{font-size: 19px; font-family: 'Poppins-Medium', sans-serif; color: rgba(255, 255, 255, 0.4); margin-bottom: 24px; display: block;}
 .company-text h1{font-size: 56px; font-weight: 300; line-height: 1.14; color: var(--white);}
